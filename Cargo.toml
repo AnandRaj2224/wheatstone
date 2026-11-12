@@ -1,0 +1,42 @@
+[package]
+name = "whetstone"
+description = "Minimalist Typst editor."
+authors = ["Haydn Trowell"]
+version = "0.15.2"
+license = "GPL-3.0-or-later"
+edition = "2024"
+
+[package.metadata]
+app_id = "dev.whetstone.editor"
+
+[dependencies]
+adw = { package = "libadwaita", version = "0.9", features = ["v1_8"] }
+chrono = { version = "0.4", features = ["serde"] }
+flate2 = { version = "1.1" }
+gettext-rs = { version = "0.7", features = ["gettext-system"] }
+glib = { version = "0.22" }
+gtk = { package = "gtk4", version = "0.11", features = ["gnome_48"] }
+harper-core = { version = "1.10", default-features = false }
+harper-typst = { version = "1.10", default-features = false }
+libspelling = { version = "0.5" }
+semver = { version = "1.0" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = { version = "1.0" }
+similar = { version = "3.1" }
+sourceview = { package = "sourceview5", version = "0.11", features = ["v5_18"] }
+tar = { version = "0.4" }
+tempfile = { version = "3.27" }
+tokio = { version = "1.52", features = ["fs", "macros", "rt-multi-thread", "sync"] }
+tokio-util = { version = "0.7" }
+toml = { version = "1.1", features = ["serde"] }
+typst = { version = "0.15.1" }
+typst-html = { version = "0.15.1" }
+typst-ide = { version = "0.15.1" }
+typst-kit = { version = "0.15.1", features = ["embedded-fonts", "scan-fonts", "system-packages", "universe-packages", "system-downloader"] }
+typst-layout = "0.15.1"
+typst-library = { version = "0.15.1" }
+typst-pdf = { version = "0.15.1" }
+typst-render = { version = "0.15.1" }
+typstyle-core = { version = "0.15" }
+unicode-script = { version = "0.5" }
+zip = { version = "8.6" }

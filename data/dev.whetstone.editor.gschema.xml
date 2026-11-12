@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-FileCopyrightText: 2025 Haydn Trowell -->
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<schemalist gettext-domain="whetstone">
+  <schema id="dev.whetstone.editor" path="/dev/whetstone/editor/">
+    <key name="preferences-migrated" type="b">
+      <default>false</default>
+      <summary>Preferences Migrated</summary>
+      <description>Whether preferences have been migrated from Typesetter.</description>
+    </key>
+    <key name="autosave" type="b">
+      <default>true</default>
+      <summary>Autosave</summary>
+      <description>Whether to automatically save files with a known path.</description>
+    </key>
+    <key name="centered-scrolling" type="b">
+      <default>true</default>
+      <summary>Centered Scrolling</summary>
+      <description>Whether to center the active line vertically on the screen as the user types.</description>
+    </key>
+    <key name="check-grammar" type="b">
+      <default>true</default>
+      <summary>Check Grammar</summary>
+      <description>Whether to enable grammar checking in the editor.</description>
+    </key>
+    <key name="check-spelling" type="b">
+      <default>true</default>
+      <summary>Check Spelling</summary>
+      <description>Whether to enable spellcheck in the editor.</description>
+    </key>
+    <key name="highlight-current-line" type="b">
+      <default>true</default>
+      <summary>Highlight Current Line</summary>
+      <description>Whether to highlight the current line in the editor.</description>
+    </key>
+    <key name="invert-lightness" type="b">
+      <default>false</default>
+      <summary>Invert Lightness</summary>
+      <description>Whether to invert the lightness of pages in the preview when dark mode is enabled.</description>
+    </key>
+    <key name="pdf-standard" type="s">
+      <choices>
+        <choice value="V14"/>
+        <choice value="V15"/>
+        <choice value="V16"/>
+        <choice value="V17"/>
+        <choice value="V20"/>
+        <choice value="A1b"/>
+        <choice value="A1a"/>
+        <choice value="A2b"/>
+        <choice value="A2u"/>
+        <choice value="A2a"/>
+        <choice value="A3b"/>
+        <choice value="A3a"/>
+        <choice value="A3u"/>
+        <choice value="A4"/>
+        <choice value="A4f"/>
+        <choice value="A4e"/>
+        <choice value="Ua1"/>
+      </choices>
+      <default>"V17"</default>
+      <summary>PDF Standard</summary>
+      <description>The PDF standard to use when exporting.</description>
+    </key>
+    <key name="preview-divider-position" type="i">
+      <default>-1</default>
+      <summary>Preview Divider Position</summary>
+      <description>The pixel position of the draggable divider between the editor and preview pane (-1 for default 50/50 split).</description>
+    </key>
+    <key name="scroll-preview-on-type" type="b">
+      <default>true</default>
+      <summary>Scroll Preview on Type</summary>
+      <description>Whether to automatically scroll the preview to the current position in the editor.</description>
+    </key>
+    <key name="show-bundled-templates" type="b">
+      <default>true</default>
+      <summary>Show Built-in Templates</summary>
+      <description>Whether to show bundled templates in the template picker.</description>
+    </key>
+    <key name="show-explorer" type="b">
+      <default>false</default>
+      <summary>Show File Explorer</summary>
+      <description>Whether to show the file explorer sidebar.</description>
+    </key>
+    <key name="show-preview" type="b">
+      <default>false</default>
+      <summary>Show Preview</summary>
+      <description>Whether to show the preview pane by default when opening a new window.</description>
+    </key>
+    <key name="style-scheme" type="s">
+      <choices>
+        <choice value="Adwaita"/>
+        <choice value="Typesetter"/>
+      </choices>
+      <default>"Typesetter"</default>
+      <summary>Editor style scheme</summary>
+      <description>The style scheme to use in the editor.</description>
+    </key>
+    <key name="theme" type="s">
+      <choices>
+        <choice value="auto"/>
+        <choice value="light"/>
+        <choice value="dark"/>
+      </choices>
+      <default>"auto"</default>
+      <summary>Theme</summary>
+      <description>The theme to use throughout the application.</description>
+    </key>
+    <key name="vim-mode" type="b">
+      <default>false</default>
+      <summary>Vim Mode</summary>
+      <description>Whether to enable Vim keybindings in the editor. Can be enabled with: gsettings set dev.whetstone.editor vim-mode true</description>
+    </key>
+  </schema>
+</schemalist>

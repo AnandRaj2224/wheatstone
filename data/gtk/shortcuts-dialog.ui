@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-FileCopyrightText: 2025 Haydn Trowell -->
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<interface>
+  <object class="AdwShortcutsDialog" id="shortcuts_dialog">
+    <child>
+      <object class="AdwShortcutsSection">
+        <property name="title" translatable="yes">General</property>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">New</property>
+            <property name="accelerator">&lt;Ctrl&gt;N</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Open</property>
+            <property name="accelerator">&lt;Ctrl&gt;O</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Recent Files</property>
+            <property name="accelerator">&lt;Ctrl&gt;R</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Save</property>
+            <property name="accelerator">&lt;Ctrl&gt;S</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Save As</property>
+            <property name="accelerator">&lt;Ctrl&gt;&lt;Shift&gt;S</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Export PDF</property>
+            <property name="accelerator">&lt;Ctrl&gt;E</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Main Menu</property>
+            <property name="accelerator">F10</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Packages</property>
+            <property name="accelerator">&lt;Ctrl&gt;slash</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Preferences</property>
+            <property name="accelerator">&lt;Ctrl&gt;comma</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Keyboard Shortcuts</property>
+            <property name="accelerator">&lt;Ctrl&gt;question</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Close File</property>
+            <property name="accelerator">&lt;Ctrl&gt;W</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Quit Application</property>
+            <property name="action-name">app.quit</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwShortcutsSection">
+        <property name="title" translatable="yes">View</property>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Preview</property>
+            <property name="accelerator">F5 &lt;Ctrl&gt;P</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Fullscreen</property>
+            <property name="accelerator">F11</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Outline</property>
+            <property name="accelerator">F6</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Statistics</property>
+            <property name="accelerator">F8</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Increase Text Size</property>
+            <property name="accelerator">&lt;Ctrl&gt;plus</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Decrease Text Size</property>
+            <property name="accelerator">&lt;Ctrl&gt;minus</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Reset Text Size</property>
+            <property name="accelerator">&lt;Ctrl&gt;0</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Increase Line Width</property>
+            <property name="accelerator">&lt;Alt&gt;plus</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Decrease Line Width</property>
+            <property name="accelerator">&lt;Alt&gt;minus</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Reset Line Width</property>
+            <property name="accelerator">&lt;Alt&gt;0</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwShortcutsSection">
+        <property name="title" translatable="yes">Editing</property>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Cut</property>
+            <property name="accelerator">&lt;Ctrl&gt;X</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Copy</property>
+            <property name="accelerator">&lt;Ctrl&gt;C</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Paste</property>
+            <property name="accelerator">&lt;Ctrl&gt;V</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Undo</property>
+            <property name="accelerator">&lt;Ctrl&gt;Z</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Redo</property>
+            <property name="accelerator">&lt;Ctrl&gt;&lt;Shift&gt;Z</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Code Completions</property>
+            <property name="accelerator">&lt;Ctrl&gt;space</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Comment Line</property>
+            <property name="accelerator">&lt;Ctrl&gt;m</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Previous Spelling Error</property>
+            <property name="accelerator">&lt;Ctrl&gt;bracketleft</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Next Spelling Error</property>
+            <property name="accelerator">&lt;Ctrl&gt;bracketright</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Move Line</property>
+            <property name="accelerator">&lt;Alt&gt;Up...Down</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Move Word</property>
+            <property name="accelerator">&lt;Alt&gt;Left...Right</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Tidy Formatting</property>
+            <property name="accelerator">&lt;Ctrl&gt;T</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwShortcutsSection">
+        <property name="title" translatable="yes">Formatting</property>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Emphasis</property>
+            <property name="accelerator">&lt;Ctrl&gt;I</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Strong Emphasis</property>
+            <property name="accelerator">&lt;Ctrl&gt;B</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Raw Text</property>
+            <property name="accelerator">&lt;Ctrl&gt;grave</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Math</property>
+            <property name="accelerator">&lt;Ctrl&gt;dollar</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Bullet List</property>
+            <property name="accelerator">&lt;Ctrl&gt;U</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Numbered List</property>
+            <property name="accelerator">&lt;Ctrl&gt;L</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Heading</property>
+            <property name="accelerator">&lt;Ctrl&gt;1...6</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwShortcutsSection">
+        <property name="title" translatable="yes">Find</property>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Find</property>
+            <property name="accelerator">&lt;Ctrl&gt;F</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Find and Replace</property>
+            <property name="accelerator">&lt;Ctrl&gt;H</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Case Sensitive</property>
+            <property name="accelerator">&lt;Alt&gt;C</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes">Regular Expression</property>
+            <property name="accelerator">&lt;Alt&gt;R</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

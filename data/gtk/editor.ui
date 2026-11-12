@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-FileCopyrightText: 2025 Haydn Trowell -->
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="gtksourceview" version="5.0"/>
+  <template class="TypesetterEditor" parent="GtkBox">
+    <property name="orientation">1</property>
+    <property name="hexpand">true</property>
+    <property name="vexpand">true</property>
+    <child>
+      <object class="GtkBox">
+        <property name="orientation">0</property>
+        <property name="hexpand">true</property>
+        <property name="vexpand">true</property>
+        <child>
+          <object class="GtkScrolledWindow" id="scroller">
+            <property name="hexpand">true</property>
+            <property name="vexpand">true</property>
+            <child>
+              <object class="TypesetterEditorView" id="view">
+                <property name="auto-indent">true</property>
+                <property name="indent-width">2</property>
+                <property name="insert-spaces-instead-of-tabs">true</property>
+                <property name="smart-backspace">true</property>
+                <property name="wrap-mode">3</property>
+                <property name="top-margin">16</property>
+                <property name="bottom-margin">16</property>
+                <property name="name">typesetter-editor-view</property>
+                <property name="buffer">
+                  <object class="GtkSourceBuffer" id="editor_buffer">
+                    <property name="highlight-syntax">true</property>
+                  </object>
+                </property>
+                <style>
+                  <class name="editor_font"/>
+                </style>
+                <child>
+                  <object class="GtkGestureClick">
+                    <property name="button">3</property>
+                    <property name="propagation-phase">capture</property>
+                    <signal name="pressed" handler="_on_right_click"/>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="SearchToolbar" id="search_toolbar"/>
+    </child>
+  </template>
+</interface>
+

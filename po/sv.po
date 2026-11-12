@@ -1,0 +1,827 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the typesetter package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: typesetter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-20 11:12+1000\n"
+"PO-Revision-Date: 2026-06-19 03:07+0000\n"
+"Last-Translator: bittin <bittin@noreply.codeberg.org>\n"
+"Language-Team: Swedish <https://translate.codeberg.org/projects/typesetter/"
+"typesetter/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#: data/gtk/outline.ui:8
+msgid "Outline"
+msgstr "Skiss"
+
+#: data/gtk/outline.ui:18 data/gtk/outline.ui:31 data/gtk/recent-files.ui:22
+msgid "Search"
+msgstr "Sök"
+
+#: data/gtk/outline.ui:71
+msgid "No Headings"
+msgstr "Inga rubriker"
+
+#: data/gtk/outline.ui:83 data/gtk/recent-files.ui:55
+msgid "No Results Found"
+msgstr "Inga resultat hittades"
+
+#: data/gtk/outline.ui:95
+msgid "Outline Unavailable"
+msgstr "Skiss är inte tillgänglig"
+
+#: data/gtk/outline.ui:96
+msgid "Fix the compilation errors in the document to view the outline."
+msgstr "Åtgärda kompileringsfelen i dokumentet för att visa skiss."
+
+#: data/gtk/package-manager.ui:8 data/gtk/shortcuts-dialog.ui:77
+#: data/gtk/window.ui:245
+msgid "Packages"
+msgstr "Paket"
+
+#: data/gtk/package-manager.ui:24
+msgid "Install Package"
+msgstr "Installera paket"
+
+#: data/gtk/package-manager.ui:37
+msgid "Installed"
+msgstr "Installerat"
+
+#: data/gtk/package-manager.ui:40
+msgid "No installed packages"
+msgstr "Inga installerade paket"
+
+#: data/gtk/package-manager.ui:52
+msgid "Cached"
+msgstr "Cachad"
+
+#: data/gtk/package-manager.ui:55
+msgid "No cached packages"
+msgstr "Inga cachade paket"
+
+#: data/gtk/package-manager.ui:67
+msgid "Built-in"
+msgstr "Inbyggt"
+
+#: data/gtk/package-manager.ui:70
+msgid "No built-in packages"
+msgstr "Inga inbyggda paket"
+
+#: data/gtk/package-manager.ui:91
+msgid "Install From Archive"
+msgstr "Installera från arkiv"
+
+#: data/gtk/package-manager.ui:95
+msgid "Install From Folder"
+msgstr "Installera från katalog"
+
+#: data/gtk/preferences.ui:14
+msgid "Save Automatically"
+msgstr "Spara automatiskt"
+
+#: data/gtk/preferences.ui:19
+msgid "Center Current Line"
+msgstr "Centrera aktuell rad"
+
+#: data/gtk/preferences.ui:24 data/net.trowell.typesetter.gschema.xml:28
+msgid "Highlight Current Line"
+msgstr "Markera aktuell rad"
+
+#: data/gtk/preferences.ui:29
+msgid "Auto-Scroll Preview"
+msgstr "Rulla förhandsgranskning automatiskt"
+
+#: data/gtk/preferences.ui:38
+msgid "PDF Export Standard"
+msgstr "PDF-exportstandard"
+
+#: data/gtk/preferences.ui:42
+msgid "PDF 1.4"
+msgstr "PDF 1.4"
+
+#: data/gtk/preferences.ui:43
+msgid "PDF 1.5"
+msgstr "PDF 1.5"
+
+#: data/gtk/preferences.ui:44
+msgid "PDF 1.6"
+msgstr "PDF 1.6"
+
+#: data/gtk/preferences.ui:45
+msgid "PDF 1.7"
+msgstr "PDF 1.7"
+
+#: data/gtk/preferences.ui:46
+msgid "PDF 2.0"
+msgstr "PDF 2.0"
+
+#: data/gtk/preferences.ui:47
+msgid "PDF/A-1b"
+msgstr "PDF/A-1b"
+
+#: data/gtk/preferences.ui:48
+msgid "PDF/A-1a"
+msgstr "PDF/A-1a"
+
+#: data/gtk/preferences.ui:49
+msgid "PDF/A-2b"
+msgstr "PDF/A-2b"
+
+#: data/gtk/preferences.ui:50
+msgid "PDF/A-2u"
+msgstr "PDF/A-2u"
+
+#: data/gtk/preferences.ui:51
+msgid "PDF/A-2a"
+msgstr "PDF/A-2a"
+
+#: data/gtk/preferences.ui:52
+msgid "PDF/A-3b"
+msgstr "PDF/A-3b"
+
+#: data/gtk/preferences.ui:53
+msgid "PDF/A-3a"
+msgstr "PDF/A-3a"
+
+#: data/gtk/preferences.ui:54
+msgid "PDF/A-3u"
+msgstr "PDF/A-3u"
+
+#: data/gtk/preferences.ui:55
+msgid "PDF/A-4"
+msgstr "PDF/A-4"
+
+#: data/gtk/preferences.ui:56
+msgid "PDF/A-4f"
+msgstr "PDF/A-4f"
+
+#: data/gtk/preferences.ui:57
+msgid "PDF/A-4e"
+msgstr "PDF/A-4e"
+
+#: data/gtk/preferences.ui:58
+msgid "PDF/UA-1"
+msgstr "PDF/UA-1"
+
+#: data/gtk/preferences.ui:75
+msgid "Reset"
+msgstr "Återställ"
+
+#: data/gtk/recent-file-row.ui:46
+msgid "Remove"
+msgstr "Ta bort"
+
+#: data/gtk/recent-files.ui:45
+msgid "No Recent Documents"
+msgstr "Inga senaste dokument"
+
+#: data/gtk/search-toolbar.ui:29 data/gtk/shortcuts-dialog.ui:233
+#: data/gtk/shortcuts-dialog.ui:236 data/gtk/window.ui:123
+msgid "Find"
+msgstr "Sök"
+
+#: data/gtk/search-toolbar.ui:44
+msgid "Previous Match"
+msgstr "Föregående matchning"
+
+#: data/gtk/search-toolbar.ui:56
+msgid "Next Match"
+msgstr "Nästa matchning"
+
+#: data/gtk/search-toolbar.ui:77 data/gtk/shortcuts-dialog.ui:248
+msgid "Case Sensitive"
+msgstr "Skiftlägeskänsligt"
+
+#: data/gtk/search-toolbar.ui:86 data/gtk/shortcuts-dialog.ui:254
+msgid "Regular Expression"
+msgstr "Reguljärt uttryck"
+
+#: data/gtk/search-toolbar.ui:95 data/gtk/shortcuts-dialog.ui:242
+msgid "Find and Replace"
+msgstr "Sök och ersätt"
+
+#: data/gtk/search-toolbar.ui:115 data/gtk/search-toolbar.ui:130
+msgid "Replace"
+msgstr "Ersätt"
+
+#: data/gtk/search-toolbar.ui:146
+msgid "Replace All"
+msgstr "Ersätt alla"
+
+#: data/gtk/shortcuts-dialog.ui:8
+msgid "General"
+msgstr "Allmänt"
+
+#: data/gtk/shortcuts-dialog.ui:11 data/gtk/window.ui:27
+msgid "New"
+msgstr "Ny"
+
+#: data/gtk/shortcuts-dialog.ui:17 data/gtk/window.ui:35 src/window.rs:1906
+msgid "Open"
+msgstr "Öppna"
+
+#: data/gtk/shortcuts-dialog.ui:23 data/gtk/window.ui:36
+msgid "Recent Files"
+msgstr "Senaste filer"
+
+#: data/gtk/shortcuts-dialog.ui:29 data/gtk/window.ui:43 src/window.rs:1865
+msgid "Save"
+msgstr "Spara"
+
+#: data/gtk/shortcuts-dialog.ui:35
+msgid "Save As"
+msgstr "Spara som"
+
+#: data/gtk/shortcuts-dialog.ui:41
+msgid "Export PDF"
+msgstr "Exportera PDF"
+
+#: data/gtk/shortcuts-dialog.ui:47 data/gtk/window.ui:104
+msgid "Preview"
+msgstr "Förhandsgranska"
+
+#: data/gtk/shortcuts-dialog.ui:53 data/gtk/window.ui:93
+msgid "Main Menu"
+msgstr "Huvudmeny"
+
+#: data/gtk/shortcuts-dialog.ui:59
+msgid "Fullscreen"
+msgstr "Helskärm"
+
+#: data/gtk/shortcuts-dialog.ui:65
+#, fuzzy
+msgid "Document Outline"
+msgstr "Dokumentstatistik"
+
+#: data/gtk/shortcuts-dialog.ui:71
+msgid "Document Statistics"
+msgstr "Dokumentstatistik"
+
+#: data/gtk/shortcuts-dialog.ui:83
+msgid "Preferences"
+msgstr "Inställningar"
+
+#: data/gtk/shortcuts-dialog.ui:89
+msgid "Keyboard Shortcuts"
+msgstr "Tangentbordsgenvägar"
+
+#: data/gtk/shortcuts-dialog.ui:95
+msgid "Close File"
+msgstr "Stäng fil"
+
+#: data/gtk/shortcuts-dialog.ui:101
+msgid "Quit Application"
+msgstr "Avsluta programmet"
+
+#: data/gtk/shortcuts-dialog.ui:109
+msgid "Editing"
+msgstr "Redigering"
+
+#: data/gtk/shortcuts-dialog.ui:112
+msgid "Cut"
+msgstr "Klipp ut"
+
+#: data/gtk/shortcuts-dialog.ui:118
+msgid "Copy"
+msgstr "Kopiera"
+
+#: data/gtk/shortcuts-dialog.ui:124
+msgid "Paste"
+msgstr "Klistra in"
+
+#: data/gtk/shortcuts-dialog.ui:130
+msgid "Undo"
+msgstr "Ångra"
+
+#: data/gtk/shortcuts-dialog.ui:136
+msgid "Redo"
+msgstr "Gör om"
+
+#: data/gtk/shortcuts-dialog.ui:142
+msgid "Code Completions"
+msgstr "Kodkompletteringar"
+
+#: data/gtk/shortcuts-dialog.ui:148
+msgid "Comment Line"
+msgstr "Kommentarrad"
+
+#: data/gtk/shortcuts-dialog.ui:154
+msgid "Previous Spelling Error"
+msgstr "Föregående stavfel"
+
+#: data/gtk/shortcuts-dialog.ui:160
+msgid "Next Spelling Error"
+msgstr "Nästa stavfel"
+
+#: data/gtk/shortcuts-dialog.ui:166
+msgid "Move Line"
+msgstr "Flytta rad"
+
+#: data/gtk/shortcuts-dialog.ui:172
+msgid "Move Word"
+msgstr "Flytta ord"
+
+#: data/gtk/shortcuts-dialog.ui:178
+msgid "Tidy Formatting"
+msgstr "Städa formatering"
+
+#: data/gtk/shortcuts-dialog.ui:186
+msgid "Formatting"
+msgstr "Formatering"
+
+#: data/gtk/shortcuts-dialog.ui:189
+msgid "Emphasis"
+msgstr "Emfas"
+
+#: data/gtk/shortcuts-dialog.ui:195
+msgid "Strong Emphasis"
+msgstr "Stark emfas"
+
+#: data/gtk/shortcuts-dialog.ui:201
+msgid "Raw Text"
+msgstr "Råtext"
+
+#: data/gtk/shortcuts-dialog.ui:207
+msgid "Math"
+msgstr "Matematik"
+
+#: data/gtk/shortcuts-dialog.ui:213
+msgid "Bullet List"
+msgstr "Punktlista"
+
+#: data/gtk/shortcuts-dialog.ui:219
+msgid "Numbered List"
+msgstr "Numrerad lista"
+
+#: data/gtk/shortcuts-dialog.ui:225
+msgid "Heading"
+msgstr "Rubrik"
+
+#: data/gtk/statistics.ui:9
+msgid "Statistics"
+msgstr "Statistik"
+
+#: data/gtk/statistics.ui:41
+msgid "Words"
+msgstr "Ord"
+
+#: data/gtk/statistics.ui:58
+msgid "Characters"
+msgstr "Tecken"
+
+#: data/gtk/statistics.ui:65
+msgid "CJK Characters"
+msgstr "CJK-tecken"
+
+#: data/gtk/statistics.ui:74
+msgid "Non-CJK Characters"
+msgstr "Icke CJK-tecken"
+
+#: data/gtk/statistics.ui:93
+msgid "Pages"
+msgstr "Sidor"
+
+#: data/gtk/statistics.ui:102
+msgid "Headings"
+msgstr "Rubriker"
+
+#: data/gtk/statistics.ui:111
+msgid "Paragraphs"
+msgstr "Stycken"
+
+#: data/gtk/statistics.ui:120
+msgid "Mathematical Formulas"
+msgstr "Matematiska formler"
+
+#: data/gtk/statistics.ui:139
+msgid "Statistics Unavailable"
+msgstr "Statistik är inte tillgänglig"
+
+#: data/gtk/statistics.ui:140
+msgid "Fix the compilation errors in the document to calculate statistics."
+msgstr "Åtgärda kompileringsfelen i dokumentet för att beräkna statistik."
+
+#: data/gtk/theme-selector.ui:26 data/gtk/theme-selector.ui:28
+msgid "Follow System Style"
+msgstr "Följ systemets stil"
+
+#: data/gtk/theme-selector.ui:43 data/gtk/theme-selector.ui:45
+msgid "Light Style"
+msgstr "Ljus stil"
+
+#: data/gtk/theme-selector.ui:60 data/gtk/theme-selector.ui:62
+msgid "Dark Style"
+msgstr "Mörk stil"
+
+#: data/gtk/window.ui:7 data/net.trowell.typesetter.desktop.in:2
+#: data/net.trowell.typesetter.metainfo.xml.in:9
+msgid "Typesetter"
+msgstr "Typesetter"
+
+#: data/gtk/window.ui:28
+msgid "Templates"
+msgstr "Mallar"
+
+#: data/gtk/window.ui:44
+msgid "Save Options"
+msgstr "Sparningsalternativ"
+
+#: data/gtk/window.ui:69 src/window.rs:726 src/window.rs:738
+msgid "New File"
+msgstr "Ny fil"
+
+#: data/gtk/window.ui:136
+msgid "Select a project folder to access images and imports"
+msgstr "Välj en projektmapp för att komma åt bilder och importer"
+
+#: data/gtk/window.ui:137 src/package_manager/import.rs:59 src/window.rs:1561
+msgid "Select Folder"
+msgstr "Välj mapp"
+
+#: data/gtk/window.ui:183
+msgid "_Save As"
+msgstr "_Spara som"
+
+#: data/gtk/window.ui:189
+msgid "_Export PDF"
+msgstr "_Exportera PDF"
+
+#: data/gtk/window.ui:229
+msgid "_Fullscreen"
+msgstr "_Helskärm"
+
+#: data/gtk/window.ui:235
+msgid "_Outline"
+msgstr "_Skiss"
+
+#: data/gtk/window.ui:239
+msgid "_Statistics"
+msgstr "_Statistik"
+
+#: data/gtk/window.ui:249
+msgid "_Preferences"
+msgstr "_Inställningar"
+
+#: data/gtk/window.ui:253
+msgid "_Keyboard Shortcuts"
+msgstr "_Tangentbordsgenvägar"
+
+#: data/gtk/window.ui:257
+msgid "_About Typesetter"
+msgstr "_Om Typesetter"
+
+#: data/net.trowell.typesetter.desktop.in:3
+msgid "Typst Editor"
+msgstr "Typst-redigerare"
+
+#: data/net.trowell.typesetter.desktop.in:4
+msgid "Edit and compile Typst documents"
+msgstr "Redigera och kompilera Typst-dokument"
+
+#: data/net.trowell.typesetter.desktop.in:10
+msgid "GTK;Typst;Text;Document;"
+msgstr "GTK;Typst;Text;Dokument;"
+
+#: data/net.trowell.typesetter.gschema.xml:8
+msgid "Autosave"
+msgstr "Spara automatiskt"
+
+#: data/net.trowell.typesetter.gschema.xml:9
+msgid "Whether to automatically save files with a known path."
+msgstr "Huruvida filer med känd sökväg ska sparas automatiskt."
+
+#: data/net.trowell.typesetter.gschema.xml:13
+msgid "Centered Scrolling"
+msgstr "Centrerad rullning"
+
+#: data/net.trowell.typesetter.gschema.xml:14
+msgid ""
+"Whether to center the active line vertically on the screen as the user types."
+msgstr ""
+"Huruvida den aktiva raden ska centreras vertikalt på skärmen under tiden "
+"användaren skriver."
+
+#: data/net.trowell.typesetter.gschema.xml:18
+msgid "Check Grammar"
+msgstr "Kontrollera grammatik"
+
+#: data/net.trowell.typesetter.gschema.xml:19
+msgid "Whether to enable grammar checking in the editor."
+msgstr "Huruvida grammatikkontroll ska aktiveras i redigeraren."
+
+#: data/net.trowell.typesetter.gschema.xml:23
+msgid "Check Spelling"
+msgstr "Kontrollera stavning"
+
+#: data/net.trowell.typesetter.gschema.xml:24
+msgid "Whether to enable spellcheck in the editor."
+msgstr "Huruvida stavningskontroll ska aktiveras i redigeraren."
+
+#: data/net.trowell.typesetter.gschema.xml:29
+msgid "Whether to highlight the current line in the editor."
+msgstr "Huruvida aktuell rad ska markeras i redigeraren."
+
+#: data/net.trowell.typesetter.gschema.xml:33
+msgid "Invert Lightness"
+msgstr "Invertera ljushet"
+
+#: data/net.trowell.typesetter.gschema.xml:34
+msgid ""
+"Whether to invert the lightness of pages in the preview when dark mode is "
+"enabled."
+msgstr ""
+"Huruvida sidors ljushet ska inverteras i förhandsgranskningen då mörkt läge "
+"är aktiverat."
+
+#: data/net.trowell.typesetter.gschema.xml:57
+msgid "PDF Standard"
+msgstr "PDF-standard"
+
+#: data/net.trowell.typesetter.gschema.xml:58
+msgid "The PDF standard to use when exporting."
+msgstr "PDF-standarden att använda vid export."
+
+#: data/net.trowell.typesetter.gschema.xml:62
+msgid "Scroll Preview on Type"
+msgstr "Rulla förhandsgranskning vid skrivning"
+
+#: data/net.trowell.typesetter.gschema.xml:63
+msgid ""
+"Whether to automatically scroll the preview to the current position in the "
+"editor."
+msgstr ""
+"Huruvida förhandsgranskningen automatiskt ska rullas till aktuell position i "
+"redigeraren."
+
+#: data/net.trowell.typesetter.gschema.xml:67
+msgid "Show Built-in Templates"
+msgstr "Visa inbyggda mallar"
+
+#: data/net.trowell.typesetter.gschema.xml:68
+msgid "Whether to show bundled templates in the template picker."
+msgstr "Huruvida paketerade mallar ska visas i mallväljaren."
+
+#: data/net.trowell.typesetter.gschema.xml:72
+msgid "Show Preview"
+msgstr "Visa förhandsgranskning"
+
+#: data/net.trowell.typesetter.gschema.xml:73
+msgid "Whether to show the preview pane by default when opening a new window."
+msgstr ""
+"Huruvida förhandsgranskningspanelen ska visas som standard vid öppnande av "
+"ett nytt fönster."
+
+#: data/net.trowell.typesetter.gschema.xml:81
+msgid "Editor style scheme"
+msgstr "Redigerarstilschema"
+
+#: data/net.trowell.typesetter.gschema.xml:82
+msgid "The style scheme to use in the editor."
+msgstr "Stilschemat att använda i redigeraren."
+
+#: data/net.trowell.typesetter.gschema.xml:91
+msgid "Theme"
+msgstr "Tema"
+
+#: data/net.trowell.typesetter.gschema.xml:92
+msgid "The theme to use throughout the application."
+msgstr "Temat att använda i programmet."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:10
+msgid "Minimalist Typst editor"
+msgstr "Minimalistisk Typst-redigerare"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:12
+msgid ""
+"Typesetter is a lightweight desktop application for creating beautiful "
+"documents with Typst."
+msgstr ""
+"Typesetter är en lättviktigt skrivbordsprogram för att skapa vackra dokument "
+"med Typst."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:14
+msgid ""
+"Adaptive, user-friendly interface: Focus on writing. Great for papers, "
+"reports, slides, books, and any structured writing."
+msgstr ""
+"Adaptivt, användarvänligt gränssnitt: Fokusera på skrift. Utmärkt för "
+"avhandlingar, rapporter, bildspel, böcker och alla strukturerade skrifter."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:15
+msgid ""
+"Powered by Typst: A modern markup-based typesetting language, combining the "
+"simplicity of Markdown with the power of LaTeX."
+msgstr ""
+"Driftas av Typst: Ett modernt markup-baserat textsättningsspråk, vilket "
+"kombinerar enkelheten hos Markdown med kraften hos LaTeX."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:16
+msgid "Fully local: Your files stay on your machine. No cloud lock-in."
+msgstr ""
+"Helt lokalt: Dina filer stannar på din maskin. Ingen inlåsning i molnet."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:17
+msgid ""
+"Package manager: Install or remove local Typst packages from within the app."
+msgstr ""
+
+#: data/net.trowell.typesetter.metainfo.xml.in:18
+msgid ""
+"On-demand package downloading: Fetches and caches remote Typst packages "
+"online when needed."
+msgstr ""
+
+#: data/net.trowell.typesetter.metainfo.xml.in:19
+msgid "Templates: Create new documents from built‑in or user templates."
+msgstr "Mallar: Skapa nya dokument från inbyggda eller användarmallar."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:20
+msgid "Automatic preview: See your rendered document update as you write."
+msgstr ""
+"Automatisk förhandsgranskning: Se ditt renderade dokument uppdateras medan "
+"du skriver."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:21
+msgid ""
+"Click-to-jump: Click on a part of the preview to jump to the corresponding "
+"position in the source file."
+msgstr ""
+"Klicka-för-att-hoppa: Klicka på en del av förhandsgranskningen för att hoppa "
+"till motsvarande position i källfilen."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:22
+msgid "Magnifier tool: Click and hold on the preview to inspect fine details."
+msgstr ""
+"Förstoringsverktyg: Klicka och håll på förhandsgranskningen för att "
+"inspektera små detaljer."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:23
+msgid ""
+"Accessibility checking: Simulate different forms of color blindness to check "
+"how your document looks to all readers."
+msgstr ""
+"Hjälpmedelskontroll: Simulera olika former av färgblindhet för att se hur "
+"ditt dokument ser ut för alla läsare."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:24
+msgid "Centered scrolling: Keeps your writing visually anchored as you type."
+msgstr ""
+"Centrerad rullning: Håller din skrift visuellt förankrad medan du skriver."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:25
+msgid "Syntax highlighting: Makes your documents easier to edit and read."
+msgstr "Syntaxmarkering: Gör dina dokument lättare att redigera och läsa."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:26
+msgid ""
+"Grammar suggestions: Automatically checks your writing for grammatical "
+"errors (currently English only)."
+msgstr ""
+"Grammatikförslag: Kontrollerar automatiskt dina texter för grammatiska fel "
+"(för närvarande endast på engelska)."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:27
+msgid "Document statistics: Easily calculate page, word, and character counts."
+msgstr "Dokumentstatistik: Beräkna enkelt sid-, ord och teckenantal."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:28
+msgid ""
+"Fast and native: Built in Rust and GTK following the GNOME human interface "
+"guidelines."
+msgstr ""
+"Snabbt och inhemskt: Byggt med Rust och GTK och följer GNOMEs riktlinjer för "
+"mänskliga gränssnitt."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:33
+msgid "Haydn Trowell"
+msgstr "Haydn Trowell"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:58
+msgid "Focus on your writing with a minimal interface and clear fonts"
+msgstr ""
+"Fokusera på din skrivning med ett minimalt gränssnitt och tydliga typsnitt"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:62
+msgid "Choose between light and dark modes"
+msgstr "Välj mellan ljusa och mörka lägen"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:66
+msgid "Preview your compiled document without leaving the app"
+msgstr "Förhandsgranska ditt kompilerade dokument utan att lämna programmet"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:70
+msgid "Easily check document statistics"
+msgstr "Kontrollera enkelt dokumentstatistik"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:74
+msgid "Click and hold on the preview to inspect fine details"
+msgstr ""
+"Klicka och håll på förhandsgranskningen för att inspektera små detaljer"
+
+#: src/application.rs:139
+msgid "translator-credits"
+msgstr "Luna Jernberg <lunajernberg@gnome.org>"
+
+#: src/application.rs:141
+msgid "Donate"
+msgstr "Donera"
+
+#: src/editor/formatter.rs:205
+msgid "Unable to clean up formatting"
+msgstr "Kunde inte rensa formatering"
+
+#: src/file_io/dialog.rs:57 src/file_io/dialog.rs:76
+msgid "Export File"
+msgstr "Exportera fil"
+
+#: src/file_io/dialog.rs:91
+msgid "Open File"
+msgstr "Öppna fil"
+
+#: src/file_io/dialog.rs:106
+msgid "Save File"
+msgstr "Spara fil"
+
+#: src/file_io/dialog.rs:131 src/file_io/dialog.rs:135
+#: src/file_io/dialog.rs:139
+msgid "All Files"
+msgstr "Alla filer"
+
+#: src/package_manager/import.rs:61 src/package_manager/import.rs:92
+msgid "Install"
+msgstr "Installera"
+
+#: src/package_manager/import.rs:81
+msgid "Archives"
+msgstr "Arkiv"
+
+#: src/package_manager/import.rs:90
+msgid "Select Archive"
+msgstr "Välj arkiv"
+
+#: src/recents_menu/mod.rs:147 src/window.rs:641
+msgid "Unable to open file: "
+msgstr "Kunde inte öppna fil: "
+
+#: src/window.rs:1563
+msgid "Select"
+msgstr "Välj"
+
+#: src/window.rs:1843 src/window.rs:1889
+msgid "Failed to save file."
+msgstr "Misslyckades med att spara fil."
+
+#: src/window.rs:1857
+msgid "Unsaved Changes"
+msgstr "Osparade ändringar"
+
+#: src/window.rs:1859
+msgid ""
+"The document has been modified. Do you want to save your changes before "
+"closing?"
+msgstr "Dokumentet har ändrats. Vill du spara dina ändringar innan du stänger?"
+
+#: src/window.rs:1863
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/window.rs:1864
+msgid "Discard"
+msgstr "Förkasta"
+
+#~ msgid "_Tidy Formatting"
+#~ msgstr "_Städa formatering"
+
+#~ msgid "Package Cache"
+#~ msgstr "Paketcache"
+
+#~ msgid "—"
+#~ msgstr "—"
+
+#~ msgid "Clear"
+#~ msgstr "Rensa"
+
+#~ msgid "Preview Compilation Failed"
+#~ msgstr "Kompilering av förhandsgranskning misslyckades"
+
+#~ msgid "Fix the errors below to recompile the document."
+#~ msgstr "Fixa felen nedan för att kompilera dokumentet igen."
+
+#~ msgid ""
+#~ "Package support: Works offline, but can fetch package imports online when "
+#~ "needed."
+#~ msgstr ""
+#~ "Paketstöd: Fungerar frånkopplat, men kan hämta paketimporter på nätet när "
+#~ "det behövs."
+
+#~ msgid "Empty"
+#~ msgstr "Tom"

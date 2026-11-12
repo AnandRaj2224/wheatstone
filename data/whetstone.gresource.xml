@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-FileCopyrightText: 2025 Haydn Trowell -->
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<gresources>
+  <gresource prefix="/dev/whetstone/editor">
+    <file alias="style.css">css/style.css</file>
+    <file compressed="true" preprocess="xml-stripblanks">gtk/editor.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">gtk/explorer.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">gtk/package-manager.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">gtk/preferences.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">gtk/preview.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">gtk/recent-file-row.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">gtk/recent-files.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">gtk/outline.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">gtk/search-entry.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">gtk/search-toolbar.ui</file>
+    <file alias="shortcuts-dialog.ui" compressed="true" preprocess="xml-stripblanks">gtk/shortcuts-dialog.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">gtk/statistics.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">gtk/templates-popover.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">gtk/template-row.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">gtk/theme-selector.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">gtk/window.ui</file>
+    <file alias="icons/scalable/actions/net.trowell.kotoba.svg" compressed="true" preprocess="xml-stripblanks">icons/hicolor/scalable/apps/net.trowell.kotoba.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/scalable/actions/code-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/scalable/actions/configure-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/scalable/actions/headings-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/scalable/actions/loupe-minus-large-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/scalable/actions/loupe-plus-large-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/scalable/actions/preview-layout-half-width-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/scalable/actions/regex-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/scalable/actions/uppercase-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">languages/typst.lang</file>
+    <file compressed="true" preprocess="xml-stripblanks">style-schemes/typesetter.xml</file>
+    <file compressed="true" preprocess="xml-stripblanks">style-schemes/typesetter-dark.xml</file>
+  </gresource>
+</gresources>

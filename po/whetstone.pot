@@ -1,0 +1,861 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 23:14+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/gtk/outline.ui:8 data/gtk/shortcuts-dialog.ui:100
+msgid "Outline"
+msgstr ""
+
+#: data/gtk/outline.ui:18 data/gtk/outline.ui:31 data/gtk/recent-files.ui:22
+msgid "Search"
+msgstr ""
+
+#: data/gtk/outline.ui:71
+msgid "No Headings"
+msgstr ""
+
+#: data/gtk/outline.ui:83 data/gtk/recent-files.ui:55
+msgid "No Results Found"
+msgstr ""
+
+#: data/gtk/outline.ui:95
+msgid "Outline Unavailable"
+msgstr ""
+
+#: data/gtk/outline.ui:96
+msgid "Fix the compilation errors in the document to view the outline."
+msgstr ""
+
+#: data/gtk/package-manager.ui:8 data/gtk/shortcuts-dialog.ui:53
+#: data/gtk/window.ui:268
+msgid "Packages"
+msgstr ""
+
+#: data/gtk/package-manager.ui:24
+msgid "Install Package"
+msgstr ""
+
+#: data/gtk/package-manager.ui:37
+msgid "Installed"
+msgstr ""
+
+#: data/gtk/package-manager.ui:40
+msgid "No installed packages"
+msgstr ""
+
+#: data/gtk/package-manager.ui:52
+msgid "Cached"
+msgstr ""
+
+#: data/gtk/package-manager.ui:55
+msgid "No cached packages"
+msgstr ""
+
+#: data/gtk/package-manager.ui:67
+msgid "Built-in"
+msgstr ""
+
+#: data/gtk/package-manager.ui:70
+msgid "No built-in packages"
+msgstr ""
+
+#: data/gtk/package-manager.ui:91
+msgid "Install From Archive"
+msgstr ""
+
+#: data/gtk/package-manager.ui:95
+msgid "Install From Folder"
+msgstr ""
+
+#: data/gtk/preferences.ui:14
+msgid "Save Automatically"
+msgstr ""
+
+#: data/gtk/preferences.ui:19
+msgid "Center Current Line"
+msgstr ""
+
+#: data/gtk/preferences.ui:24 data/dev.whetstone.editor.gschema.xml:33
+msgid "Highlight Current Line"
+msgstr ""
+
+#: data/gtk/preferences.ui:29
+msgid "Auto-Scroll Preview"
+msgstr ""
+
+#: data/gtk/preferences.ui:38
+msgid "PDF Export Standard"
+msgstr ""
+
+#: data/gtk/preferences.ui:42
+msgid "PDF 1.4"
+msgstr ""
+
+#: data/gtk/preferences.ui:43
+msgid "PDF 1.5"
+msgstr ""
+
+#: data/gtk/preferences.ui:44
+msgid "PDF 1.6"
+msgstr ""
+
+#: data/gtk/preferences.ui:45
+msgid "PDF 1.7"
+msgstr ""
+
+#: data/gtk/preferences.ui:46
+msgid "PDF 2.0"
+msgstr ""
+
+#: data/gtk/preferences.ui:47
+msgid "PDF/A-1b"
+msgstr ""
+
+#: data/gtk/preferences.ui:48
+msgid "PDF/A-1a"
+msgstr ""
+
+#: data/gtk/preferences.ui:49
+msgid "PDF/A-2b"
+msgstr ""
+
+#: data/gtk/preferences.ui:50
+msgid "PDF/A-2u"
+msgstr ""
+
+#: data/gtk/preferences.ui:51
+msgid "PDF/A-2a"
+msgstr ""
+
+#: data/gtk/preferences.ui:52
+msgid "PDF/A-3b"
+msgstr ""
+
+#: data/gtk/preferences.ui:53
+msgid "PDF/A-3a"
+msgstr ""
+
+#: data/gtk/preferences.ui:54
+msgid "PDF/A-3u"
+msgstr ""
+
+#: data/gtk/preferences.ui:55
+msgid "PDF/A-4"
+msgstr ""
+
+#: data/gtk/preferences.ui:56
+msgid "PDF/A-4f"
+msgstr ""
+
+#: data/gtk/preferences.ui:57
+msgid "PDF/A-4e"
+msgstr ""
+
+#: data/gtk/preferences.ui:58
+msgid "PDF/UA-1"
+msgstr ""
+
+#: data/gtk/preferences.ui:75
+msgid "Reset"
+msgstr ""
+
+#: data/gtk/preview.ui:75 src/preview/mod.rs:1334 src/preview/mod.rs:1369
+msgid "Loading preview…"
+msgstr ""
+
+#: data/gtk/preview.ui:114
+msgid "Reset Zoom"
+msgstr ""
+
+#: data/gtk/preview.ui:124
+msgid "Zoom to Specific Level"
+msgstr ""
+
+#: data/gtk/preview.ui:149
+msgid "Zoom Out"
+msgstr ""
+
+#: data/gtk/preview.ui:158
+msgid "Zoom In"
+msgstr ""
+
+#: data/gtk/recent-file-row.ui:46
+msgid "Remove"
+msgstr ""
+
+#: data/gtk/recent-files.ui:45
+msgid "No Recent Documents"
+msgstr ""
+
+#: data/gtk/search-toolbar.ui:46
+msgid "Previous Match"
+msgstr ""
+
+#: data/gtk/search-toolbar.ui:58
+msgid "Next Match"
+msgstr ""
+
+#: data/gtk/search-toolbar.ui:79 data/gtk/shortcuts-dialog.ui:289
+msgid "Case Sensitive"
+msgstr ""
+
+#: data/gtk/search-toolbar.ui:88 data/gtk/shortcuts-dialog.ui:295
+msgid "Regular Expression"
+msgstr ""
+
+#: data/gtk/search-toolbar.ui:97 data/gtk/shortcuts-dialog.ui:283
+msgid "Find and Replace"
+msgstr ""
+
+#: data/gtk/search-toolbar.ui:117 data/gtk/search-toolbar.ui:132
+msgid "Replace"
+msgstr ""
+
+#: data/gtk/search-toolbar.ui:148
+msgid "Replace All"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:8
+msgid "General"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:11 data/gtk/window.ui:33
+msgid "New"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:17 data/gtk/window.ui:41 src/window.rs:2439
+msgid "Open"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:23 data/gtk/window.ui:42
+msgid "Recent Files"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:29 data/gtk/window.ui:49 src/window.rs:2036
+#: src/window.rs:2398
+msgid "Save"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:35
+msgid "Save As"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:41
+msgid "Export PDF"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:47 data/gtk/window.ui:99
+msgid "Main Menu"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:59
+msgid "Preferences"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:65
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:71
+msgid "Close File"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:77
+msgid "Quit Application"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:85
+msgid "View"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:88 data/gtk/window.ui:110
+msgid "Preview"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:94
+msgid "Fullscreen"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:106 data/gtk/statistics.ui:9
+msgid "Statistics"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:112
+msgid "Increase Text Size"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:118
+msgid "Decrease Text Size"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:124
+msgid "Reset Text Size"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:130
+msgid "Increase Line Width"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:136
+msgid "Decrease Line Width"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:142
+msgid "Reset Line Width"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:150
+msgid "Editing"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:153
+msgid "Cut"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:159
+msgid "Copy"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:165
+msgid "Paste"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:171
+msgid "Undo"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:177
+msgid "Redo"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:183
+msgid "Code Completions"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:189
+msgid "Comment Line"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:195
+msgid "Previous Spelling Error"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:201
+msgid "Next Spelling Error"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:207
+msgid "Move Line"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:213
+msgid "Move Word"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:219 src/editor/mod.rs:1103
+msgid "Tidy Formatting"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:227
+msgid "Formatting"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:230
+msgid "Emphasis"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:236
+msgid "Strong Emphasis"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:242
+msgid "Raw Text"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:248
+msgid "Math"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:254
+msgid "Bullet List"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:260
+msgid "Numbered List"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:266
+msgid "Heading"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:274 data/gtk/shortcuts-dialog.ui:277
+#: data/gtk/window.ui:129
+msgid "Find"
+msgstr ""
+
+#: data/gtk/statistics.ui:41
+msgid "Words"
+msgstr ""
+
+#: data/gtk/statistics.ui:58
+msgid "Characters"
+msgstr ""
+
+#: data/gtk/statistics.ui:65
+msgid "CJK Characters"
+msgstr ""
+
+#: data/gtk/statistics.ui:74
+msgid "Non-CJK Characters"
+msgstr ""
+
+#: data/gtk/statistics.ui:93
+msgid "Pages"
+msgstr ""
+
+#: data/gtk/statistics.ui:102
+msgid "Headings"
+msgstr ""
+
+#: data/gtk/statistics.ui:111
+msgid "Paragraphs"
+msgstr ""
+
+#: data/gtk/statistics.ui:120
+msgid "Mathematical Formulas"
+msgstr ""
+
+#: data/gtk/statistics.ui:139
+msgid "Statistics Unavailable"
+msgstr ""
+
+#: data/gtk/statistics.ui:140
+msgid "Fix the compilation errors in the document to calculate statistics."
+msgstr ""
+
+#: data/gtk/theme-selector.ui:26 data/gtk/theme-selector.ui:28
+msgid "Follow System Style"
+msgstr ""
+
+#: data/gtk/theme-selector.ui:43 data/gtk/theme-selector.ui:45
+msgid "Light Style"
+msgstr ""
+
+#: data/gtk/theme-selector.ui:60 data/gtk/theme-selector.ui:62
+msgid "Dark Style"
+msgstr ""
+
+#: data/gtk/window.ui:7 data/dev.whetstone.editor.desktop.in:2
+#: data/dev.whetstone.editor.metainfo.xml.in:9
+msgid "Whetstone"
+msgstr ""
+
+#: data/gtk/window.ui:26
+msgid "Toggle File Explorer (F9)"
+msgstr ""
+
+#: data/gtk/window.ui:34
+msgid "Templates"
+msgstr ""
+
+#: data/gtk/window.ui:50
+msgid "Save Options"
+msgstr ""
+
+#: data/gtk/window.ui:75 src/window.rs:807 src/window.rs:819
+msgid "New File"
+msgstr ""
+
+#: data/gtk/window.ui:142
+msgid "Select a project folder to access images and imports"
+msgstr ""
+
+#: data/gtk/window.ui:143 src/package_manager/import.rs:57 src/window.rs:1643
+msgid "Select Folder"
+msgstr ""
+
+#: data/gtk/window.ui:209
+msgid "_Save As"
+msgstr ""
+
+#: data/gtk/window.ui:215
+msgid "_Export PDF"
+msgstr ""
+
+#: data/gtk/window.ui:221
+msgid "Export _As"
+msgstr ""
+
+#: data/gtk/window.ui:229
+msgid "_HTML"
+msgstr ""
+
+#: data/gtk/window.ui:237
+msgid "_Markdown"
+msgstr ""
+
+#: data/gtk/window.ui:252
+msgid "_Fullscreen"
+msgstr ""
+
+#: data/gtk/window.ui:258
+msgid "_Outline"
+msgstr ""
+
+#: data/gtk/window.ui:262
+msgid "_Statistics"
+msgstr ""
+
+#: data/gtk/window.ui:272
+msgid "_Preferences"
+msgstr ""
+
+#: data/gtk/window.ui:276
+msgid "_Keyboard Shortcuts"
+msgstr ""
+
+#: data/gtk/window.ui:280
+msgid "_About Whetstone"
+msgstr ""
+
+#: data/dev.whetstone.editor.desktop.in:3
+msgid "Typst Editor"
+msgstr ""
+
+#: data/dev.whetstone.editor.desktop.in:4
+msgid "Edit and compile Typst documents"
+msgstr ""
+
+#: data/dev.whetstone.editor.desktop.in:10
+msgid "GTK;Typst;Text;Document;"
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:8
+msgid "Preferences Migrated"
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:9
+msgid "Whether preferences have been migrated from Typesetter."
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:13
+msgid "Autosave"
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:14
+msgid "Whether to automatically save files with a known path."
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:18
+msgid "Centered Scrolling"
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:19
+msgid ""
+"Whether to center the active line vertically on the screen as the user types."
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:23 src/editor/mod.rs:718
+msgid "Check Grammar"
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:24
+msgid "Whether to enable grammar checking in the editor."
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:28
+msgid "Check Spelling"
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:29
+msgid "Whether to enable spellcheck in the editor."
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:34
+msgid "Whether to highlight the current line in the editor."
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:38
+msgid "Invert Lightness"
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:39
+msgid ""
+"Whether to invert the lightness of pages in the preview when dark mode is "
+"enabled."
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:62
+msgid "PDF Standard"
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:63
+msgid "The PDF standard to use when exporting."
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:67
+msgid "Preview Divider Position"
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:68
+msgid ""
+"The pixel position of the draggable divider between the editor and preview "
+"pane (-1 for default 50/50 split)."
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:72
+msgid "Scroll Preview on Type"
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:73
+msgid ""
+"Whether to automatically scroll the preview to the current position in the "
+"editor."
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:77
+msgid "Show Built-in Templates"
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:78
+msgid "Whether to show bundled templates in the template picker."
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:82
+msgid "Show File Explorer"
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:83
+msgid "Whether to show the file explorer sidebar."
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:87
+msgid "Show Preview"
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:88
+msgid "Whether to show the preview pane by default when opening a new window."
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:96
+msgid "Editor style scheme"
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:97
+msgid "The style scheme to use in the editor."
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:106
+msgid "Theme"
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:107
+msgid "The theme to use throughout the application."
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:111
+msgid "Vim Mode"
+msgstr ""
+
+#: data/dev.whetstone.editor.gschema.xml:112
+msgid ""
+"Whether to enable Vim keybindings in the editor. Can be enabled with: "
+"gsettings set dev.whetstone.editor vim-mode true"
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:10
+msgid "Typst editor for focused writing"
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:12
+msgid ""
+"Typesetter is a minimalist editor for creating beautiful documents with the "
+"Typst markup language."
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:14
+msgid ""
+"Adaptive, user-friendly interface: Focus on writing. Great for papers, "
+"reports, slides, books, and any structured writing."
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:15
+msgid ""
+"Powered by Typst: A modern markup-based typesetting language, combining the "
+"simplicity of Markdown with the power of LaTeX."
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:16
+msgid "Fully local: Your files stay on your machine. No cloud lock-in."
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:17
+msgid ""
+"Package management: Install, remove, and automatically fetch Typst packages "
+"from within the app."
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:18
+msgid "Templates: Create new documents from built‑in or user templates."
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:19
+msgid "Automatic preview: See your rendered document update as you write."
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:20
+msgid ""
+"Click-to-jump: Click on a part of the preview to jump to the corresponding "
+"position in the source file."
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:21
+msgid "Magnifier tool: Click and hold on the preview to inspect fine details."
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:22
+msgid ""
+"Accessibility checking: Simulate different forms of color blindness to check "
+"how your document looks to all readers."
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:23
+msgid "Centered scrolling: Keeps your writing visually anchored as you type."
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:24
+msgid "Syntax highlighting: Makes your documents easier to edit and read."
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:25
+msgid ""
+"Grammar suggestions: Automatically checks your writing for grammatical "
+"errors (currently English only)."
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:26
+msgid "Document statistics: Easily calculate page, word, and character counts."
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:27
+msgid "Fast and native: Built in Rust and GTK."
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:57
+msgid "Focus on your writing with a minimal interface and clear fonts"
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:61
+msgid "Choose between light and dark modes"
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:65
+msgid "Preview your compiled document without leaving the app"
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:69
+msgid "Easily check document statistics"
+msgstr ""
+
+#: data/dev.whetstone.editor.metainfo.xml.in:73
+msgid "Click and hold on the preview to inspect fine details"
+msgstr ""
+
+#: src/application.rs:141
+msgid "translator-credits"
+msgstr ""
+
+#: src/editor/formatter.rs:209
+msgid "Unable to clean up formatting"
+msgstr ""
+
+#. Translators: {0} is the current match index, {1} is the total
+#. number of matches. You may reorder these for your language.
+#: src/editor/search_toolbar/search_entry.rs:149
+#, rust-format
+msgid "{0} of {1}"
+msgstr ""
+
+#: src/file_io/dialog.rs:57 src/file_io/dialog.rs:76 src/file_io/dialog.rs:95
+msgid "Export File"
+msgstr ""
+
+#: src/file_io/dialog.rs:110
+msgid "Open File"
+msgstr ""
+
+#: src/file_io/dialog.rs:125
+msgid "Save File"
+msgstr ""
+
+#: src/file_io/dialog.rs:150 src/file_io/dialog.rs:154
+#: src/file_io/dialog.rs:158 src/file_io/dialog.rs:162
+msgid "All Files"
+msgstr ""
+
+#: src/package_manager/import.rs:59 src/package_manager/import.rs:90
+msgid "Install"
+msgstr ""
+
+#: src/package_manager/import.rs:79
+msgid "Archives"
+msgstr ""
+
+#: src/package_manager/import.rs:88
+msgid "Select Archive"
+msgstr ""
+
+#: src/preview/mod.rs:1355
+msgid "Still compiling…"
+msgstr ""
+
+#: src/recents_menu/mod.rs:137 src/window.rs:722 src/window.rs:2144
+msgid "Unable to open file: "
+msgstr ""
+
+#: src/window.rs:1645
+msgid "Select"
+msgstr ""
+
+#: src/window.rs:2021 src/window.rs:2376 src/window.rs:2422
+msgid "Failed to save file."
+msgstr ""
+
+#: src/window.rs:2028 src/window.rs:2390
+msgid "Unsaved Changes"
+msgstr ""
+
+#: src/window.rs:2030
+msgid ""
+"The document has been modified. Do you want to save your changes before "
+"opening another file?"
+msgstr ""
+
+#: src/window.rs:2034 src/window.rs:2396
+msgid "Cancel"
+msgstr ""
+
+#: src/window.rs:2035 src/window.rs:2397
+msgid "Discard"
+msgstr ""
+
+#: src/window.rs:2392
+msgid ""
+"The document has been modified. Do you want to save your changes before "
+"closing?"
+msgstr ""

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-FileCopyrightText: 2025 Haydn Trowell -->
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <template class="SearchToolbar" parent="AdwBin">
+    <property name="hexpand">true</property>
+    <child>
+      <object class="GtkRevealer" id="search_toolbar_revealer">
+        <property name="halign">fill</property>
+        <property name="hexpand">true</property>
+        <property name="transition-type">slide-up</property>
+        <style>
+          <class name="search_toolbar"/>
+        </style>
+        <child>
+          <object class="GtkSeparator"/>
+        </child>
+        <child>
+          <object class="AdwClamp">
+            <property name="maximum-size">600</property>
+            <child>
+              <object class="GtkGrid" id="search_bar_grid">
+                <property name="halign">fill</property>
+                <property name="hexpand">true</property>
+                <property name="margin-top">6</property>
+                <property name="column-spacing">6</property>
+                <property name="row-spacing">6</property>
+                <child>
+                  <object class="TypesetterSearchEntry" id="search_find_entry">
+                    <property name="hexpand">true</property>
+                    <layout>
+                      <property name="column">0</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkBox" id="find_navigation">
+                    <property name="homogeneous">true</property>
+                    <property name="spacing">6</property>
+                    <child>
+                      <object class="GtkButton" id="find_previous">
+                        <property name="focusable">true</property>
+                        <property name="receives-default">true</property>
+                        <property name="tooltip-text" translatable="yes">Previous Match</property>
+                        <property name="icon-name">go-up-symbolic</property>
+                        <property name="action-name">window.find-previous</property>
+                        <style>
+                          <class name="flat"/>
+                        </style>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="find_next">
+                        <property name="focusable">true</property>
+                        <property name="receives-default">true</property>
+                        <property name="tooltip-text" translatable="yes">Next Match</property>
+                        <property name="icon-name">go-down-symbolic</property>
+                        <property name="action-name">window.find-next</property>
+                        <style>
+                          <class name="flat"/>
+                        </style>
+                      </object>
+                    </child>
+                    <layout>
+                      <property name="column">1</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkBox" id="search_options">
+                    <property name="spacing">6</property>
+                    <property name="homogeneous">true</property>
+                    <child>
+                      <object class="GtkToggleButton" id="search_case_sensitive_button">
+                        <property name="icon-name">uppercase-symbolic</property>
+                        <property name="tooltip-text" translatable="yes">Case Sensitive</property>
+                        <style>
+                          <class name="flat"/>
+                        </style>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkToggleButton" id="search_regex_button">
+                        <property name="icon-name">regex-symbolic</property>
+                        <property name="tooltip-text" translatable="yes">Regular Expression</property>
+                        <style>
+                          <class name="flat"/>
+                        </style>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkToggleButton" id="search_replace_button">
+                        <property name="icon-name">edit-find-replace-symbolic</property>
+                        <property name="tooltip-text" translatable="yes">Find and Replace</property>
+                        <style>
+                          <class name="flat"/>
+                        </style>
+                      </object>
+                    </child>
+                    <layout>
+                      <property name="column">2</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkRevealer" id="replace_entry_revealer">
+                    <property name="transition-type">slide-up</property>
+                    <child>
+                      <object class="GtkEntry" id="search_replace_entry">
+                        <property name="halign">fill</property>
+                        <property name="hexpand">true</property>
+                        <property name="margin-bottom">6</property>
+                        <property name="placeholder-text" translatable="yes">Replace</property>
+                        <property name="primary-icon-name">edit-find-replace-symbolic</property>
+                      </object>
+                    </child>
+                    <layout>
+                      <property name="column">0</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkRevealer" id="replace_one_revealer">
+                    <property name="transition-type">slide-up</property>
+                    <child>
+                      <object class="GtkButton" id="replace_one">
+                        <property name="label" translatable="yes">Replace</property>
+                        <property name="action-name">window.replace-one</property>
+                        <property name="margin-bottom">6</property>
+                      </object>
+                    </child>
+                    <layout>
+                      <property name="column">1</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkRevealer" id="replace_all_revealer">
+                    <property name="transition-type">slide-up</property>
+                    <child>
+                      <object class="GtkButton" id="replace_all">
+                        <property name="label" translatable="yes">Replace All</property>
+                        <property name="action-name">window.replace-all</property>
+                        <property name="margin-bottom">6</property>
+                      </object>
+                    </child>
+                    <layout>
+                      <property name="column">2</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>
+

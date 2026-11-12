@@ -1,0 +1,840 @@
+# Turkish translation for net.trowell.typesetter.
+# Copyright (C) 2025-2026 net.trowell.typesetter's COPYRIGHT HOLDER
+# This file is distributed under the same license as the net.trowell.typesetter package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2025-2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: net.trowell.typesetter main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-20 11:12+1000\n"
+"PO-Revision-Date: 2026-03-28 21:57+0000\n"
+"Last-Translator: yakushabb <yakushabb@gmail.com>\n"
+"Language-Team: Turkish <https://translate.codeberg.org/projects/typesetter/"
+"typesetter/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.16.2\n"
+
+#: data/gtk/outline.ui:8
+#, fuzzy
+msgid "Outline"
+msgstr "Belge İstatistikleri"
+
+#: data/gtk/outline.ui:18 data/gtk/outline.ui:31 data/gtk/recent-files.ui:22
+msgid "Search"
+msgstr "Ara"
+
+#: data/gtk/outline.ui:71
+#, fuzzy
+msgid "No Headings"
+msgstr "Başlık"
+
+#: data/gtk/outline.ui:83 data/gtk/recent-files.ui:55
+msgid "No Results Found"
+msgstr "Hiçbir Sonuç Bulunamadı"
+
+#: data/gtk/outline.ui:95
+msgid "Outline Unavailable"
+msgstr ""
+
+#: data/gtk/outline.ui:96
+msgid "Fix the compilation errors in the document to view the outline."
+msgstr ""
+
+#: data/gtk/package-manager.ui:8 data/gtk/shortcuts-dialog.ui:77
+#: data/gtk/window.ui:245
+#, fuzzy
+msgid "Packages"
+msgstr "Sayfa"
+
+#: data/gtk/package-manager.ui:24
+#, fuzzy
+msgid "Install Package"
+msgstr "Sayfa"
+
+#: data/gtk/package-manager.ui:37
+msgid "Installed"
+msgstr ""
+
+#: data/gtk/package-manager.ui:40
+msgid "No installed packages"
+msgstr ""
+
+#: data/gtk/package-manager.ui:52
+msgid "Cached"
+msgstr ""
+
+#: data/gtk/package-manager.ui:55
+msgid "No cached packages"
+msgstr ""
+
+#: data/gtk/package-manager.ui:67
+msgid "Built-in"
+msgstr ""
+
+#: data/gtk/package-manager.ui:70
+msgid "No built-in packages"
+msgstr ""
+
+#: data/gtk/package-manager.ui:91
+msgid "Install From Archive"
+msgstr ""
+
+#: data/gtk/package-manager.ui:95
+msgid "Install From Folder"
+msgstr ""
+
+#: data/gtk/preferences.ui:14
+msgid "Save Automatically"
+msgstr "Kendiliğinden Kaydet"
+
+#: data/gtk/preferences.ui:19
+msgid "Center Current Line"
+msgstr "Geçerli Satırı Ortala"
+
+#: data/gtk/preferences.ui:24 data/net.trowell.typesetter.gschema.xml:28
+msgid "Highlight Current Line"
+msgstr "Geçerli Satırı Vurgula"
+
+#: data/gtk/preferences.ui:29
+msgid "Auto-Scroll Preview"
+msgstr "Ön İzlemeyi Kendiliğinden Kaydır"
+
+#: data/gtk/preferences.ui:38
+msgid "PDF Export Standard"
+msgstr "PDF Dışa Aktarma Standardı"
+
+#: data/gtk/preferences.ui:42
+msgid "PDF 1.4"
+msgstr "PDF 1.4"
+
+#: data/gtk/preferences.ui:43
+msgid "PDF 1.5"
+msgstr "PDF 1.5"
+
+#: data/gtk/preferences.ui:44
+msgid "PDF 1.6"
+msgstr "PDF 1.6"
+
+#: data/gtk/preferences.ui:45
+msgid "PDF 1.7"
+msgstr "PDF 1.7"
+
+#: data/gtk/preferences.ui:46
+msgid "PDF 2.0"
+msgstr "PDF 2.0"
+
+#: data/gtk/preferences.ui:47
+msgid "PDF/A-1b"
+msgstr "PDF/A-1b"
+
+#: data/gtk/preferences.ui:48
+msgid "PDF/A-1a"
+msgstr "PDF/A-1a"
+
+#: data/gtk/preferences.ui:49
+msgid "PDF/A-2b"
+msgstr "PDF/A-2b"
+
+#: data/gtk/preferences.ui:50
+msgid "PDF/A-2u"
+msgstr "PDF/A-2u"
+
+#: data/gtk/preferences.ui:51
+msgid "PDF/A-2a"
+msgstr "PDF/A-2a"
+
+#: data/gtk/preferences.ui:52
+msgid "PDF/A-3b"
+msgstr "PDF/A-3b"
+
+#: data/gtk/preferences.ui:53
+msgid "PDF/A-3a"
+msgstr "PDF/A-3a"
+
+#: data/gtk/preferences.ui:54
+msgid "PDF/A-3u"
+msgstr "PDF/A-3u"
+
+#: data/gtk/preferences.ui:55
+msgid "PDF/A-4"
+msgstr "PDF/A-4"
+
+#: data/gtk/preferences.ui:56
+msgid "PDF/A-4f"
+msgstr "PDF/A-4f"
+
+#: data/gtk/preferences.ui:57
+msgid "PDF/A-4e"
+msgstr "PDF/A-4e"
+
+#: data/gtk/preferences.ui:58
+msgid "PDF/UA-1"
+msgstr "PDF/UA-1"
+
+#: data/gtk/preferences.ui:75
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: data/gtk/recent-file-row.ui:46
+msgid "Remove"
+msgstr "Kaldır"
+
+#: data/gtk/recent-files.ui:45
+msgid "No Recent Documents"
+msgstr "Son Kullanılan Belge Yok"
+
+#: data/gtk/search-toolbar.ui:29 data/gtk/shortcuts-dialog.ui:233
+#: data/gtk/shortcuts-dialog.ui:236 data/gtk/window.ui:123
+msgid "Find"
+msgstr "Bul"
+
+#: data/gtk/search-toolbar.ui:44
+msgid "Previous Match"
+msgstr "Önceki Eşleşme"
+
+#: data/gtk/search-toolbar.ui:56
+msgid "Next Match"
+msgstr "Sonraki Eşleşme"
+
+#: data/gtk/search-toolbar.ui:77 data/gtk/shortcuts-dialog.ui:248
+msgid "Case Sensitive"
+msgstr "Büyük/Küçük Harf Duyarlı"
+
+#: data/gtk/search-toolbar.ui:86 data/gtk/shortcuts-dialog.ui:254
+msgid "Regular Expression"
+msgstr "Düzenli İfade"
+
+#: data/gtk/search-toolbar.ui:95 data/gtk/shortcuts-dialog.ui:242
+msgid "Find and Replace"
+msgstr "Bul ve Değiştir"
+
+#: data/gtk/search-toolbar.ui:115 data/gtk/search-toolbar.ui:130
+msgid "Replace"
+msgstr "Değiştir"
+
+#: data/gtk/search-toolbar.ui:146
+msgid "Replace All"
+msgstr "Tümünü Değiştir"
+
+#: data/gtk/shortcuts-dialog.ui:8
+msgid "General"
+msgstr "Genel"
+
+#: data/gtk/shortcuts-dialog.ui:11 data/gtk/window.ui:27
+msgid "New"
+msgstr "Yeni"
+
+#: data/gtk/shortcuts-dialog.ui:17 data/gtk/window.ui:35 src/window.rs:1906
+msgid "Open"
+msgstr "Aç"
+
+#: data/gtk/shortcuts-dialog.ui:23 data/gtk/window.ui:36
+msgid "Recent Files"
+msgstr "Son Dosyalar"
+
+#: data/gtk/shortcuts-dialog.ui:29 data/gtk/window.ui:43 src/window.rs:1865
+msgid "Save"
+msgstr "Kaydet"
+
+#: data/gtk/shortcuts-dialog.ui:35
+msgid "Save As"
+msgstr "Farklı Kaydet"
+
+#: data/gtk/shortcuts-dialog.ui:41
+msgid "Export PDF"
+msgstr "PDF Dışa Aktar"
+
+#: data/gtk/shortcuts-dialog.ui:47 data/gtk/window.ui:104
+msgid "Preview"
+msgstr "Ön İzleme"
+
+#: data/gtk/shortcuts-dialog.ui:53 data/gtk/window.ui:93
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#: data/gtk/shortcuts-dialog.ui:59
+msgid "Fullscreen"
+msgstr "Tam Ekran"
+
+#: data/gtk/shortcuts-dialog.ui:65
+#, fuzzy
+msgid "Document Outline"
+msgstr "Belge İstatistikleri"
+
+#: data/gtk/shortcuts-dialog.ui:71
+msgid "Document Statistics"
+msgstr "Belge İstatistikleri"
+
+#: data/gtk/shortcuts-dialog.ui:83
+msgid "Preferences"
+msgstr "Tercihler"
+
+#: data/gtk/shortcuts-dialog.ui:89
+msgid "Keyboard Shortcuts"
+msgstr "Klavye Kısayolları"
+
+#: data/gtk/shortcuts-dialog.ui:95
+msgid "Close File"
+msgstr "Dosyayı Kapat"
+
+#: data/gtk/shortcuts-dialog.ui:101
+msgid "Quit Application"
+msgstr "Uygulamadan Çık"
+
+#: data/gtk/shortcuts-dialog.ui:109
+msgid "Editing"
+msgstr "Düzenleme"
+
+#: data/gtk/shortcuts-dialog.ui:112
+msgid "Cut"
+msgstr "Kes"
+
+#: data/gtk/shortcuts-dialog.ui:118
+msgid "Copy"
+msgstr "Kopyala"
+
+#: data/gtk/shortcuts-dialog.ui:124
+msgid "Paste"
+msgstr "Yapıştır"
+
+#: data/gtk/shortcuts-dialog.ui:130
+msgid "Undo"
+msgstr "Geri Al"
+
+#: data/gtk/shortcuts-dialog.ui:136
+msgid "Redo"
+msgstr "Yinele"
+
+#: data/gtk/shortcuts-dialog.ui:142
+msgid "Code Completions"
+msgstr "Kod Tamamlama"
+
+#: data/gtk/shortcuts-dialog.ui:148
+#, fuzzy
+msgid "Comment Line"
+msgstr "Satır Taşı"
+
+#: data/gtk/shortcuts-dialog.ui:154
+msgid "Previous Spelling Error"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:160
+#, fuzzy
+msgid "Next Spelling Error"
+msgstr "Yazımı Denetle"
+
+#: data/gtk/shortcuts-dialog.ui:166
+msgid "Move Line"
+msgstr "Satır Taşı"
+
+#: data/gtk/shortcuts-dialog.ui:172
+msgid "Move Word"
+msgstr "Sözcük Taşı"
+
+#: data/gtk/shortcuts-dialog.ui:178
+msgid "Tidy Formatting"
+msgstr "Biçimlendirmeyi Düzenle"
+
+#: data/gtk/shortcuts-dialog.ui:186
+msgid "Formatting"
+msgstr "Biçimlendirme"
+
+#: data/gtk/shortcuts-dialog.ui:189
+msgid "Emphasis"
+msgstr "Vurgu"
+
+#: data/gtk/shortcuts-dialog.ui:195
+msgid "Strong Emphasis"
+msgstr "Güçlü Vurgu"
+
+#: data/gtk/shortcuts-dialog.ui:201
+msgid "Raw Text"
+msgstr "Ham Metin"
+
+#: data/gtk/shortcuts-dialog.ui:207
+msgid "Math"
+msgstr "Matematik"
+
+#: data/gtk/shortcuts-dialog.ui:213
+msgid "Bullet List"
+msgstr "Maddeli liste"
+
+#: data/gtk/shortcuts-dialog.ui:219
+msgid "Numbered List"
+msgstr "Sıralı liste"
+
+#: data/gtk/shortcuts-dialog.ui:225
+msgid "Heading"
+msgstr "Başlık"
+
+#: data/gtk/statistics.ui:9
+#, fuzzy
+msgid "Statistics"
+msgstr "Belge İstatistikleri"
+
+#: data/gtk/statistics.ui:41
+msgid "Words"
+msgstr "Sözcük"
+
+#: data/gtk/statistics.ui:58
+msgid "Characters"
+msgstr "Karakter"
+
+#: data/gtk/statistics.ui:65
+msgid "CJK Characters"
+msgstr "CJK Karakter"
+
+#: data/gtk/statistics.ui:74
+msgid "Non-CJK Characters"
+msgstr "CJK Olmayan Karakter"
+
+#: data/gtk/statistics.ui:93
+msgid "Pages"
+msgstr "Sayfa"
+
+#: data/gtk/statistics.ui:102
+msgid "Headings"
+msgstr "Başlık"
+
+#: data/gtk/statistics.ui:111
+msgid "Paragraphs"
+msgstr "Paragraf"
+
+#: data/gtk/statistics.ui:120
+msgid "Mathematical Formulas"
+msgstr "Matematik Formulleri"
+
+#: data/gtk/statistics.ui:139
+msgid "Statistics Unavailable"
+msgstr ""
+
+#: data/gtk/statistics.ui:140
+msgid "Fix the compilation errors in the document to calculate statistics."
+msgstr ""
+
+#: data/gtk/theme-selector.ui:26 data/gtk/theme-selector.ui:28
+msgid "Follow System Style"
+msgstr "Sistem Biçemini İzle"
+
+#: data/gtk/theme-selector.ui:43 data/gtk/theme-selector.ui:45
+msgid "Light Style"
+msgstr "Açık Biçem"
+
+#: data/gtk/theme-selector.ui:60 data/gtk/theme-selector.ui:62
+msgid "Dark Style"
+msgstr "Koyu Biçem"
+
+#: data/gtk/window.ui:7 data/net.trowell.typesetter.desktop.in:2
+#: data/net.trowell.typesetter.metainfo.xml.in:9
+msgid "Typesetter"
+msgstr "Typesetter"
+
+#: data/gtk/window.ui:28
+msgid "Templates"
+msgstr ""
+
+#: data/gtk/window.ui:44
+msgid "Save Options"
+msgstr "Kayıt Seçenekleri"
+
+#: data/gtk/window.ui:69 src/window.rs:726 src/window.rs:738
+msgid "New File"
+msgstr "Yeni Dosya"
+
+#: data/gtk/window.ui:136
+msgid "Select a project folder to access images and imports"
+msgstr "Görüntülere ve içe aktarmalara erişmek için proje klasörü seç"
+
+#: data/gtk/window.ui:137 src/package_manager/import.rs:59 src/window.rs:1561
+msgid "Select Folder"
+msgstr "Klasör Seç"
+
+#: data/gtk/window.ui:183
+msgid "_Save As"
+msgstr "_Farklı Kaydet"
+
+#: data/gtk/window.ui:189
+msgid "_Export PDF"
+msgstr "PDF _Dışa Aktar"
+
+#: data/gtk/window.ui:229
+msgid "_Fullscreen"
+msgstr "_Tam Ekran"
+
+#: data/gtk/window.ui:235
+msgid "_Outline"
+msgstr ""
+
+#: data/gtk/window.ui:239
+#, fuzzy
+msgid "_Statistics"
+msgstr "_Belge İstatistikleri"
+
+#: data/gtk/window.ui:249
+msgid "_Preferences"
+msgstr "Ter_cihler"
+
+#: data/gtk/window.ui:253
+msgid "_Keyboard Shortcuts"
+msgstr "_Klavye Kısayolları"
+
+#: data/gtk/window.ui:257
+msgid "_About Typesetter"
+msgstr "Typesetter _Hakkında"
+
+#: data/net.trowell.typesetter.desktop.in:3
+msgid "Typst Editor"
+msgstr "Typst Düzenleyici"
+
+#: data/net.trowell.typesetter.desktop.in:4
+msgid "Edit and compile Typst documents"
+msgstr "Typst belgelerini düzenleyin ve derleyin"
+
+#: data/net.trowell.typesetter.desktop.in:10
+msgid "GTK;Typst;Text;Document;"
+msgstr "GTK;Typst;Text;Document;Metin;Belge;"
+
+#: data/net.trowell.typesetter.gschema.xml:8
+msgid "Autosave"
+msgstr "Kendiliğinden kaydet"
+
+#: data/net.trowell.typesetter.gschema.xml:9
+msgid "Whether to automatically save files with a known path."
+msgstr "Bilinen yolla dosyaları kendiliğinden kaydetme durumu."
+
+#: data/net.trowell.typesetter.gschema.xml:13
+msgid "Centered Scrolling"
+msgstr "Ortalanmış Kaydırma"
+
+#: data/net.trowell.typesetter.gschema.xml:14
+msgid ""
+"Whether to center the active line vertically on the screen as the user types."
+msgstr ""
+"Kullanıcı yazarken etkin satırın ekranda dikey olarak ortalanma durumu."
+
+#: data/net.trowell.typesetter.gschema.xml:18
+msgid "Check Grammar"
+msgstr "Yazım Denetimi"
+
+#: data/net.trowell.typesetter.gschema.xml:19
+msgid "Whether to enable grammar checking in the editor."
+msgstr "Düzenleyicide yazım denetiminin etkinleştirme durumu."
+
+#: data/net.trowell.typesetter.gschema.xml:23
+msgid "Check Spelling"
+msgstr "Yazımı Denetle"
+
+#: data/net.trowell.typesetter.gschema.xml:24
+msgid "Whether to enable spellcheck in the editor."
+msgstr "Düzenleyicide yazım denetiminin etkinleştirme durumu."
+
+#: data/net.trowell.typesetter.gschema.xml:29
+msgid "Whether to highlight the current line in the editor."
+msgstr "Düzenleyicide geçerli satırın vurgulanma durumu."
+
+#: data/net.trowell.typesetter.gschema.xml:33
+msgid "Invert Lightness"
+msgstr "Açıklığı Ters Çevir"
+
+#: data/net.trowell.typesetter.gschema.xml:34
+msgid ""
+"Whether to invert the lightness of pages in the preview when dark mode is "
+"enabled."
+msgstr ""
+"Koyu kip etkinleştirildiğinde ön izlemede sayfaların açıklığını ters çevirme "
+"durumunu seçin."
+
+#: data/net.trowell.typesetter.gschema.xml:57
+msgid "PDF Standard"
+msgstr "PDF Standardı"
+
+#: data/net.trowell.typesetter.gschema.xml:58
+msgid "The PDF standard to use when exporting."
+msgstr "Dışa aktarılırken kullanılacak PDF standartı."
+
+#: data/net.trowell.typesetter.gschema.xml:62
+msgid "Scroll Preview on Type"
+msgstr "Yazarken Ön İzlemeyi Kaydır"
+
+#: data/net.trowell.typesetter.gschema.xml:63
+msgid ""
+"Whether to automatically scroll the preview to the current position in the "
+"editor."
+msgstr ""
+"Ön izlemeyi düzenleyicide geçerli konuma kendiliğinden kaydırma durumu."
+
+#: data/net.trowell.typesetter.gschema.xml:67
+msgid "Show Built-in Templates"
+msgstr ""
+
+#: data/net.trowell.typesetter.gschema.xml:68
+#, fuzzy
+msgid "Whether to show bundled templates in the template picker."
+msgstr "Düzenleyicide yazım denetiminin etkinleştirme durumu."
+
+#: data/net.trowell.typesetter.gschema.xml:72
+msgid "Show Preview"
+msgstr "Ön İzlemeyi Göster"
+
+#: data/net.trowell.typesetter.gschema.xml:73
+msgid "Whether to show the preview pane by default when opening a new window."
+msgstr ""
+"Yeni pencere açıldığında ön izleme bölmesinin öntanımlı olarak gösterilme "
+"durumu."
+
+#: data/net.trowell.typesetter.gschema.xml:81
+msgid "Editor style scheme"
+msgstr "Düzenleyici biçem şeması"
+
+#: data/net.trowell.typesetter.gschema.xml:82
+msgid "The style scheme to use in the editor."
+msgstr "Düzenleyicide kullanılacak biçem şeması."
+
+#: data/net.trowell.typesetter.gschema.xml:91
+msgid "Theme"
+msgstr "Tema"
+
+#: data/net.trowell.typesetter.gschema.xml:92
+msgid "The theme to use throughout the application."
+msgstr "Uygulama kullanılacak tema."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:10
+msgid "Minimalist Typst editor"
+msgstr "Minimalist Typst düzenleyici"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:12
+msgid ""
+"Typesetter is a lightweight desktop application for creating beautiful "
+"documents with Typst."
+msgstr ""
+"Typesetter, Typst ile güzel belgeler oluşturmak için hafif bir masaüstü "
+"uygulamasıdır."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:14
+msgid ""
+"Adaptive, user-friendly interface: Focus on writing. Great for papers, "
+"reports, slides, books, and any structured writing."
+msgstr ""
+"Uyarlanabilir, kullanıcı dosto arayüz: Yazmaya odaklanın. Makaleler, "
+"raporlar, slaytlar, kitaplar ve tüm yapılandırılmış yazılar için idealdir."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:15
+msgid ""
+"Powered by Typst: A modern markup-based typesetting language, combining the "
+"simplicity of Markdown with the power of LaTeX."
+msgstr ""
+"Typst tarafından desteklenmektedir: Markdownʼun basitliği ile LaTeXʼin "
+"gücünü birleştiren, modern işaretleme tabanlı dizgi dili."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:16
+msgid "Fully local: Your files stay on your machine. No cloud lock-in."
+msgstr ""
+"Tamamen yerel: Dosyalarınız bilgisayarınızda kalır. Bulut sağlayıcılara "
+"mahkum kalmazsınız."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:17
+msgid ""
+"Package manager: Install or remove local Typst packages from within the app."
+msgstr ""
+
+#: data/net.trowell.typesetter.metainfo.xml.in:18
+msgid ""
+"On-demand package downloading: Fetches and caches remote Typst packages "
+"online when needed."
+msgstr ""
+
+#: data/net.trowell.typesetter.metainfo.xml.in:19
+msgid "Templates: Create new documents from built‑in or user templates."
+msgstr ""
+
+#: data/net.trowell.typesetter.metainfo.xml.in:20
+msgid "Automatic preview: See your rendered document update as you write."
+msgstr ""
+"Kendiliğinden ön izleme: Yazarken, işlenen belgenizin güncellemesini görün."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:21
+msgid ""
+"Click-to-jump: Click on a part of the preview to jump to the corresponding "
+"position in the source file."
+msgstr ""
+"Tıklayarak atlama: Ön izlemenin bir bölümüne tıklayarak kaynak dosyadaki "
+"ilgili konuma atlayın."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:22
+msgid "Magnifier tool: Click and hold on the preview to inspect fine details."
+msgstr ""
+"Büyüteç aracı: İnce ayrıntıları incelemek için ön izlemeye tıklayın ve "
+"basılı tutun."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:23
+msgid ""
+"Accessibility checking: Simulate different forms of color blindness to check "
+"how your document looks to all readers."
+msgstr ""
+"Erişilebilirlik denetimi: Farklı renk körlüğü türlerini sınamayarak "
+"belgenizin tüm okuyucular için nasıl göründüğünü denetleyin."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:24
+msgid "Centered scrolling: Keeps your writing visually anchored as you type."
+msgstr ""
+"Ortalanmış kaydırma: Yazarken yazdıklarınızı görsel olarak sabit tutar."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:25
+msgid "Syntax highlighting: Makes your documents easier to edit and read."
+msgstr ""
+"Söz dizimi vurgulaması: Belgelerinizin düzenlenmesini ve okunmasını "
+"kolaylaştırır."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:26
+#, fuzzy
+msgid ""
+"Grammar suggestions: Automatically checks your writing for grammatical "
+"errors (currently English only)."
+msgstr ""
+"Yazım denetimi: Yazılarınızı dilbilgisi hataları açısından kendiliğinden "
+"denetler (şimdilik yalnızca İngilizce)."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:27
+msgid "Document statistics: Easily calculate page, word, and character counts."
+msgstr ""
+"Belge istatistikleri: Sayfa, kelime ve karakter sayılarını kolayca "
+"hesaplayın."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:28
+msgid ""
+"Fast and native: Built in Rust and GTK following the GNOME human interface "
+"guidelines."
+msgstr ""
+"Hızlı ve yerel: GNOME insan arayüzü yönergelerine uygun olarak Rust ve GTK "
+"ile geliştirilmiştir."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:33
+msgid "Haydn Trowell"
+msgstr "Haydn Trowell"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:58
+msgid "Focus on your writing with a minimal interface and clear fonts"
+msgstr "Minimalist arayüz ve net yazı tipleriyle yazmaya odaklanın"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:62
+msgid "Choose between light and dark modes"
+msgstr "Açık ve koyu kipler arasında seçim yap"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:66
+msgid "Preview your compiled document without leaving the app"
+msgstr "Uygulamadan çıkmadan derlenmiş belgenizi ön izleyin"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:70
+msgid "Easily check document statistics"
+msgstr "Belge İstatistiklerini kolayca denetle"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:74
+msgid "Click and hold on the preview to inspect fine details"
+msgstr "Ön izlemeye tıklayıp basılı tutarak ince ayrıntıları inceleyin"
+
+#: src/application.rs:139
+msgid "translator-credits"
+msgstr "Sabri Ünal <yakushabb@gmail.com>"
+
+#: src/application.rs:141
+msgid "Donate"
+msgstr "Bağış Yap"
+
+#: src/editor/formatter.rs:205
+msgid "Unable to clean up formatting"
+msgstr "Biçimlendirme temizlenemedi"
+
+#: src/file_io/dialog.rs:57 src/file_io/dialog.rs:76
+msgid "Export File"
+msgstr "Dosyayı Dışa Aktar"
+
+#: src/file_io/dialog.rs:91
+msgid "Open File"
+msgstr "Dosya Aç"
+
+#: src/file_io/dialog.rs:106
+msgid "Save File"
+msgstr "Dosyayı Kaydet"
+
+#: src/file_io/dialog.rs:131 src/file_io/dialog.rs:135
+#: src/file_io/dialog.rs:139
+msgid "All Files"
+msgstr "Tüm Dosyalar"
+
+#: src/package_manager/import.rs:61 src/package_manager/import.rs:92
+msgid "Install"
+msgstr ""
+
+#: src/package_manager/import.rs:81
+msgid "Archives"
+msgstr ""
+
+#: src/package_manager/import.rs:90
+#, fuzzy
+msgid "Select Archive"
+msgstr "Seç"
+
+#: src/recents_menu/mod.rs:147 src/window.rs:641
+msgid "Unable to open file: "
+msgstr "Dosya açılamadı: "
+
+#: src/window.rs:1563
+msgid "Select"
+msgstr "Seç"
+
+#: src/window.rs:1843 src/window.rs:1889
+msgid "Failed to save file."
+msgstr "Dosya kaydedilemedi."
+
+#: src/window.rs:1857
+msgid "Unsaved Changes"
+msgstr "Kaydedilmemiş Değişiklikler"
+
+#: src/window.rs:1859
+msgid ""
+"The document has been modified. Do you want to save your changes before "
+"closing?"
+msgstr ""
+"Belge değiştirildi. Kapatmadan önce değişiklikleri kaydetmek ister misiniz?"
+
+#: src/window.rs:1863
+msgid "Cancel"
+msgstr "İptal"
+
+#: src/window.rs:1864
+msgid "Discard"
+msgstr "Gözden Çıkar"
+
+#~ msgid "_Tidy Formatting"
+#~ msgstr "Biçimlendirmeyi _Düzenle"
+
+#~ msgid "Package Cache"
+#~ msgstr "Paket Önbelleği"
+
+#~ msgid "—"
+#~ msgstr "—"
+
+#~ msgid "Clear"
+#~ msgstr "Temizle"
+
+#~ msgid "Preview Compilation Failed"
+#~ msgstr "Ön İzleme Derlemesi Başarısız Oldu"
+
+#~ msgid "Fix the errors below to recompile the document."
+#~ msgstr "Belgeyi yeniden derlemek için aşağıdaki hataları düzeltin."
+
+#~ msgid ""
+#~ "Package support: Works offline, but can fetch package imports online when "
+#~ "needed."
+#~ msgstr ""
+#~ "Paket desteği: Çevrim dışı çalışır, ancak gerektiğinde paketleri çevrim "
+#~ "içi olarak alabilir."
+
+#~ msgid "Empty"
+#~ msgstr "Boş"

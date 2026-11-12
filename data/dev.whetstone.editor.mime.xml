@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-FileCopyrightText: 2025 Haydn Trowell -->
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="text/x-typst">
+    <comment>Typst Document</comment>
+    <glob pattern="*.typ"/>
+    <generic-icon name="dev.whetstone.editor.mime"/>
+  </mime-type>
+</mime-info>

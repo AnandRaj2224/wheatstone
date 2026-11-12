@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-FileCopyrightText: 2025 Haydn Trowell -->
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <template class="TypesetterWindow" parent="AdwApplicationWindow">
+    <property name="title" translatable="yes">Whetstone</property>
+    <property name="default-width">1024</property>
+    <property name="default-height">768</property>
+    <property name="width-request">500</property>
+    <property name="height-request">400</property>
+    <child>
+      <object class="AdwBreakpoint">
+        <condition>max-width: 800sp</condition>
+        <setter object="explorer_split_view" property="collapsed">true</setter>
+      </object>
+    </child>
+    <property name="content">
+      <object class="AdwToolbarView" id="toolbar_view">
+        <property name="top-bar-style">1</property>
+        <child type="top">
+          <object class="AdwHeaderBar">
+            <child type="start">
+              <object class="GtkToggleButton" id="explorer_button">
+                <property name="icon-name">sidebar-show-symbolic</property>
+                <property name="tooltip-text" translatable="yes">Toggle File Explorer (F9)</property>
+                <property name="action-name">window.toggle-explorer</property>
+              </object>
+            </child>
+            <child type="start">
+              <object class="AdwSplitButton" id="new_file_button">
+                <property name="icon-name">document-new-symbolic</property>
+                <property name="tooltip-text" translatable="yes">New</property>
+                <property name="dropdown-tooltip" translatable="yes">Templates</property>
+                <property name="action-name">window.file-new</property>
+              </object>
+            </child>
+            <child type="start">
+              <object class="AdwSplitButton" id="open_file_button">
+                <property name="icon-name">document-open-symbolic</property>
+                <property name="tooltip-text" translatable="yes">Open</property>
+                <property name="dropdown-tooltip" translatable="yes">Recent Files</property>
+                <property name="action-name">window.file-open</property>
+              </object>
+            </child>
+            <child type="start">
+              <object class="AdwSplitButton" id="save_file_button">
+                <property name="icon-name">document-save-symbolic</property>
+                <property name="tooltip-text" translatable="yes">Save</property>
+                <property name="dropdown-tooltip" translatable="yes">Save Options</property>
+                <property name="action-name">window.file-save</property>
+                <property name="menu-model">save_menu</property>
+              </object>
+            </child>
+            <child type="title">
+              <object class="GtkBox">
+                <property name="hexpand">true</property>
+                <property name="valign">center</property>
+                <property name="orientation">1</property>
+                <child>
+                  <object class="GtkCenterBox">
+                    <property name="orientation">0</property>
+                    <property name="hexpand">true</property>
+                    <child type="start">
+                      <object class="GtkLabel" id="unsaved_indicator">
+                        <property name="halign">end</property>
+                        <property name="hexpand">true</property>
+                        <property name="label">•</property>
+                        <property name="margin-end">6</property>
+                        <property name="visible">false</property>
+                      </object>
+                    </child>
+                    <child type="center">
+                      <object class="GtkLabel" id="header_bar_title">
+                        <property name="label" translatable="yes">New File</property>
+                        <property name="ellipsize">end</property>
+                      </object>
+                    </child>
+                    <style>
+                      <class name="title"/>
+                    </style>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="header_bar_subtitle">
+                    <property name="halign">center</property>
+                    <property name="ellipsize">middle</property>
+                    <style>
+                      <class name="subtitle"/>
+                    </style>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child type="end">
+              <object class="GtkMenuButton" id="main_menu_button">
+                <property name="primary">true</property>
+                <property name="icon-name">open-menu-symbolic</property>
+                <property name="tooltip-text" translatable="yes">Main Menu</property>
+                <property name="menu-model">primary_menu</property>
+              </object>
+            </child>
+            <child type="end">
+              <object class="GtkOverlay">
+                <child>
+                  <object class="GtkToggleButton" id="preview_button">
+                    <property name="action-name">window.preview</property>
+                    <property name="active">false</property>
+                    <property name="icon-name">preview-layout-half-width-symbolic</property>
+                    <property name="tooltip-text" translatable="yes">Preview</property>
+                  </object>
+                </child>
+                <child type="overlay">
+                  <object class="GtkLabel" id="preview_error_badge">
+                    <property name="visible">false</property>
+                    <property name="label">●</property>
+                    <property name="halign">end</property>
+                    <property name="valign">start</property>
+                    <property name="margin-top">2</property>
+                    <property name="margin-end">2</property>
+                    <property name="can-target">false</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child type="end">
+              <object class="GtkToggleButton" id="search_button">
+                <property name="icon-name">edit-find-symbolic</property>
+                <property name="tooltip-text" translatable="yes">Find</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <property name="content">
+          <object class="AdwToastOverlay" id="toast_overlay">
+            <child>
+              <object class="GtkBox">
+                <property name="orientation">vertical</property>
+                <property name="spacing">0</property>
+                <child>
+                  <object class="AdwBanner" id="project_folder_banner">
+                    <property name="title" translatable="yes">Select a project folder to access images and imports</property>
+                    <property name="button-label" translatable="yes">Select Folder</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="AdwOverlaySplitView" id="explorer_split_view">
+                    <property name="sidebar-position">start</property>
+                    <property name="min-sidebar-width">180</property>
+                    <property name="max-sidebar-width">400</property>
+                    <property name="sidebar-width-fraction">0.22</property>
+                    <property name="pin-sidebar">true</property>
+                    <property name="show-sidebar">false</property>
+                    <property name="sidebar">
+                      <object class="TypesetterExplorer" id="explorer_container">
+                        <property name="width-request">180</property>
+                      </object>
+                    </property>
+                    <property name="content">
+                      <object class="GtkOverlay" id="editor_overlay">
+                        <property name="vexpand">true</property>
+                        <child>
+                          <object class="GtkPaned" id="split_view">
+                            <property name="orientation">horizontal</property>
+                            <property name="shrink-start-child">false</property>
+                            <property name="shrink-end-child">false</property>
+                            <property name="resize-start-child">true</property>
+                            <property name="resize-end-child">true</property>
+                            <property name="wide-handle">true</property>
+                            <property name="start-child">
+                              <object class="TypesetterEditor" id="editor_container">
+                                <property name="width-request">250</property>
+                              </object>
+                            </property>
+                            <property name="end-child">
+                              <object class="TypesetterPreview" id="preview_container">
+                                <property name="width-request">270</property>
+                                <property name="visible">false</property>
+                              </object>
+                            </property>
+                          </object>
+                        </child>
+                        <child type="overlay">
+                          <object class="GtkProgressBar" id="progress_bar">
+                            <style>
+                              <class name="osd"/>
+                            </style>
+                            <property name="can-focus">false</property>
+                            <property name="halign">fill</property>
+                            <property name="hexpand">true</property>
+                            <property name="valign">start</property>
+                            <property name="vexpand">false</property>
+                          </object>
+                        </child>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </property>
+      </object>
+    </property>
+  </template>
+  <menu id="save_menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_Save As</attribute>
+        <attribute name="action">window.file-save-as</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_Export PDF</attribute>
+        <attribute name="action">window.file-export-pdf</attribute>
+      </item>
+    </section>
+    <section>
+      <submenu>
+        <attribute name="label" translatable="yes">Export _As</attribute>
+        <section>
+          <!-- NOTE: Dependent on upstream EPUB export landing (https://github.com/typst/typst/issues/188) -->
+          <!-- <item> -->
+          <!--   <attribute name="label" translatable="yes">_EPUB</attribute> -->
+          <!--   <attribute name="action">window.file-export-epub</attribute> -->
+          <!-- </item> -->
+          <item>
+            <attribute name="label" translatable="yes">_HTML</attribute>
+            <attribute name="action">window.file-export-html</attribute>
+          </item>
+          <!-- <item> -->
+          <!--   <attribute name="label" translatable="yes">_LaTeX</attribute> -->
+          <!--   <attribute name="action">window.file-export-latex</attribute> -->
+          <!-- </item> -->
+          <item>
+            <attribute name="label" translatable="yes">_Markdown</attribute>
+            <attribute name="action">window.file-export-markdown</attribute>
+          </item>
+        </section>
+      </submenu>
+    </section>
+  </menu>
+  <menu id="primary_menu">
+    <section>
+      <item>
+        <attribute name="custom">theme-selector-widget</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_Fullscreen</attribute>
+        <attribute name="action">window.fullscreen</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_Outline</attribute>
+        <attribute name="action">window.document-outline</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_Statistics</attribute>
+        <attribute name="action">window.document-statistics</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">Packages</attribute>
+        <attribute name="action">app.package-manager</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_Preferences</attribute>
+        <attribute name="action">app.preferences</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_Keyboard Shortcuts</attribute>
+        <attribute name="action">app.shortcuts</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_About Whetstone</attribute>
+        <attribute name="action">app.about</attribute>
+      </item>
+    </section>
+  </menu>
+</interface>

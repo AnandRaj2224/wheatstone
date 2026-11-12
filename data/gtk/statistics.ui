@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-FileCopyrightText: 2025 Haydn Trowell -->
+<!-- SPDX-FileCopyrightText: 2026 Haydn Trowell -->
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0"/>
+  <template class="TypesetterStatistics" parent="AdwDialog">
+    <property name="title" translatable="yes">Statistics</property>
+    <property name="content-width">360</property>
+    <child>
+      <object class="AdwToolbarView">
+        <child type="top">
+          <object class="AdwHeaderBar"/>
+        </child>
+        <property name="content">
+          <object class="GtkOverlay">
+            <property name="hexpand">true</property>
+            <property name="vexpand">true</property>
+            <child>
+              <object class="GtkScrolledWindow">
+                <property name="hscrollbar-policy">never</property>
+                <property name="vexpand">true</property>
+                <property name="propagate-natural-height">true</property>
+                <child>
+                  <object class="GtkBox">
+                    <property name="orientation">vertical</property>
+                    <property name="spacing">24</property>
+                    <property name="margin-top">24</property>
+                    <property name="margin-bottom">24</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <child>
+                      <object class="GtkListBox">
+                        <property name="selection-mode">none</property>
+                        <style>
+                          <class name="boxed-list"/>
+                        </style>
+                        <child>
+                          <object class="AdwActionRow" id="words_row">
+                            <property name="title" translatable="yes">Words</property>
+                            <property name="subtitle">—</property>
+                            <style>
+                              <class name="property"/>
+                            </style>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkListBox">
+                        <property name="selection-mode">none</property>
+                        <style>
+                          <class name="boxed-list"/>
+                        </style>
+                        <child>
+                          <object class="AdwExpanderRow" id="all_chars_row">
+                            <property name="title" translatable="yes">Characters</property>
+                            <property name="subtitle">—</property>
+                            <style>
+                              <class name="property"/>
+                            </style>
+                            <child>
+                              <object class="AdwActionRow" id="cjk_chars_row">
+                                <property name="title" translatable="yes">CJK Characters</property>
+                                <property name="subtitle">—</property>
+                                <style>
+                                  <class name="property"/>
+                                </style>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="AdwActionRow" id="non_cjk_chars_row">
+                                <property name="title" translatable="yes">Non-CJK Characters</property>
+                                <property name="subtitle">—</property>
+                                <style>
+                                  <class name="property"/>
+                                </style>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkListBox">
+                        <property name="selection-mode">none</property>
+                        <style>
+                          <class name="boxed-list"/>
+                        </style>
+                        <child>
+                          <object class="AdwActionRow" id="pages_row">
+                            <property name="title" translatable="yes">Pages</property>
+                            <property name="subtitle">—</property>
+                            <style>
+                              <class name="property"/>
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwActionRow" id="headings_row">
+                            <property name="title" translatable="yes">Headings</property>
+                            <property name="subtitle">—</property>
+                            <style>
+                              <class name="property"/>
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwActionRow" id="paragraphs_row">
+                            <property name="title" translatable="yes">Paragraphs</property>
+                            <property name="subtitle">—</property>
+                            <style>
+                              <class name="property"/>
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwActionRow" id="equations_row">
+                            <property name="title" translatable="yes">Mathematical Formulas</property>
+                            <property name="subtitle">—</property>
+                            <style>
+                              <class name="property"/>
+                            </style>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child type="overlay">
+              <object class="AdwStatusPage" id="error_overlay">
+                <property name="hexpand">true</property>
+                <property name="vexpand">true</property>
+                <property name="visible">false</property>
+                <property name="icon-name">dialog-warning-symbolic</property>
+                <property name="title" translatable="yes">Statistics Unavailable</property>
+                <property name="description" translatable="yes">Fix the compilation errors in the document to calculate statistics.</property>
+                <style>
+                  <class name="background"/>
+                  <class name="compact"/>
+                </style>
+              </object>
+            </child>
+          </object>
+        </property>
+      </object>
+    </child>
+  </template>
+</interface>

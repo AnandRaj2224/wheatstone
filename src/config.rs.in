@@ -1,0 +1,12 @@
+// Copyright 2025 Haydn Trowell
+// SPDX-FileCopyrightText: 2026 Haydn Trowell
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+pub const APP_BASE_PATH: &str = @APP_BASE_PATH@;
+pub const APP_ID: &str = @APP_ID@;
+pub const GETTEXT_PACKAGE: &str = @GETTEXT_PACKAGE@;
+pub const LOCALEDIR: &str = @LOCALEDIR@;
+pub const PKGDATADIR: &str = @PKGDATADIR@;
+pub const TYPST_VERSION: &str = @TYPST_VERSION@;
+pub const VERSION: &str = @VERSION@;

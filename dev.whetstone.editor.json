@@ -1,0 +1,69 @@
+{
+    "id" : "dev.whetstone.editor",
+    "runtime" : "org.gnome.Platform",
+    "runtime-version" : "50",
+    "separate-locales" : false,
+    "sdk" : "org.gnome.Sdk",
+    "sdk-extensions" : [
+        "org.freedesktop.Sdk.Extension.rust-stable"
+    ],
+    "command" : "whetstone",
+    "finish-args" : [
+        "--device=dri",
+        "--share=network",
+        "--socket=wayland",
+        "--socket=fallback-x11",
+        "--share=ipc"
+    ],
+    "build-options" : {
+        "append-path" : "/usr/lib/sdk/rust-stable/bin",
+        "build-args" : [
+            "--share=network"
+        ],
+        "env" : {
+            "RUST_BACKTRACE" : "1",
+            "RUST_LOG" : "whetstone=debug"
+        }
+    },
+    "cleanup" : [
+        "/include",
+        "/lib/girepository-1.0",
+        "/lib/pkgconfig",
+        "/share/doc",
+        "/share/gir-1.0",
+        "/share/vala"
+    ],
+    "modules" : [
+        {
+            "name" : "libspelling",
+            "buildsystem" : "meson",
+            "config-opts" : [
+                "-Ddocs=false",
+                "-Dvapi=false"
+            ],
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "https://gitlab.gnome.org/GNOME/libspelling.git",
+                    "tag" : "0.4.10",
+                    "commit" : "1facdde8e1c0fd72bed806f9a9be2fbec83af5f2"
+                }
+            ]
+        },
+        {
+            "name" : "whetstone",
+            "builddir" : true,
+            "buildsystem" : "meson",
+            "config-opts" : [
+                "--buildtype=release",
+                "--libdir=lib"
+            ],
+            "sources" : [
+                {
+                    "type" : "dir",
+                    "path" : "."
+                }
+            ]
+        }
+    ]
+}

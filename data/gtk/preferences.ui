@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-FileCopyrightText: 2025 Haydn Trowell -->
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0"/>
+  <template class="TypesetterPreferences" parent="AdwPreferencesDialog">
+    <child>
+      <object class="AdwPreferencesPage">
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="AdwSwitchRow" id="autosave_toggle">
+                <property name="title" translatable="yes">Save Automatically</property>
+              </object>
+            </child>
+            <child>
+              <object class="AdwSwitchRow" id="centered_scrolling_toggle">
+                <property name="title" translatable="yes">Center Current Line</property>
+              </object>
+            </child>
+            <child>
+              <object class="AdwSwitchRow" id="highlight_current_line_toggle">
+                <property name="title" translatable="yes">Highlight Current Line</property>
+              </object>
+            </child>
+            <child>
+              <object class="AdwSwitchRow" id="scroll_on_type_toggle">
+                <property name="title" translatable="yes">Auto-Scroll Preview</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup">
+            <child>
+              <object class="AdwComboRow" id="pdf_standard_combo">
+                <property name="title" translatable="yes">PDF Export Standard</property>
+                <property name="model">
+                  <object class="GtkStringList">
+                    <items>
+                      <item translatable="yes">PDF 1.4</item>
+                      <item translatable="yes">PDF 1.5</item>
+                      <item translatable="yes">PDF 1.6</item>
+                      <item translatable="yes">PDF 1.7</item>
+                      <item translatable="yes">PDF 2.0</item>
+                      <item translatable="yes">PDF/A-1b</item>
+                      <item translatable="yes">PDF/A-1a</item>
+                      <item translatable="yes">PDF/A-2b</item>
+                      <item translatable="yes">PDF/A-2u</item>
+                      <item translatable="yes">PDF/A-2a</item>
+                      <item translatable="yes">PDF/A-3b</item>
+                      <item translatable="yes">PDF/A-3a</item>
+                      <item translatable="yes">PDF/A-3u</item>
+                      <item translatable="yes">PDF/A-4</item>
+                      <item translatable="yes">PDF/A-4f</item>
+                      <item translatable="yes">PDF/A-4e</item>
+                      <item translatable="yes">PDF/UA-1</item>
+                    </items>
+                  </object>
+                </property>
+                <child type="suffix">
+                  <object class="GtkBox">
+                    <child>
+                      <object class="GtkSeparator">
+                        <property name="margin-start">6</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child type="suffix">
+                  <object class="GtkButton" id="pdf_standard_reset">
+                    <property name="valign">center</property>
+                    <property name="icon-name">edit-undo-symbolic</property>
+                    <property name="tooltip-text" translatable="yes">Reset</property>
+                    <style>
+                      <class name="flat"/>
+                    </style>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-FileCopyrightText: 2025 Haydn Trowell -->
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <template class="ThemeSelector" parent="GtkBox">
+    <style>
+      <class name="theme-selector-frame"/>
+    </style>
+    <property name="hexpand">True</property>
+    <child>
+      <object class="GtkBox">
+        <property name="hexpand">True</property>
+        <property name="orientation">horizontal</property>
+        <property name="spacing">12</property>
+        <child>
+          <object class="GtkCheckButton" id="_auto">
+            <style>
+              <class name="theme-selector"/>
+              <class name="auto"/>
+            </style>
+            <property name="hexpand">True</property>
+            <property name="halign">center</property>
+            <property name="focus-on-click">False</property>
+            <signal name="toggled" handler="on_option_selected" object="ThemeSelector"/>
+            <property name="tooltip-text" translatable="yes">Follow System Style</property>
+            <accessibility>
+              <property name="label" translatable="yes">Follow System Style</property>
+            </accessibility>
+          </object>
+        </child>
+        <child>
+          <object class="GtkCheckButton" id="_light">
+            <style>
+              <class name="theme-selector"/>
+              <class name="light"/>
+            </style>
+            <property name="group">_auto</property>
+            <property name="hexpand">True</property>
+            <property name="halign">center</property>
+            <property name="focus-on-click">False</property>
+            <signal name="toggled" handler="on_option_selected" object="ThemeSelector"/>
+            <property name="tooltip-text" translatable="yes">Light Style</property>
+            <accessibility>
+              <property name="label" translatable="yes">Light Style</property>
+            </accessibility>
+          </object>
+        </child>
+        <child>
+          <object class="GtkCheckButton" id="_dark">
+            <style>
+              <class name="theme-selector"/>
+              <class name="dark"/>
+            </style>
+            <property name="group">_auto</property>
+            <property name="hexpand">True</property>
+            <property name="halign">center</property>
+            <property name="focus-on-click">False</property>
+            <signal name="toggled" handler="on_option_selected" object="ThemeSelector"/>
+            <property name="tooltip-text" translatable="yes">Dark Style</property>
+            <accessibility>
+              <property name="label" translatable="yes">Dark Style</property>
+            </accessibility>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>
+

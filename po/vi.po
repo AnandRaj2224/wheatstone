@@ -1,0 +1,835 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the typesetter package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: typesetter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-20 11:12+1000\n"
+"PO-Revision-Date: 2026-03-24 07:38+0000\n"
+"Last-Translator: namthien <namthien@noreply.codeberg.org>\n"
+"Language-Team: Vietnamese <https://translate.codeberg.org/projects/"
+"typesetter/typesetter/vi/>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.16.2\n"
+
+#: data/gtk/outline.ui:8
+#, fuzzy
+msgid "Outline"
+msgstr "Thống kê của Tài liệu"
+
+#: data/gtk/outline.ui:18 data/gtk/outline.ui:31 data/gtk/recent-files.ui:22
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: data/gtk/outline.ui:71
+#, fuzzy
+msgid "No Headings"
+msgstr "Đề mục"
+
+#: data/gtk/outline.ui:83 data/gtk/recent-files.ui:55
+msgid "No Results Found"
+msgstr "Không tìm thấy kết quả nào"
+
+#: data/gtk/outline.ui:95
+msgid "Outline Unavailable"
+msgstr ""
+
+#: data/gtk/outline.ui:96
+msgid "Fix the compilation errors in the document to view the outline."
+msgstr ""
+
+#: data/gtk/package-manager.ui:8 data/gtk/shortcuts-dialog.ui:77
+#: data/gtk/window.ui:245
+#, fuzzy
+msgid "Packages"
+msgstr "Trang"
+
+#: data/gtk/package-manager.ui:24
+#, fuzzy
+msgid "Install Package"
+msgstr "Trang"
+
+#: data/gtk/package-manager.ui:37
+msgid "Installed"
+msgstr ""
+
+#: data/gtk/package-manager.ui:40
+msgid "No installed packages"
+msgstr ""
+
+#: data/gtk/package-manager.ui:52
+msgid "Cached"
+msgstr ""
+
+#: data/gtk/package-manager.ui:55
+msgid "No cached packages"
+msgstr ""
+
+#: data/gtk/package-manager.ui:67
+msgid "Built-in"
+msgstr ""
+
+#: data/gtk/package-manager.ui:70
+msgid "No built-in packages"
+msgstr ""
+
+#: data/gtk/package-manager.ui:91
+msgid "Install From Archive"
+msgstr ""
+
+#: data/gtk/package-manager.ui:95
+msgid "Install From Folder"
+msgstr ""
+
+#: data/gtk/preferences.ui:14
+msgid "Save Automatically"
+msgstr "Tự động Lưu lại"
+
+#: data/gtk/preferences.ui:19
+msgid "Center Current Line"
+msgstr "Căn giữa Dòng Hiện tại"
+
+#: data/gtk/preferences.ui:24 data/net.trowell.typesetter.gschema.xml:28
+msgid "Highlight Current Line"
+msgstr "Tô sáng Dòng Hiện tại"
+
+#: data/gtk/preferences.ui:29
+msgid "Auto-Scroll Preview"
+msgstr "Bản xem trước Tự động Cuộn đến Con trỏ"
+
+#: data/gtk/preferences.ui:38
+msgid "PDF Export Standard"
+msgstr "Xuất bản Tiêu chuẩn PDF"
+
+#: data/gtk/preferences.ui:42
+msgid "PDF 1.4"
+msgstr "PDF 1.4"
+
+#: data/gtk/preferences.ui:43
+msgid "PDF 1.5"
+msgstr "PDF 1.5"
+
+#: data/gtk/preferences.ui:44
+msgid "PDF 1.6"
+msgstr "PDF 1.6"
+
+#: data/gtk/preferences.ui:45
+msgid "PDF 1.7"
+msgstr "PDF 1.7"
+
+#: data/gtk/preferences.ui:46
+msgid "PDF 2.0"
+msgstr "PDF 2.0"
+
+#: data/gtk/preferences.ui:47
+msgid "PDF/A-1b"
+msgstr "PDF/A-1b"
+
+#: data/gtk/preferences.ui:48
+msgid "PDF/A-1a"
+msgstr "PDF/A-1a"
+
+#: data/gtk/preferences.ui:49
+msgid "PDF/A-2b"
+msgstr "PDF/A-2b"
+
+#: data/gtk/preferences.ui:50
+msgid "PDF/A-2u"
+msgstr "PDF/A-2u"
+
+#: data/gtk/preferences.ui:51
+msgid "PDF/A-2a"
+msgstr "PDF/A-2a"
+
+#: data/gtk/preferences.ui:52
+msgid "PDF/A-3b"
+msgstr "PDF/A-3b"
+
+#: data/gtk/preferences.ui:53
+msgid "PDF/A-3a"
+msgstr "PDF/A-3a"
+
+#: data/gtk/preferences.ui:54
+msgid "PDF/A-3u"
+msgstr "PDF/A-3u"
+
+#: data/gtk/preferences.ui:55
+msgid "PDF/A-4"
+msgstr "PDF/A-4"
+
+#: data/gtk/preferences.ui:56
+msgid "PDF/A-4f"
+msgstr "PDF/A-4f"
+
+#: data/gtk/preferences.ui:57
+msgid "PDF/A-4e"
+msgstr "PDF/A-4e"
+
+#: data/gtk/preferences.ui:58
+msgid "PDF/UA-1"
+msgstr "PDF/UA-1"
+
+#: data/gtk/preferences.ui:75
+msgid "Reset"
+msgstr "Khôi phục lại"
+
+#: data/gtk/recent-file-row.ui:46
+msgid "Remove"
+msgstr "Xóa"
+
+#: data/gtk/recent-files.ui:45
+msgid "No Recent Documents"
+msgstr "Không có tài liệu mới dùng nào"
+
+#: data/gtk/search-toolbar.ui:29 data/gtk/shortcuts-dialog.ui:233
+#: data/gtk/shortcuts-dialog.ui:236 data/gtk/window.ui:123
+msgid "Find"
+msgstr "Tìm"
+
+#: data/gtk/search-toolbar.ui:44
+msgid "Previous Match"
+msgstr "Kết quả Trước"
+
+#: data/gtk/search-toolbar.ui:56
+msgid "Next Match"
+msgstr "Kết quả Sau"
+
+#: data/gtk/search-toolbar.ui:77 data/gtk/shortcuts-dialog.ui:248
+msgid "Case Sensitive"
+msgstr "Phân biệt HOA/thường"
+
+#: data/gtk/search-toolbar.ui:86 data/gtk/shortcuts-dialog.ui:254
+msgid "Regular Expression"
+msgstr "BIểu thức Chính quy"
+
+#: data/gtk/search-toolbar.ui:95 data/gtk/shortcuts-dialog.ui:242
+msgid "Find and Replace"
+msgstr "Tìm kiếm & Thay thế"
+
+#: data/gtk/search-toolbar.ui:115 data/gtk/search-toolbar.ui:130
+msgid "Replace"
+msgstr "Thay thế"
+
+#: data/gtk/search-toolbar.ui:146
+msgid "Replace All"
+msgstr "Thay thế Hết"
+
+#: data/gtk/shortcuts-dialog.ui:8
+msgid "General"
+msgstr "Chung"
+
+#: data/gtk/shortcuts-dialog.ui:11 data/gtk/window.ui:27
+msgid "New"
+msgstr "Mới"
+
+#: data/gtk/shortcuts-dialog.ui:17 data/gtk/window.ui:35 src/window.rs:1906
+msgid "Open"
+msgstr "Mở"
+
+#: data/gtk/shortcuts-dialog.ui:23 data/gtk/window.ui:36
+msgid "Recent Files"
+msgstr "Tài liệu gần đây"
+
+#: data/gtk/shortcuts-dialog.ui:29 data/gtk/window.ui:43 src/window.rs:1865
+msgid "Save"
+msgstr "Lưu"
+
+#: data/gtk/shortcuts-dialog.ui:35
+msgid "Save As"
+msgstr "Lưu thành"
+
+#: data/gtk/shortcuts-dialog.ui:41
+msgid "Export PDF"
+msgstr "Xuất bản PDF"
+
+#: data/gtk/shortcuts-dialog.ui:47 data/gtk/window.ui:104
+msgid "Preview"
+msgstr "Xem trước"
+
+#: data/gtk/shortcuts-dialog.ui:53 data/gtk/window.ui:93
+msgid "Main Menu"
+msgstr "Menu Chính"
+
+#: data/gtk/shortcuts-dialog.ui:59
+msgid "Fullscreen"
+msgstr "Toàn màn hình"
+
+#: data/gtk/shortcuts-dialog.ui:65
+#, fuzzy
+msgid "Document Outline"
+msgstr "Thống kê của Tài liệu"
+
+#: data/gtk/shortcuts-dialog.ui:71
+msgid "Document Statistics"
+msgstr "Thống kê của Tài liệu"
+
+#: data/gtk/shortcuts-dialog.ui:83
+msgid "Preferences"
+msgstr "Tùy chọn"
+
+#: data/gtk/shortcuts-dialog.ui:89
+msgid "Keyboard Shortcuts"
+msgstr "Xem Phím tắt Bàn phím"
+
+#: data/gtk/shortcuts-dialog.ui:95
+msgid "Close File"
+msgstr "Đóng tệp"
+
+#: data/gtk/shortcuts-dialog.ui:101
+msgid "Quit Application"
+msgstr "Thoát"
+
+#: data/gtk/shortcuts-dialog.ui:109
+msgid "Editing"
+msgstr "Soạn thảo"
+
+#: data/gtk/shortcuts-dialog.ui:112
+msgid "Cut"
+msgstr "Cắt"
+
+#: data/gtk/shortcuts-dialog.ui:118
+msgid "Copy"
+msgstr "Sao chép"
+
+#: data/gtk/shortcuts-dialog.ui:124
+msgid "Paste"
+msgstr "Dán"
+
+#: data/gtk/shortcuts-dialog.ui:130
+msgid "Undo"
+msgstr "Hoàn tác"
+
+#: data/gtk/shortcuts-dialog.ui:136
+msgid "Redo"
+msgstr "Làm lại"
+
+#: data/gtk/shortcuts-dialog.ui:142
+msgid "Code Completions"
+msgstr "Gợi ý Mã nguồn"
+
+#: data/gtk/shortcuts-dialog.ui:148
+#, fuzzy
+msgid "Comment Line"
+msgstr "Dịch chuyển Dòng"
+
+#: data/gtk/shortcuts-dialog.ui:154
+msgid "Previous Spelling Error"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:160
+#, fuzzy
+msgid "Next Spelling Error"
+msgstr "Kiểm tra Chính tả"
+
+#: data/gtk/shortcuts-dialog.ui:166
+msgid "Move Line"
+msgstr "Dịch chuyển Dòng"
+
+#: data/gtk/shortcuts-dialog.ui:172
+msgid "Move Word"
+msgstr "Dịch chuyển Từ"
+
+#: data/gtk/shortcuts-dialog.ui:178
+msgid "Tidy Formatting"
+msgstr "Định dạng Gọn gàng Tài liệu"
+
+#: data/gtk/shortcuts-dialog.ui:186
+msgid "Formatting"
+msgstr "Định dạng"
+
+#: data/gtk/shortcuts-dialog.ui:189
+msgid "Emphasis"
+msgstr "Nhấn mạnh"
+
+#: data/gtk/shortcuts-dialog.ui:195
+msgid "Strong Emphasis"
+msgstr "In đậm"
+
+#: data/gtk/shortcuts-dialog.ui:201
+msgid "Raw Text"
+msgstr "Văn bản Thuần túy"
+
+#: data/gtk/shortcuts-dialog.ui:207
+msgid "Math"
+msgstr "Toán"
+
+#: data/gtk/shortcuts-dialog.ui:213
+msgid "Bullet List"
+msgstr "Danh sách Gạch đầu dòng"
+
+#: data/gtk/shortcuts-dialog.ui:219
+msgid "Numbered List"
+msgstr "Danh sách Đánh số"
+
+#: data/gtk/shortcuts-dialog.ui:225
+msgid "Heading"
+msgstr "Đề mục"
+
+#: data/gtk/statistics.ui:9
+#, fuzzy
+msgid "Statistics"
+msgstr "Thống kê của Tài liệu"
+
+#: data/gtk/statistics.ui:41
+msgid "Words"
+msgstr "Từ"
+
+#: data/gtk/statistics.ui:58
+msgid "Characters"
+msgstr "Ký tự"
+
+#: data/gtk/statistics.ui:65
+msgid "CJK Characters"
+msgstr "Ký tự Trung/Nhật/Hàn"
+
+#: data/gtk/statistics.ui:74
+msgid "Non-CJK Characters"
+msgstr "Ký tự không phải Trung/Nhật/Hàn"
+
+#: data/gtk/statistics.ui:93
+msgid "Pages"
+msgstr "Trang"
+
+#: data/gtk/statistics.ui:102
+msgid "Headings"
+msgstr "Đề mục"
+
+#: data/gtk/statistics.ui:111
+msgid "Paragraphs"
+msgstr "Đoạn văn"
+
+#: data/gtk/statistics.ui:120
+msgid "Mathematical Formulas"
+msgstr "Công thức Toán học"
+
+#: data/gtk/statistics.ui:139
+msgid "Statistics Unavailable"
+msgstr ""
+
+#: data/gtk/statistics.ui:140
+msgid "Fix the compilation errors in the document to calculate statistics."
+msgstr ""
+
+#: data/gtk/theme-selector.ui:26 data/gtk/theme-selector.ui:28
+msgid "Follow System Style"
+msgstr "Theo Chủ đề Hệ thống"
+
+#: data/gtk/theme-selector.ui:43 data/gtk/theme-selector.ui:45
+msgid "Light Style"
+msgstr "Sáng"
+
+#: data/gtk/theme-selector.ui:60 data/gtk/theme-selector.ui:62
+msgid "Dark Style"
+msgstr "Tối"
+
+#: data/gtk/window.ui:7 data/net.trowell.typesetter.desktop.in:2
+#: data/net.trowell.typesetter.metainfo.xml.in:9
+msgid "Typesetter"
+msgstr "Typesetter"
+
+#: data/gtk/window.ui:28
+msgid "Templates"
+msgstr ""
+
+#: data/gtk/window.ui:44
+msgid "Save Options"
+msgstr "Tùy chọn Lưu"
+
+#: data/gtk/window.ui:69 src/window.rs:726 src/window.rs:738
+msgid "New File"
+msgstr "Tệp mới"
+
+#: data/gtk/window.ui:136
+msgid "Select a project folder to access images and imports"
+msgstr "Chọn thư mục dự án để truy cập hình ảnh và nội dung nhập vào"
+
+#: data/gtk/window.ui:137 src/package_manager/import.rs:59 src/window.rs:1561
+msgid "Select Folder"
+msgstr "Chọn Thư mục"
+
+#: data/gtk/window.ui:183
+msgid "_Save As"
+msgstr "_Lưu thành"
+
+#: data/gtk/window.ui:189
+msgid "_Export PDF"
+msgstr "_Xuất bản PDF"
+
+#: data/gtk/window.ui:229
+msgid "_Fullscreen"
+msgstr "_Toàn màn hình"
+
+#: data/gtk/window.ui:235
+msgid "_Outline"
+msgstr ""
+
+#: data/gtk/window.ui:239
+#, fuzzy
+msgid "_Statistics"
+msgstr "_Thống kê của Tài liệu"
+
+#: data/gtk/window.ui:249
+msgid "_Preferences"
+msgstr "_Tùy chọn"
+
+#: data/gtk/window.ui:253
+msgid "_Keyboard Shortcuts"
+msgstr "_Xem Phím tắt Bàn phím"
+
+#: data/gtk/window.ui:257
+msgid "_About Typesetter"
+msgstr "_Giới thiệu Typesetter"
+
+#: data/net.trowell.typesetter.desktop.in:3
+msgid "Typst Editor"
+msgstr "Trình soạn thảo Typst"
+
+#: data/net.trowell.typesetter.desktop.in:4
+msgid "Edit and compile Typst documents"
+msgstr "Chỉnh sửa và biên soạn tài liệu Typst"
+
+#: data/net.trowell.typesetter.desktop.in:10
+msgid "GTK;Typst;Text;Document;"
+msgstr "GTK;Typst;VănBản;TàiLiệu;"
+
+#: data/net.trowell.typesetter.gschema.xml:8
+msgid "Autosave"
+msgstr "Tự động Lưu"
+
+#: data/net.trowell.typesetter.gschema.xml:9
+msgid "Whether to automatically save files with a known path."
+msgstr "Liệu có nên tự động lưu tệp vào đường dẫn đã biết."
+
+#: data/net.trowell.typesetter.gschema.xml:13
+msgid "Centered Scrolling"
+msgstr "Cuộn Màn hình Căn giữa"
+
+#: data/net.trowell.typesetter.gschema.xml:14
+msgid ""
+"Whether to center the active line vertically on the screen as the user types."
+msgstr ""
+"Liệu có nên căn giữa dòng đang soạn thảo theo chiều dọc màn hình khi người "
+"dùng nhập liệu."
+
+#: data/net.trowell.typesetter.gschema.xml:18
+msgid "Check Grammar"
+msgstr "Kiểm tra Chính tả"
+
+#: data/net.trowell.typesetter.gschema.xml:19
+#, fuzzy
+msgid "Whether to enable grammar checking in the editor."
+msgstr "Liệu có bật kiểm tra chính tả trong trình soạn thảo."
+
+#: data/net.trowell.typesetter.gschema.xml:23
+msgid "Check Spelling"
+msgstr "Kiểm tra Chính tả"
+
+#: data/net.trowell.typesetter.gschema.xml:24
+msgid "Whether to enable spellcheck in the editor."
+msgstr "Liệu có bật kiểm tra chính tả trong trình soạn thảo."
+
+#: data/net.trowell.typesetter.gschema.xml:29
+msgid "Whether to highlight the current line in the editor."
+msgstr "Liệu có tô sáng dòng hiện tại trong trình soạn thảo."
+
+#: data/net.trowell.typesetter.gschema.xml:33
+msgid "Invert Lightness"
+msgstr "Đảo ngược Độ sáng"
+
+#: data/net.trowell.typesetter.gschema.xml:34
+msgid ""
+"Whether to invert the lightness of pages in the preview when dark mode is "
+"enabled."
+msgstr ""
+"Liệu có đảo ngược độ sáng của trang trong bản xem trước khi chế độ tối được "
+"bật."
+
+#: data/net.trowell.typesetter.gschema.xml:57
+msgid "PDF Standard"
+msgstr "Tiêu chuẩn PDF"
+
+#: data/net.trowell.typesetter.gschema.xml:58
+msgid "The PDF standard to use when exporting."
+msgstr "Tiêu chuẩn PDF được sử dụng khi xuất bản."
+
+#: data/net.trowell.typesetter.gschema.xml:62
+msgid "Scroll Preview on Type"
+msgstr "Cuộn Bản xem trước khi Nhập liệu"
+
+#: data/net.trowell.typesetter.gschema.xml:63
+msgid ""
+"Whether to automatically scroll the preview to the current position in the "
+"editor."
+msgstr ""
+"Liệu có tự động cuộn bản xem trước đến vị trí hiện tại trong trình soạn thảo."
+
+#: data/net.trowell.typesetter.gschema.xml:67
+msgid "Show Built-in Templates"
+msgstr ""
+
+#: data/net.trowell.typesetter.gschema.xml:68
+#, fuzzy
+msgid "Whether to show bundled templates in the template picker."
+msgstr "Liệu có bật kiểm tra chính tả trong trình soạn thảo."
+
+#: data/net.trowell.typesetter.gschema.xml:72
+msgid "Show Preview"
+msgstr "Hiện Bản xem trước"
+
+#: data/net.trowell.typesetter.gschema.xml:73
+msgid "Whether to show the preview pane by default when opening a new window."
+msgstr "Liệu có mặc định hiện khung xem trước khi mở cửa sổ mới."
+
+#: data/net.trowell.typesetter.gschema.xml:81
+msgid "Editor style scheme"
+msgstr "Diện mạo trình soạn thảo"
+
+#: data/net.trowell.typesetter.gschema.xml:82
+msgid "The style scheme to use in the editor."
+msgstr "Diện mạo được sử dụng trong trình soạn thảo."
+
+#: data/net.trowell.typesetter.gschema.xml:91
+msgid "Theme"
+msgstr "Chủ đề"
+
+#: data/net.trowell.typesetter.gschema.xml:92
+msgid "The theme to use throughout the application."
+msgstr "Chủ đề được sử dụng xuyên suốt ứng dụng."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:10
+msgid "Minimalist Typst editor"
+msgstr "Trình soạn thảo Typst tối giản"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:12
+msgid ""
+"Typesetter is a lightweight desktop application for creating beautiful "
+"documents with Typst."
+msgstr ""
+"Typesetter là một ứng dụng máy tính nhẹ dùng để tạo các tài liệu đẹp mắt với "
+"Typst."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:14
+msgid ""
+"Adaptive, user-friendly interface: Focus on writing. Great for papers, "
+"reports, slides, books, and any structured writing."
+msgstr ""
+"Giao diện thích ứng, thân thiện: Tập trung tối đa vào việc viết. Tuyệt vời "
+"để soạn thảo bài luận, báo cáo, bài thuyết trình, sách và bất kỳ loại văn "
+"bản có cấu trúc nào."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:15
+msgid ""
+"Powered by Typst: A modern markup-based typesetting language, combining the "
+"simplicity of Markdown with the power of LaTeX."
+msgstr ""
+"Dựa trên nền tảng Typst: Một ngôn ngữ dàn trang hiện đại dựa trên markup, "
+"kết hợp sự đơn giản của Markdown với sức mạnh của LaTeX."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:16
+msgid "Fully local: Your files stay on your machine. No cloud lock-in."
+msgstr ""
+"Hoàn toàn lưu tại máy: Các tệp của bạn giữ nguyên trên máy của bạn. Không bị "
+"khóa trên dữ liệu đám mây."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:17
+msgid ""
+"Package manager: Install or remove local Typst packages from within the app."
+msgstr ""
+
+#: data/net.trowell.typesetter.metainfo.xml.in:18
+msgid ""
+"On-demand package downloading: Fetches and caches remote Typst packages "
+"online when needed."
+msgstr ""
+
+#: data/net.trowell.typesetter.metainfo.xml.in:19
+msgid "Templates: Create new documents from built‑in or user templates."
+msgstr ""
+
+#: data/net.trowell.typesetter.metainfo.xml.in:20
+msgid "Automatic preview: See your rendered document update as you write."
+msgstr ""
+"Tự động xem trước: Xem bản tài liệu đã xử lí cập nhật ngay khi bạn viết."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:21
+msgid ""
+"Click-to-jump: Click on a part of the preview to jump to the corresponding "
+"position in the source file."
+msgstr ""
+"Click chuột để nhảy: Nháy chuột lên một phần của bản xem trước để nhảy đến "
+"vị trí tương ứng trong tệp nguồn."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:22
+msgid "Magnifier tool: Click and hold on the preview to inspect fine details."
+msgstr ""
+"Công cụ phóng to: Nhấn và giữ bản xem trước để xem các chi tiết rõ nét."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:23
+msgid ""
+"Accessibility checking: Simulate different forms of color blindness to check "
+"how your document looks to all readers."
+msgstr ""
+"Kiểm tra khả năng tiếp cận: Mô phỏng các dạng mù màu để xem tài liệu của bạn "
+"trông như thế nào đối với mọi người đọc."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:24
+msgid "Centered scrolling: Keeps your writing visually anchored as you type."
+msgstr ""
+
+#: data/net.trowell.typesetter.metainfo.xml.in:25
+msgid "Syntax highlighting: Makes your documents easier to edit and read."
+msgstr "Tô sáng cú pháp: Làm cho tài liệu dễ đọc và dễ viết."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:26
+#, fuzzy
+msgid ""
+"Grammar suggestions: Automatically checks your writing for grammatical "
+"errors (currently English only)."
+msgstr ""
+"Kiểm tra chính tả: Tự động kiểm tra lỗi chính tả trong bài viết (hiện chỉ "
+"tiếng Anh)."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:27
+msgid "Document statistics: Easily calculate page, word, and character counts."
+msgstr "Thống kê tài liệu: Dễ dàng tính số trang, số từ, và số kí tự."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:28
+msgid ""
+"Fast and native: Built in Rust and GTK following the GNOME human interface "
+"guidelines."
+msgstr ""
+"Nhanh và (ứng dụng) gốc: Tạo bằng Rust và GTK theo nguyên tắc giao diện "
+"người dùng của GNOME."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:33
+msgid "Haydn Trowell"
+msgstr "Haydn Trowell"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:58
+msgid "Focus on your writing with a minimal interface and clear fonts"
+msgstr ""
+"Tập trung cho việc viết với giao diện tối giản và các phông chữ rõ ràng"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:62
+msgid "Choose between light and dark modes"
+msgstr "Chọn giữa chế độ tối và sáng"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:66
+msgid "Preview your compiled document without leaving the app"
+msgstr "Xem trước tài liệu đã được biên dịch mà không phải rời ứng dụng"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:70
+msgid "Easily check document statistics"
+msgstr "Dễ dàng kiểm tra các thống kê tài liệu"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:74
+msgid "Click and hold on the preview to inspect fine details"
+msgstr "Nhấn và giữ trên bản xem trước để xem các chi tiết rõ nét"
+
+#: src/application.rs:139
+msgid "translator-credits"
+msgstr "Phạm Đặng Thiên Nam"
+
+#: src/application.rs:141
+msgid "Donate"
+msgstr "Ủng hộ"
+
+#: src/editor/formatter.rs:205
+msgid "Unable to clean up formatting"
+msgstr "Không thể định dạng sạch sẽ"
+
+#: src/file_io/dialog.rs:57 src/file_io/dialog.rs:76
+msgid "Export File"
+msgstr "Xuất bản Tệp"
+
+#: src/file_io/dialog.rs:91
+msgid "Open File"
+msgstr "Mở Tệp"
+
+#: src/file_io/dialog.rs:106
+msgid "Save File"
+msgstr "Lưu Tệp"
+
+#: src/file_io/dialog.rs:131 src/file_io/dialog.rs:135
+#: src/file_io/dialog.rs:139
+msgid "All Files"
+msgstr "Tất cả Tệp"
+
+#: src/package_manager/import.rs:61 src/package_manager/import.rs:92
+msgid "Install"
+msgstr ""
+
+#: src/package_manager/import.rs:81
+msgid "Archives"
+msgstr ""
+
+#: src/package_manager/import.rs:90
+#, fuzzy
+msgid "Select Archive"
+msgstr "Chọn"
+
+#: src/recents_menu/mod.rs:147 src/window.rs:641
+msgid "Unable to open file: "
+msgstr "Không thể mở tệp: "
+
+#: src/window.rs:1563
+msgid "Select"
+msgstr "Chọn"
+
+#: src/window.rs:1843 src/window.rs:1889
+msgid "Failed to save file."
+msgstr "Lỗi lưu lại tệp."
+
+#: src/window.rs:1857
+msgid "Unsaved Changes"
+msgstr "Các thay đổi chưa được lưu"
+
+#: src/window.rs:1859
+msgid ""
+"The document has been modified. Do you want to save your changes before "
+"closing?"
+msgstr ""
+"Tài liệu đã được sửa đổi. Bạn có muốn lưu lại các thay đổi trước khi thoát?"
+
+#: src/window.rs:1863
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: src/window.rs:1864
+msgid "Discard"
+msgstr "Loại bỏ"
+
+#~ msgid "_Tidy Formatting"
+#~ msgstr "_Định dạng Gọn gàng Tài liệu"
+
+#~ msgid "Package Cache"
+#~ msgstr "Dữ Liệu Đệm Của Gói"
+
+#~ msgid "—"
+#~ msgstr "—"
+
+#~ msgid "Clear"
+#~ msgstr "Dọn"
+
+#~ msgid "Preview Compilation Failed"
+#~ msgstr "Lỗi Biên Dịch Bản Xem Trước"
+
+#~ msgid "Fix the errors below to recompile the document."
+#~ msgstr "Sửa lỗi phía dưới để biên dịch lại tài liệu."
+
+#~ msgid ""
+#~ "Package support: Works offline, but can fetch package imports online when "
+#~ "needed."
+#~ msgstr ""
+#~ "Hỗ trợ các gói Typst: Hoạt động ngoại tuyến, nhưng có thể lấy các gói "
+#~ "trực tuyến khi cần."
+
+#~ msgid "Empty"
+#~ msgstr "Rỗng"

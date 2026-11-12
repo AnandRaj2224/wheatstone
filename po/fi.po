@@ -1,0 +1,817 @@
+# Copyright (C) Haydn Trowell
+# This file is distributed under the same license as the Typesetter package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-19 16:12+1000\n"
+"PO-Revision-Date: 2026-05-21 17:07+0000\n"
+"Last-Translator: artnay <artnay@noreply.codeberg.org>\n"
+"Language-Team: Finnish <https://translate.codeberg.org/projects/typesetter/"
+"typesetter/fi/>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.5\n"
+
+#: data/gtk/outline.ui:8 data/gtk/shortcuts-dialog.ui:65
+msgid "Document Outline"
+msgstr "Asiakirjan sisällysluettelo"
+
+#: data/gtk/outline.ui:18 data/gtk/outline.ui:31 data/gtk/recent-files.ui:22
+msgid "Search"
+msgstr "Etsi"
+
+#: data/gtk/outline.ui:71
+msgid "No Headings"
+msgstr "Ei otsikoita"
+
+#: data/gtk/outline.ui:83 data/gtk/recent-files.ui:55
+msgid "No Results Found"
+msgstr "Tuloksia ei löytynyt"
+
+#: data/gtk/outline.ui:95
+msgid "Outline Unavailable"
+msgstr "Sisällysluettelo ei ole saatavilla"
+
+#: data/gtk/outline.ui:96
+msgid "Fix the compilation errors in the document to view the outline."
+msgstr "Korjaa asiakirjan koostamisvirheet nähdäksesi sisällysluettelon."
+
+#: data/gtk/package-manager.ui:8 data/gtk/shortcuts-dialog.ui:77
+#: data/gtk/window.ui:249
+msgid "Packages"
+msgstr "Paketit"
+
+#: data/gtk/package-manager.ui:24
+msgid "Install Package"
+msgstr "Asenna paketti"
+
+#: data/gtk/package-manager.ui:37
+msgid "Installed"
+msgstr "Asennettu"
+
+#: data/gtk/package-manager.ui:40
+msgid "No installed packages"
+msgstr "Ei asennettuja paketteja"
+
+#: data/gtk/package-manager.ui:52
+msgid "Cached"
+msgstr "Välimuistissa"
+
+#: data/gtk/package-manager.ui:55
+msgid "No cached packages"
+msgstr "Ei välimuistissa olevia paketteja"
+
+#: data/gtk/package-manager.ui:67
+msgid "Built-in"
+msgstr "Sisäänrakennettu"
+
+#: data/gtk/package-manager.ui:70
+msgid "No built-in packages"
+msgstr "Ei sisäänrakennettuja paketteja"
+
+#: data/gtk/package-manager.ui:91
+msgid "Install From Archive"
+msgstr "Asenna arkistosta"
+
+#: data/gtk/package-manager.ui:95
+msgid "Install From Folder"
+msgstr "Asenna kansiosta"
+
+#: data/gtk/preferences.ui:14
+msgid "Save Automatically"
+msgstr "Tallenna automaattisesti"
+
+#: data/gtk/preferences.ui:19
+msgid "Center Current Line"
+msgstr "Keskitä nykyinen rivi"
+
+#: data/gtk/preferences.ui:24 data/net.trowell.typesetter.gschema.xml:28
+msgid "Highlight Current Line"
+msgstr "Korosta nykyinen rivi"
+
+#: data/gtk/preferences.ui:29
+msgid "Auto-Scroll Preview"
+msgstr "Automaattivierityksen esikatselu"
+
+#: data/gtk/preferences.ui:38
+msgid "PDF Export Standard"
+msgstr "PDF-viennin standardi"
+
+#: data/gtk/preferences.ui:42
+msgid "PDF 1.4"
+msgstr "PDF 1.4"
+
+#: data/gtk/preferences.ui:43
+msgid "PDF 1.5"
+msgstr "PDF 1.5"
+
+#: data/gtk/preferences.ui:44
+msgid "PDF 1.6"
+msgstr "PDF 1.6"
+
+#: data/gtk/preferences.ui:45
+msgid "PDF 1.7"
+msgstr "PDF 1.7"
+
+#: data/gtk/preferences.ui:46
+msgid "PDF 2.0"
+msgstr "PDF 2.0"
+
+#: data/gtk/preferences.ui:47
+msgid "PDF/A-1b"
+msgstr "PDF/A-1b"
+
+#: data/gtk/preferences.ui:48
+msgid "PDF/A-1a"
+msgstr "PDF/A-1a"
+
+#: data/gtk/preferences.ui:49
+msgid "PDF/A-2b"
+msgstr "PDF/A-2b"
+
+#: data/gtk/preferences.ui:50
+msgid "PDF/A-2u"
+msgstr "PDF/A-2u"
+
+#: data/gtk/preferences.ui:51
+msgid "PDF/A-2a"
+msgstr "PDF/A-2a"
+
+#: data/gtk/preferences.ui:52
+msgid "PDF/A-3b"
+msgstr "PDF/A-3b"
+
+#: data/gtk/preferences.ui:53
+msgid "PDF/A-3a"
+msgstr "PDF/A-3a"
+
+#: data/gtk/preferences.ui:54
+msgid "PDF/A-3u"
+msgstr "PDF/A-3u"
+
+#: data/gtk/preferences.ui:55
+msgid "PDF/A-4"
+msgstr "PDF/A-4"
+
+#: data/gtk/preferences.ui:56
+msgid "PDF/A-4f"
+msgstr "PDF/A-4f"
+
+#: data/gtk/preferences.ui:57
+msgid "PDF/A-4e"
+msgstr "PDF/A-4e"
+
+#: data/gtk/preferences.ui:58
+msgid "PDF/UA-1"
+msgstr "PDF/UA-1"
+
+#: data/gtk/preferences.ui:75
+msgid "Reset"
+msgstr "Nollaa"
+
+#: data/gtk/recent-file-row.ui:46
+msgid "Remove"
+msgstr "Poista"
+
+#: data/gtk/recent-files.ui:45
+msgid "No Recent Documents"
+msgstr "Ei viimeisimpiä asiakirjoja"
+
+#: data/gtk/search-toolbar.ui:29 data/gtk/shortcuts-dialog.ui:233
+#: data/gtk/shortcuts-dialog.ui:236 data/gtk/window.ui:123
+msgid "Find"
+msgstr "Etsi"
+
+#: data/gtk/search-toolbar.ui:44
+msgid "Previous Match"
+msgstr "Edellinen osuma"
+
+#: data/gtk/search-toolbar.ui:56
+msgid "Next Match"
+msgstr "Seuraava osuma"
+
+#: data/gtk/search-toolbar.ui:77 data/gtk/shortcuts-dialog.ui:248
+msgid "Case Sensitive"
+msgstr "Kirjainkoko merkitsee"
+
+#: data/gtk/search-toolbar.ui:86 data/gtk/shortcuts-dialog.ui:254
+msgid "Regular Expression"
+msgstr "Säännöllinen lauseke"
+
+#: data/gtk/search-toolbar.ui:95 data/gtk/shortcuts-dialog.ui:242
+msgid "Find and Replace"
+msgstr "Etsi ja korvaa"
+
+#: data/gtk/search-toolbar.ui:115 data/gtk/search-toolbar.ui:130
+msgid "Replace"
+msgstr "Korvaa"
+
+#: data/gtk/search-toolbar.ui:146
+msgid "Replace All"
+msgstr "Korvaa kaikki"
+
+#: data/gtk/shortcuts-dialog.ui:8
+msgid "General"
+msgstr "Yleiset"
+
+#: data/gtk/shortcuts-dialog.ui:11 data/gtk/window.ui:27
+msgid "New"
+msgstr "Uusi"
+
+#: data/gtk/shortcuts-dialog.ui:17 data/gtk/window.ui:35 src/window.rs:1906
+msgid "Open"
+msgstr "Avaa"
+
+#: data/gtk/shortcuts-dialog.ui:23 data/gtk/window.ui:36
+msgid "Recent Files"
+msgstr "Viimeisimmät tiedostot"
+
+#: data/gtk/shortcuts-dialog.ui:29 data/gtk/window.ui:43 src/window.rs:1865
+msgid "Save"
+msgstr "Tallenna"
+
+#: data/gtk/shortcuts-dialog.ui:35
+msgid "Save As"
+msgstr "Tallenna nimellä"
+
+#: data/gtk/shortcuts-dialog.ui:41
+msgid "Export PDF"
+msgstr "Vie PDF-muotoon"
+
+#: data/gtk/shortcuts-dialog.ui:47 data/gtk/window.ui:104
+msgid "Preview"
+msgstr "Esikatselu"
+
+#: data/gtk/shortcuts-dialog.ui:53 data/gtk/window.ui:93
+msgid "Main Menu"
+msgstr "Päävalikko"
+
+#: data/gtk/shortcuts-dialog.ui:59
+msgid "Fullscreen"
+msgstr "Koko näyttö"
+
+#: data/gtk/shortcuts-dialog.ui:71 data/gtk/statistics.ui:9
+msgid "Document Statistics"
+msgstr "Asiakirjan tilastot"
+
+#: data/gtk/shortcuts-dialog.ui:83
+msgid "Preferences"
+msgstr "Asetukset"
+
+#: data/gtk/shortcuts-dialog.ui:89
+msgid "Keyboard Shortcuts"
+msgstr "Pikanäppäimet"
+
+#: data/gtk/shortcuts-dialog.ui:95
+msgid "Close File"
+msgstr "Sulje tiedosto"
+
+#: data/gtk/shortcuts-dialog.ui:101
+msgid "Quit Application"
+msgstr "Lopeta sovellus"
+
+#: data/gtk/shortcuts-dialog.ui:109
+msgid "Editing"
+msgstr "Muokkaus"
+
+#: data/gtk/shortcuts-dialog.ui:112
+msgid "Cut"
+msgstr "Leikkaa"
+
+#: data/gtk/shortcuts-dialog.ui:118
+msgid "Copy"
+msgstr "Kopioi"
+
+#: data/gtk/shortcuts-dialog.ui:124
+msgid "Paste"
+msgstr "Liitä"
+
+#: data/gtk/shortcuts-dialog.ui:130
+msgid "Undo"
+msgstr "Kumoa"
+
+#: data/gtk/shortcuts-dialog.ui:136
+msgid "Redo"
+msgstr "Tee uudelleen"
+
+#: data/gtk/shortcuts-dialog.ui:142
+msgid "Code Completions"
+msgstr "Koodin täydennykset"
+
+#: data/gtk/shortcuts-dialog.ui:148
+msgid "Comment Line"
+msgstr "Kommenttirivi"
+
+#: data/gtk/shortcuts-dialog.ui:154
+msgid "Previous Spelling Error"
+msgstr "Edellinen kirjoitusvirhe"
+
+#: data/gtk/shortcuts-dialog.ui:160
+msgid "Next Spelling Error"
+msgstr "Seuraava kirjoitusvirhe"
+
+#: data/gtk/shortcuts-dialog.ui:166
+msgid "Move Line"
+msgstr "Siirrä rivi"
+
+#: data/gtk/shortcuts-dialog.ui:172
+msgid "Move Word"
+msgstr "Siirrä sana"
+
+#: data/gtk/shortcuts-dialog.ui:178
+msgid "Tidy Formatting"
+msgstr "Siisti muotoilu"
+
+#: data/gtk/shortcuts-dialog.ui:186
+msgid "Formatting"
+msgstr "Muotoilu"
+
+#: data/gtk/shortcuts-dialog.ui:189
+msgid "Emphasis"
+msgstr "Painotus"
+
+#: data/gtk/shortcuts-dialog.ui:195
+msgid "Strong Emphasis"
+msgstr "Vahva painotus"
+
+#: data/gtk/shortcuts-dialog.ui:201
+msgid "Raw Text"
+msgstr "Raakateksti"
+
+#: data/gtk/shortcuts-dialog.ui:207
+msgid "Math"
+msgstr "Matematiikka"
+
+#: data/gtk/shortcuts-dialog.ui:213
+msgid "Bullet List"
+msgstr "Järjestämätön luettelo"
+
+#: data/gtk/shortcuts-dialog.ui:219
+msgid "Numbered List"
+msgstr "Järjestetty luettelo"
+
+#: data/gtk/shortcuts-dialog.ui:225
+msgid "Heading"
+msgstr "Otsikko"
+
+#: data/gtk/statistics.ui:41
+msgid "Words"
+msgstr "Sanat"
+
+#: data/gtk/statistics.ui:58
+msgid "Characters"
+msgstr "Merkit"
+
+#: data/gtk/statistics.ui:65
+msgid "CJK Characters"
+msgstr "CJK-merkit"
+
+#: data/gtk/statistics.ui:74
+msgid "Non-CJK Characters"
+msgstr "Muut kuin CJK-merkit"
+
+#: data/gtk/statistics.ui:93
+msgid "Pages"
+msgstr "Sivut"
+
+#: data/gtk/statistics.ui:102
+msgid "Headings"
+msgstr "Otsikot"
+
+#: data/gtk/statistics.ui:111
+msgid "Paragraphs"
+msgstr "Kappaleet"
+
+#: data/gtk/statistics.ui:120
+msgid "Mathematical Formulas"
+msgstr "Matemaattiset kaavat"
+
+#: data/gtk/statistics.ui:139
+msgid "Statistics Unavailable"
+msgstr "Tilastot eivät ole saatavilla"
+
+#: data/gtk/statistics.ui:140
+msgid "Fix the compilation errors in the document to calculate statistics."
+msgstr "Korjaa asiakirjan koostamisvirheet laskeaksesi tilastot."
+
+#: data/gtk/theme-selector.ui:26 data/gtk/theme-selector.ui:28
+msgid "Follow System Style"
+msgstr "Seuraa järjestelmän tyyliä"
+
+#: data/gtk/theme-selector.ui:43 data/gtk/theme-selector.ui:45
+msgid "Light Style"
+msgstr "Vaalea tyyli"
+
+#: data/gtk/theme-selector.ui:60 data/gtk/theme-selector.ui:62
+msgid "Dark Style"
+msgstr "Tumma tyyli"
+
+#: data/gtk/window.ui:7 data/net.trowell.typesetter.desktop.in:2
+#: data/net.trowell.typesetter.metainfo.xml.in:9
+msgid "Typesetter"
+msgstr "Typesetter"
+
+#: data/gtk/window.ui:28
+msgid "Templates"
+msgstr "Mallipohjat"
+
+#: data/gtk/window.ui:44
+msgid "Save Options"
+msgstr "Tallenna valinnat"
+
+#: data/gtk/window.ui:69 src/window.rs:726 src/window.rs:738
+msgid "New File"
+msgstr "Uusi tiedosto"
+
+#: data/gtk/window.ui:136
+msgid "Select a project folder to access images and imports"
+msgstr "Valitse projektikansio kuvien ja tuontien käyttämiseksi"
+
+#: data/gtk/window.ui:137 src/package_manager/import.rs:59 src/window.rs:1561
+msgid "Select Folder"
+msgstr "Valitse kansio"
+
+#: data/gtk/window.ui:183
+msgid "_Save As"
+msgstr "_Tallenna nimellä"
+
+#: data/gtk/window.ui:189
+msgid "_Export PDF"
+msgstr "_Vie PDF-muotoon"
+
+#: data/gtk/window.ui:229
+msgid "_Fullscreen"
+msgstr "_Koko näyttö"
+
+#: data/gtk/window.ui:239
+msgid "_Document Statistics"
+msgstr "_Asiakirjan tilastot"
+
+#: data/gtk/window.ui:243
+msgid "_Tidy Formatting"
+msgstr "_Siisti muotoilu"
+
+#: data/gtk/window.ui:253
+msgid "_Preferences"
+msgstr "_Asetukset"
+
+#: data/gtk/window.ui:257
+msgid "_Keyboard Shortcuts"
+msgstr "_Pikanäppäimet"
+
+#: data/gtk/window.ui:261
+msgid "_About Typesetter"
+msgstr "_Tietoja - Typesetter"
+
+#: data/net.trowell.typesetter.desktop.in:3
+msgid "Typst Editor"
+msgstr "Typst-muokkain"
+
+#: data/net.trowell.typesetter.desktop.in:4
+msgid "Edit and compile Typst documents"
+msgstr "Muokkaa ja koosta Typst-asiakirjoja"
+
+#: data/net.trowell.typesetter.desktop.in:10
+msgid "GTK;Typst;Text;Document;"
+msgstr "GTK;Typst;Text;Document;teksti;asiakirja;dokumentti;"
+
+#: data/net.trowell.typesetter.gschema.xml:8
+msgid "Autosave"
+msgstr "Automaattinen tallennus"
+
+#: data/net.trowell.typesetter.gschema.xml:9
+msgid "Whether to automatically save files with a known path."
+msgstr "Tallennetaanko automaattisesti tiedostot, joiden polku on tunnettu."
+
+#: data/net.trowell.typesetter.gschema.xml:13
+msgid "Centered Scrolling"
+msgstr "Keskitetty vieritys"
+
+#: data/net.trowell.typesetter.gschema.xml:14
+msgid ""
+"Whether to center the active line vertically on the screen as the user types."
+msgstr ""
+"Keskitetäänkö aktiivinen rivi pystysuunnassa näytöllä, kun käyttäjä "
+"kirjoittaa."
+
+#: data/net.trowell.typesetter.gschema.xml:18
+msgid "Check Grammar"
+msgstr "Tarkista oikeinkirjoitus"
+
+#: data/net.trowell.typesetter.gschema.xml:19
+msgid "Whether to enable grammar checking in the editor."
+msgstr "Käytetäänkö muokkaimessa oikeinkirjoituksen tarkistusta."
+
+#: data/net.trowell.typesetter.gschema.xml:23
+msgid "Check Spelling"
+msgstr "Tarkista kirjoitusasu"
+
+#: data/net.trowell.typesetter.gschema.xml:24
+msgid "Whether to enable spellcheck in the editor."
+msgstr "Käytetäänkö muokkaimessa kirjoitusasun tarkistusta."
+
+#: data/net.trowell.typesetter.gschema.xml:29
+msgid "Whether to highlight the current line in the editor."
+msgstr "Korostetaanko muokkaimessa nykyinen rivi."
+
+#: data/net.trowell.typesetter.gschema.xml:33
+msgid "Invert Lightness"
+msgstr "Käänteinen kirkkaus"
+
+#: data/net.trowell.typesetter.gschema.xml:34
+msgid ""
+"Whether to invert the lightness of pages in the preview when dark mode is "
+"enabled."
+msgstr ""
+"Käytetäänkö käänteistä kirkkautta sivun esikatselussa, kun tumma teema on "
+"käytössä."
+
+#: data/net.trowell.typesetter.gschema.xml:57
+msgid "PDF Standard"
+msgstr "PDF-standardi"
+
+#: data/net.trowell.typesetter.gschema.xml:58
+msgid "The PDF standard to use when exporting."
+msgstr "Viennin yhteydessä käytettävä PDF-standardi."
+
+#: data/net.trowell.typesetter.gschema.xml:62
+msgid "Scroll Preview on Type"
+msgstr "Vieritä esikatselua kirjoittaessa"
+
+#: data/net.trowell.typesetter.gschema.xml:63
+msgid ""
+"Whether to automatically scroll the preview to the current position in the "
+"editor."
+msgstr ""
+"Vieritetäänkö automaattisesti esikatselu nykyiseen sijaintiin muokkaimessa."
+
+#: data/net.trowell.typesetter.gschema.xml:67
+msgid "Show Built-in Templates"
+msgstr "Näytä sisäänrakennetut mallipohjat"
+
+#: data/net.trowell.typesetter.gschema.xml:68
+msgid "Whether to show bundled templates in the template picker."
+msgstr "Näytetäänkö mukana tulevat mallipohjat mallipohjan valitsimessa."
+
+#: data/net.trowell.typesetter.gschema.xml:72
+msgid "Show Preview"
+msgstr "Näytä esikatselu"
+
+#: data/net.trowell.typesetter.gschema.xml:73
+msgid "Whether to show the preview pane by default when opening a new window."
+msgstr "Näytetäänkö esikatselu oletusarvoisesti, kun uusi ikkuna avataan."
+
+#: data/net.trowell.typesetter.gschema.xml:81
+msgid "Editor style scheme"
+msgstr "Muokkaimen tyyli"
+
+#: data/net.trowell.typesetter.gschema.xml:82
+msgid "The style scheme to use in the editor."
+msgstr "Muokkaimessa käytettävä tyyliskeema."
+
+#: data/net.trowell.typesetter.gschema.xml:91
+msgid "Theme"
+msgstr "Teema"
+
+#: data/net.trowell.typesetter.gschema.xml:92
+msgid "The theme to use throughout the application."
+msgstr "Sovelluksessa käytettävä teema."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:10
+msgid "Minimalist Typst editor"
+msgstr "Minimalistinen Typst-muokkain"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:12
+msgid ""
+"Typesetter is a lightweight desktop application for creating beautiful "
+"documents with Typst."
+msgstr ""
+"Typesetter on kevyt työpöytäsovellus näyttävien Typst-asiakirjojen luomiseen."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:14
+msgid ""
+"Adaptive, user-friendly interface: Focus on writing. Great for papers, "
+"reports, slides, books, and any structured writing."
+msgstr ""
+"Mukautuva ja helppokäyttöinen käyttöliittymä: keskity kirjoittamiseen. "
+"Ideallinen tekstien, raporttien, diojen, kirjojen ja minkä tahansa "
+"rakenteellisen kirjoittamiseen."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:15
+msgid ""
+"Powered by Typst: A modern markup-based typesetting language, combining the "
+"simplicity of Markdown with the power of LaTeX."
+msgstr ""
+"Typst taustavoimana: moderni merkintäpohjainen kirjainasettelukieli, "
+"yhdistäen Markdownin yksinkertaisuuden ja LaTeX:in tehokkuuden."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:16
+msgid "Fully local: Your files stay on your machine. No cloud lock-in."
+msgstr ""
+"Täysin paikallinen: tiedostot pysyvät koneellasi. Ei lukkoa pilvipalveluihin."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:17
+msgid ""
+"Package manager: Install or remove local Typst packages from within the app."
+msgstr ""
+"Pakettihallinta: asenna tai poista paikallinen Typst-paketti suoraan "
+"sovelluksesta."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:18
+msgid ""
+"On-demand package downloading: Fetches and caches remote Typst packages "
+"online when needed."
+msgstr ""
+"Tarvittavien pakettien lataus: noutaa ja asettaa välimuistiin "
+"etäsijainneissa olevat Typst-paketit tarvittaessa."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:19
+msgid "Templates: Create new documents from built‑in or user templates."
+msgstr ""
+"Mallipohjat: luo uusia asiakirjoja sisäänrakennetuista tai käyttäjien "
+"mallipohjista."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:20
+msgid "Automatic preview: See your rendered document update as you write."
+msgstr ""
+"Automaattinen esikatselu: näe renderöidyn asiakirjasi päivittyvän "
+"kirjoittaessasi."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:21
+msgid ""
+"Click-to-jump: Click on a part of the preview to jump to the corresponding "
+"position in the source file."
+msgstr ""
+"Siirry napsauttamalla: napsauta esikatselun kohtaa siirtyäksesi vastaavaan "
+"sijaintiin lähdetiedostossa."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:22
+msgid "Magnifier tool: Click and hold on the preview to inspect fine details."
+msgstr "Suurennuslasi: napsauta ja tutki asiakirjan pienimpiä yksityiskohtia."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:23
+msgid ""
+"Accessibility checking: Simulate different forms of color blindness to check "
+"how your document looks to all readers."
+msgstr ""
+"Saavutettavuustarkistus: simuloi värisokeuden eri muotoja nähdäksesi, miltä "
+"asiakirjasi näyttää kaikille sitä lukeville."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:24
+msgid "Centered scrolling: Keeps your writing visually anchored as you type."
+msgstr ""
+"Keskitetty vieritys: pitää kirjoituksen visuaalisesti paikallaan "
+"kirjoittaessasi."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:25
+msgid "Syntax highlighting: Makes your documents easier to edit and read."
+msgstr "Syntaksin korostus: tekee asiakirjoista helpompia muokata ja lukea."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:26
+msgid ""
+"Grammar suggestions: Automatically checks your writing for grammatical "
+"errors (currently English only)."
+msgstr ""
+"Kieliopin tarkistus: tarkistaa kieliopin automaattisesti (vain englanti "
+"tuettu tällä hetkellä)."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:27
+msgid "Document statistics: Easily calculate page, word, and character counts."
+msgstr "Asiakirjan tilastot: laske helposti sivu-, sana- ja merkkimäärät."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:28
+msgid ""
+"Fast and native: Built in Rust and GTK following the GNOME human interface "
+"guidelines."
+msgstr ""
+"Nopea ja natiivi: rakennettu Rustilla ja GTK:lla Gnomen "
+"käyttöliittymäohjeistuksia seuraten."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:33
+msgid "Haydn Trowell"
+msgstr "Haydn Trowell"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:58
+msgid "Focus on your writing with a minimal interface and clear fonts"
+msgstr ""
+"Keskity kirjoittamiseen minimalistisella käyttöliittymällä ja selkeillä "
+"fonteilla"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:62
+msgid "Choose between light and dark modes"
+msgstr "Valitse vaalean ja tumman tilan välillä"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:66
+msgid "Preview your compiled document without leaving the app"
+msgstr "Esikatsele koostettu asiakirja poistumatta sovelluksesta"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:70
+msgid "Easily check document statistics"
+msgstr "Tarkista asiakirjan tilastot vaivatta"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:74
+msgid "Click and hold on the preview to inspect fine details"
+msgstr ""
+"Napsauta ja pidä pohjassa esikatselussa tutkiaksesi pienimpiä yksityiskohtia"
+
+#: src/application.rs:139
+msgid "translator-credits"
+msgstr "Jiri Grönroos"
+
+#: src/application.rs:141
+msgid "Donate"
+msgstr "Lahjoita"
+
+#: src/editor/formatter.rs:62
+msgid "Unable to clean up formatting"
+msgstr "Muotoilun siistiminen ei onnistunut"
+
+#: src/file_io/dialog.rs:57 src/file_io/dialog.rs:76
+msgid "Export File"
+msgstr "Vie tiedosto"
+
+#: src/file_io/dialog.rs:91
+msgid "Open File"
+msgstr "Avaa tiedosto"
+
+#: src/file_io/dialog.rs:106
+msgid "Save File"
+msgstr "Tallenna tiedosto"
+
+#: src/file_io/dialog.rs:131 src/file_io/dialog.rs:135
+#: src/file_io/dialog.rs:139
+msgid "All Files"
+msgstr "Kaikki tiedostot"
+
+#: src/package_manager/import.rs:61 src/package_manager/import.rs:92
+msgid "Install"
+msgstr "Asenna"
+
+#: src/package_manager/import.rs:81
+msgid "Archives"
+msgstr "Arkistot"
+
+#: src/package_manager/import.rs:90
+msgid "Select Archive"
+msgstr "Valitse arkisto"
+
+#: src/recents_menu/mod.rs:147 src/window.rs:641
+msgid "Unable to open file: "
+msgstr "Tiedoston avaaminen ei onnistunut: "
+
+#: src/window.rs:1563
+msgid "Select"
+msgstr "Valitse"
+
+#: src/window.rs:1843 src/window.rs:1889
+msgid "Failed to save file."
+msgstr "Tiedoston tallentaminen epäonnistui."
+
+#: src/window.rs:1857
+msgid "Unsaved Changes"
+msgstr "Tallentamattomia muutoksia"
+
+#: src/window.rs:1859
+msgid ""
+"The document has been modified. Do you want to save your changes before "
+"closing?"
+msgstr "Asiakirjaa on muokattu. Haluatko tallentaa muutokset ennen sulkemista?"
+
+#: src/window.rs:1863
+msgid "Cancel"
+msgstr "Peru"
+
+#: src/window.rs:1864
+msgid "Discard"
+msgstr "Hylkää"
+
+#~ msgid "Package Cache"
+#~ msgstr "Pakettivälimuisti"
+
+#~ msgid "—"
+#~ msgstr "—"
+
+#~ msgid "Clear"
+#~ msgstr "Tyhjennä"
+
+#~ msgid "Preview Compilation Failed"
+#~ msgstr "Esikatselun koostaminen epäonnistui"
+
+#~ msgid "Fix the errors below to recompile the document."
+#~ msgstr "Korjaa alla olevat virheet koostaaksesi asiakirjan uudelleen."
+
+#~ msgid ""
+#~ "Package support: Works offline, but can fetch package imports online when "
+#~ "needed."
+#~ msgstr ""
+#~ "Pakettituki: Toimii ilman verkkoyhteyttä, mutta voi hakea pakettinoutoja "
+#~ "verkosta tarvittaessa."
+
+#~ msgid "Empty"
+#~ msgstr "Tyhjä"

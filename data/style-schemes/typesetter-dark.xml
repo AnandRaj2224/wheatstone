@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-FileCopyrightText: 2025 Haydn Trowell -->
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<style-scheme id="Typesetter-dark" name="Typesetter" version="1.0">
+  <author>Haydn Trowell</author>
+  <description>The default color scheme for Typesetter</description>
+
+  <metadata>
+    <property name="variant">dark</property>
+    <property name="light-variant">Typesetter</property>
+  </metadata>
+
+  <!-- Named Colors -->
+  <color name="background"                 value="#1D1D20"/>
+  <color name="background_alt"             value="#242428"/>
+  <color name="blue"                       value="#81D0FF"/>
+  <color name="blue_alt"                   value="#0461BE"/>
+  <color name="foreground"                 value="#C0BFBC"/>
+  <color name="foreground_alt"             value="#3D3846"/>
+  <color name="green"                      value="#8DE698"/>
+  <color name="middleground"               value="#77767B"/>
+  <color name="orange"                     value="#FF9C5B"/>
+  <color name="purple"                     value="#FBA7FF"/>
+  <color name="red"                        value="#FF888C"/>
+  <color name="pink"                       value="#FFA0D8"/>
+  <color name="slate"                      value="#BBD1E5"/>
+  <color name="teal"                       value="#7BDFF4"/>
+  <color name="yellow"                     value="#FFC057"/>
+
+  <!-- Global Styles -->
+  <style name="bracket-match"              bold="true"/>
+  <style name="current-line"               background="background_alt"/>
+  <style name="search-match"               background="yellow" foreground="foreground_alt"/>
+  <style name="text"                       background="background" foreground="foreground"/>
+
+  <!-- Snippet Styles -->
+  <style name="snippet-focus"              background="#3D3420" foreground="foreground"/>
+  <style name="snippet-area"               background="#2E2A1C"/>
+
+  <!-- Defaults -->
+  <style name="def:base-n-integer"         foreground="red"/>
+  <style name="def:boolean"                foreground="orange"/>
+  <style name="def:comment"                foreground="middleground"/>
+  <style name="def:constant"               foreground="yellow"/>
+  <style name="def:emphasis"               italic="true"/>
+  <style name="def:decimal"                foreground="red"/>
+  <style name="def:deletion"               foreground="red" strikethrough="true"/>
+  <style name="def:floating-point"         foreground="red"/>
+  <style name="def:function"               foreground="blue"/>
+  <style name="def:heading"                bold="true" underline="single"/>
+  <style name="def:identifier"             foreground="teal"/>
+  <style name="def:inline-code"            foreground="pink"/>
+  <style name="def:keyword"                foreground="orange"/>
+  <style name="def:list-marker"            bold="true"/>
+  <style name="def:net-address"            underline="single"/>
+  <style name="def:note"                   foreground="purple" bold="true"/>
+  <style name="def:number"                 foreground="red"/>
+  <style name="def:operator"               foreground="purple"/>
+  <style name="def:preformatted-section"   foreground="pink"/>
+  <style name="def:shebang"                foreground="middleground"/>
+  <style name="def:statement"              foreground="slate"/>
+  <style name="def:special-char"           foreground="teal"/>
+  <style name="def:string"                 foreground="green"/>
+  <style name="def:strong-emphasis"        bold="true"/>
+  <style name="def:type"                   foreground="pink"/>
+  <style name="def:underlined"             underline="single"/>
+
+  <style name="typst:metadata-keyword"     bold="true" foreground="pink"/>
+
+  <!-- <style name="def:doc-comment-element"    foreground=""/> -->
+  <!-- <style name="def:link-destination"       foreground=""/> -->
+  <!-- <style name="def:link-text"              foreground=""/> -->
+  <!-- <style name="def:preprocessor"           foreground=""/> -->
+  <!-- <style name="def:statement"              foreground=""/> -->
+</style-scheme>
+

@@ -1,0 +1,843 @@
+# Italian translations for typesetter package.
+# Copyright (C) 2026 THE typesetter'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the typesetter package.
+# Automatically generated, 2026.
+# Federico Bruni <fede@inventati.org>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: typesetter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-20 11:12+1000\n"
+"PO-Revision-Date: 2026-03-15 19:00+0100\n"
+"Last-Translator: Federico Bruni <fede@inventati.org>\n"
+"Language-Team: Italian\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 49.0\n"
+
+#: data/gtk/outline.ui:8
+#, fuzzy
+msgid "Outline"
+msgstr "Statistiche documento"
+
+#: data/gtk/outline.ui:18 data/gtk/outline.ui:31 data/gtk/recent-files.ui:22
+msgid "Search"
+msgstr "Cerca"
+
+#: data/gtk/outline.ui:71
+#, fuzzy
+msgid "No Headings"
+msgstr "Intestazioni"
+
+#: data/gtk/outline.ui:83 data/gtk/recent-files.ui:55
+msgid "No Results Found"
+msgstr "Nessun risultato trovato"
+
+#: data/gtk/outline.ui:95
+msgid "Outline Unavailable"
+msgstr ""
+
+#: data/gtk/outline.ui:96
+msgid "Fix the compilation errors in the document to view the outline."
+msgstr ""
+
+#: data/gtk/package-manager.ui:8 data/gtk/shortcuts-dialog.ui:77
+#: data/gtk/window.ui:245
+#, fuzzy
+msgid "Packages"
+msgstr "Pagine"
+
+#: data/gtk/package-manager.ui:24
+#, fuzzy
+msgid "Install Package"
+msgstr "Pagine"
+
+#: data/gtk/package-manager.ui:37
+msgid "Installed"
+msgstr ""
+
+#: data/gtk/package-manager.ui:40
+msgid "No installed packages"
+msgstr ""
+
+#: data/gtk/package-manager.ui:52
+msgid "Cached"
+msgstr ""
+
+#: data/gtk/package-manager.ui:55
+msgid "No cached packages"
+msgstr ""
+
+#: data/gtk/package-manager.ui:67
+msgid "Built-in"
+msgstr ""
+
+#: data/gtk/package-manager.ui:70
+msgid "No built-in packages"
+msgstr ""
+
+#: data/gtk/package-manager.ui:91
+msgid "Install From Archive"
+msgstr ""
+
+#: data/gtk/package-manager.ui:95
+msgid "Install From Folder"
+msgstr ""
+
+#: data/gtk/preferences.ui:14
+msgid "Save Automatically"
+msgstr "Salva automaticamente"
+
+#: data/gtk/preferences.ui:19
+msgid "Center Current Line"
+msgstr "Centra la riga corrente"
+
+#: data/gtk/preferences.ui:24 data/net.trowell.typesetter.gschema.xml:28
+msgid "Highlight Current Line"
+msgstr "Evidenzia la riga corrente"
+
+#: data/gtk/preferences.ui:29
+msgid "Auto-Scroll Preview"
+msgstr "Anteprima con scorrimento automatico"
+
+#: data/gtk/preferences.ui:38
+msgid "PDF Export Standard"
+msgstr "Standard di esportazione PDF"
+
+#: data/gtk/preferences.ui:42
+msgid "PDF 1.4"
+msgstr "PDF 1.4"
+
+#: data/gtk/preferences.ui:43
+msgid "PDF 1.5"
+msgstr "PDF 1.5"
+
+#: data/gtk/preferences.ui:44
+msgid "PDF 1.6"
+msgstr "PDF 1.6"
+
+#: data/gtk/preferences.ui:45
+msgid "PDF 1.7"
+msgstr "PDF 1.7"
+
+#: data/gtk/preferences.ui:46
+msgid "PDF 2.0"
+msgstr "PDF 2.0"
+
+#: data/gtk/preferences.ui:47
+msgid "PDF/A-1b"
+msgstr "PDF/A-1b"
+
+#: data/gtk/preferences.ui:48
+msgid "PDF/A-1a"
+msgstr "PDF/A-1a"
+
+#: data/gtk/preferences.ui:49
+msgid "PDF/A-2b"
+msgstr "PDF/A-2b"
+
+#: data/gtk/preferences.ui:50
+msgid "PDF/A-2u"
+msgstr "PDF/A-2u"
+
+#: data/gtk/preferences.ui:51
+msgid "PDF/A-2a"
+msgstr "PDF/A-2a"
+
+#: data/gtk/preferences.ui:52
+msgid "PDF/A-3b"
+msgstr "PDF/A-3b"
+
+#: data/gtk/preferences.ui:53
+msgid "PDF/A-3a"
+msgstr "PDF/A-3a"
+
+#: data/gtk/preferences.ui:54
+msgid "PDF/A-3u"
+msgstr "PDF/A-3u"
+
+#: data/gtk/preferences.ui:55
+msgid "PDF/A-4"
+msgstr "PDF/A-4"
+
+#: data/gtk/preferences.ui:56
+msgid "PDF/A-4f"
+msgstr "PDF/A-4f"
+
+#: data/gtk/preferences.ui:57
+msgid "PDF/A-4e"
+msgstr "PDF/A-4e"
+
+#: data/gtk/preferences.ui:58
+msgid "PDF/UA-1"
+msgstr "PDF/UA-1"
+
+#: data/gtk/preferences.ui:75
+msgid "Reset"
+msgstr "Reimposta"
+
+#: data/gtk/recent-file-row.ui:46
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: data/gtk/recent-files.ui:45
+msgid "No Recent Documents"
+msgstr "Nessun documento recente"
+
+#: data/gtk/search-toolbar.ui:29 data/gtk/shortcuts-dialog.ui:233
+#: data/gtk/shortcuts-dialog.ui:236 data/gtk/window.ui:123
+msgid "Find"
+msgstr "Trova"
+
+#: data/gtk/search-toolbar.ui:44
+msgid "Previous Match"
+msgstr "Corrispondenza precedente"
+
+#: data/gtk/search-toolbar.ui:56
+msgid "Next Match"
+msgstr "Corrispondenza successiva"
+
+#: data/gtk/search-toolbar.ui:77 data/gtk/shortcuts-dialog.ui:248
+msgid "Case Sensitive"
+msgstr "Sensibile alle maiuscole"
+
+#: data/gtk/search-toolbar.ui:86 data/gtk/shortcuts-dialog.ui:254
+msgid "Regular Expression"
+msgstr "Espressione regolare"
+
+#: data/gtk/search-toolbar.ui:95 data/gtk/shortcuts-dialog.ui:242
+msgid "Find and Replace"
+msgstr "Trova e sostituisci"
+
+#: data/gtk/search-toolbar.ui:115 data/gtk/search-toolbar.ui:130
+msgid "Replace"
+msgstr "Sostituisci"
+
+#: data/gtk/search-toolbar.ui:146
+msgid "Replace All"
+msgstr "Sostituisci tutti"
+
+#: data/gtk/shortcuts-dialog.ui:8
+msgid "General"
+msgstr "Generale"
+
+#: data/gtk/shortcuts-dialog.ui:11 data/gtk/window.ui:27
+msgid "New"
+msgstr "Nuovo"
+
+#: data/gtk/shortcuts-dialog.ui:17 data/gtk/window.ui:35 src/window.rs:1906
+msgid "Open"
+msgstr "Apri"
+
+#: data/gtk/shortcuts-dialog.ui:23 data/gtk/window.ui:36
+msgid "Recent Files"
+msgstr "File recenti"
+
+#: data/gtk/shortcuts-dialog.ui:29 data/gtk/window.ui:43 src/window.rs:1865
+msgid "Save"
+msgstr "Salva"
+
+#: data/gtk/shortcuts-dialog.ui:35
+msgid "Save As"
+msgstr "Salva come"
+
+#: data/gtk/shortcuts-dialog.ui:41
+msgid "Export PDF"
+msgstr "Esporta PDF"
+
+#: data/gtk/shortcuts-dialog.ui:47 data/gtk/window.ui:104
+msgid "Preview"
+msgstr "Anteprima"
+
+#: data/gtk/shortcuts-dialog.ui:53 data/gtk/window.ui:93
+msgid "Main Menu"
+msgstr "Menù principale"
+
+#: data/gtk/shortcuts-dialog.ui:59
+msgid "Fullscreen"
+msgstr "Schermo intero"
+
+#: data/gtk/shortcuts-dialog.ui:65
+#, fuzzy
+msgid "Document Outline"
+msgstr "Statistiche documento"
+
+#: data/gtk/shortcuts-dialog.ui:71
+msgid "Document Statistics"
+msgstr "Statistiche documento"
+
+#: data/gtk/shortcuts-dialog.ui:83
+msgid "Preferences"
+msgstr "Preferenze"
+
+#: data/gtk/shortcuts-dialog.ui:89
+msgid "Keyboard Shortcuts"
+msgstr "Scorciatoie da tastiera"
+
+#: data/gtk/shortcuts-dialog.ui:95
+msgid "Close File"
+msgstr "Chiude file"
+
+#: data/gtk/shortcuts-dialog.ui:101
+msgid "Quit Application"
+msgstr "Chiude l'applicazione"
+
+#: data/gtk/shortcuts-dialog.ui:109
+msgid "Editing"
+msgstr "Modifica"
+
+#: data/gtk/shortcuts-dialog.ui:112
+msgid "Cut"
+msgstr "Taglia"
+
+#: data/gtk/shortcuts-dialog.ui:118
+msgid "Copy"
+msgstr "Copia"
+
+#: data/gtk/shortcuts-dialog.ui:124
+msgid "Paste"
+msgstr "Incolla"
+
+#: data/gtk/shortcuts-dialog.ui:130
+msgid "Undo"
+msgstr "Annulla"
+
+#: data/gtk/shortcuts-dialog.ui:136
+msgid "Redo"
+msgstr "Ripete"
+
+#: data/gtk/shortcuts-dialog.ui:142
+msgid "Code Completions"
+msgstr "Completamenti del codice"
+
+#: data/gtk/shortcuts-dialog.ui:148
+#, fuzzy
+msgid "Comment Line"
+msgstr "Sposta riga"
+
+#: data/gtk/shortcuts-dialog.ui:154
+msgid "Previous Spelling Error"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:160
+#, fuzzy
+msgid "Next Spelling Error"
+msgstr "Controllo ortografico"
+
+#: data/gtk/shortcuts-dialog.ui:166
+msgid "Move Line"
+msgstr "Sposta riga"
+
+#: data/gtk/shortcuts-dialog.ui:172
+msgid "Move Word"
+msgstr "Sposta parola"
+
+#: data/gtk/shortcuts-dialog.ui:178
+msgid "Tidy Formatting"
+msgstr "Riordina la formattazione"
+
+#: data/gtk/shortcuts-dialog.ui:186
+msgid "Formatting"
+msgstr "Formattazione"
+
+#: data/gtk/shortcuts-dialog.ui:189
+msgid "Emphasis"
+msgstr "Enfasi"
+
+#: data/gtk/shortcuts-dialog.ui:195
+msgid "Strong Emphasis"
+msgstr "Forte enfasi"
+
+#: data/gtk/shortcuts-dialog.ui:201
+msgid "Raw Text"
+msgstr "Testo semplice"
+
+#: data/gtk/shortcuts-dialog.ui:207
+msgid "Math"
+msgstr "Matematica"
+
+#: data/gtk/shortcuts-dialog.ui:213
+msgid "Bullet List"
+msgstr "Elenco puntato"
+
+#: data/gtk/shortcuts-dialog.ui:219
+msgid "Numbered List"
+msgstr "Elenco numerato"
+
+#: data/gtk/shortcuts-dialog.ui:225
+msgid "Heading"
+msgstr "Intestazione"
+
+#: data/gtk/statistics.ui:9
+#, fuzzy
+msgid "Statistics"
+msgstr "Statistiche documento"
+
+#: data/gtk/statistics.ui:41
+msgid "Words"
+msgstr "Parole"
+
+#: data/gtk/statistics.ui:58
+msgid "Characters"
+msgstr "Caratteri"
+
+#: data/gtk/statistics.ui:65
+msgid "CJK Characters"
+msgstr "Caratteri CJK"
+
+#: data/gtk/statistics.ui:74
+msgid "Non-CJK Characters"
+msgstr "Caratteri non-CJK"
+
+#: data/gtk/statistics.ui:93
+msgid "Pages"
+msgstr "Pagine"
+
+#: data/gtk/statistics.ui:102
+msgid "Headings"
+msgstr "Intestazioni"
+
+#: data/gtk/statistics.ui:111
+msgid "Paragraphs"
+msgstr "Paragrafi"
+
+#: data/gtk/statistics.ui:120
+msgid "Mathematical Formulas"
+msgstr "Formule matematiche"
+
+#: data/gtk/statistics.ui:139
+msgid "Statistics Unavailable"
+msgstr ""
+
+#: data/gtk/statistics.ui:140
+msgid "Fix the compilation errors in the document to calculate statistics."
+msgstr ""
+
+#: data/gtk/theme-selector.ui:26 data/gtk/theme-selector.ui:28
+msgid "Follow System Style"
+msgstr "Segui stile di sistema"
+
+#: data/gtk/theme-selector.ui:43 data/gtk/theme-selector.ui:45
+msgid "Light Style"
+msgstr "Stile chiaro"
+
+#: data/gtk/theme-selector.ui:60 data/gtk/theme-selector.ui:62
+msgid "Dark Style"
+msgstr "Stile scuro"
+
+#: data/gtk/window.ui:7 data/net.trowell.typesetter.desktop.in:2
+#: data/net.trowell.typesetter.metainfo.xml.in:9
+msgid "Typesetter"
+msgstr "Typesetter"
+
+#: data/gtk/window.ui:28
+msgid "Templates"
+msgstr ""
+
+#: data/gtk/window.ui:44
+msgid "Save Options"
+msgstr "Opzioni di salvataggio"
+
+#: data/gtk/window.ui:69 src/window.rs:726 src/window.rs:738
+msgid "New File"
+msgstr "Nuovo file"
+
+#: data/gtk/window.ui:136
+msgid "Select a project folder to access images and imports"
+msgstr ""
+"Seleziona la cartella di un progetto per accedere alle immagini e ai file "
+"importati"
+
+#: data/gtk/window.ui:137 src/package_manager/import.rs:59 src/window.rs:1561
+msgid "Select Folder"
+msgstr "Seleziona cartella"
+
+#: data/gtk/window.ui:183
+msgid "_Save As"
+msgstr "_Salva come"
+
+#: data/gtk/window.ui:189
+msgid "_Export PDF"
+msgstr "_Esporta PDF"
+
+#: data/gtk/window.ui:229
+msgid "_Fullscreen"
+msgstr "Schermo _intero"
+
+#: data/gtk/window.ui:235
+msgid "_Outline"
+msgstr ""
+
+#: data/gtk/window.ui:239
+#, fuzzy
+msgid "_Statistics"
+msgstr "Statistiche _documento"
+
+#: data/gtk/window.ui:249
+msgid "_Preferences"
+msgstr "_Preferenze"
+
+#: data/gtk/window.ui:253
+msgid "_Keyboard Shortcuts"
+msgstr "Scorciatoie da _tastiera"
+
+#: data/gtk/window.ui:257
+msgid "_About Typesetter"
+msgstr "_A proposito di Typesetter"
+
+#: data/net.trowell.typesetter.desktop.in:3
+msgid "Typst Editor"
+msgstr "Editor Typst"
+
+#: data/net.trowell.typesetter.desktop.in:4
+msgid "Edit and compile Typst documents"
+msgstr "Modifica e compile documenti Typst"
+
+#: data/net.trowell.typesetter.desktop.in:10
+msgid "GTK;Typst;Text;Document;"
+msgstr "GTK;Typst;Testo;Documento;"
+
+#: data/net.trowell.typesetter.gschema.xml:8
+msgid "Autosave"
+msgstr "Autosalvataggio"
+
+#: data/net.trowell.typesetter.gschema.xml:9
+msgid "Whether to automatically save files with a known path."
+msgstr "Se salvare automaticamente file con un percorso conosciuto."
+
+#: data/net.trowell.typesetter.gschema.xml:13
+msgid "Centered Scrolling"
+msgstr "Scorrimento centrato"
+
+#: data/net.trowell.typesetter.gschema.xml:14
+msgid ""
+"Whether to center the active line vertically on the screen as the user types."
+msgstr ""
+"Se centrare verticalmente sullo schermo la riga attiva mentre l'utente "
+"digita."
+
+#: data/net.trowell.typesetter.gschema.xml:18
+msgid "Check Grammar"
+msgstr ""
+
+#: data/net.trowell.typesetter.gschema.xml:19
+#, fuzzy
+msgid "Whether to enable grammar checking in the editor."
+msgstr "Se abilitare il controllo ortografico nell'editor."
+
+#: data/net.trowell.typesetter.gschema.xml:23
+msgid "Check Spelling"
+msgstr "Controllo ortografico"
+
+#: data/net.trowell.typesetter.gschema.xml:24
+msgid "Whether to enable spellcheck in the editor."
+msgstr "Se abilitare il controllo ortografico nell'editor."
+
+#: data/net.trowell.typesetter.gschema.xml:29
+msgid "Whether to highlight the current line in the editor."
+msgstr "Se evidenziare la riga corrente nell'editor."
+
+#: data/net.trowell.typesetter.gschema.xml:33
+msgid "Invert Lightness"
+msgstr "Inversione luminosità"
+
+#: data/net.trowell.typesetter.gschema.xml:34
+msgid ""
+"Whether to invert the lightness of pages in the preview when dark mode is "
+"enabled."
+msgstr ""
+"Se invertire la luminosità delle pagine dell'anteprima quando la modalità "
+"scura è abilitata."
+
+#: data/net.trowell.typesetter.gschema.xml:57
+msgid "PDF Standard"
+msgstr "Standard PDF"
+
+#: data/net.trowell.typesetter.gschema.xml:58
+msgid "The PDF standard to use when exporting."
+msgstr "Lo standard PDF da usare per l'esportazione."
+
+#: data/net.trowell.typesetter.gschema.xml:62
+msgid "Scroll Preview on Type"
+msgstr "Scorrimento anteprima durante la digitazione"
+
+#: data/net.trowell.typesetter.gschema.xml:63
+msgid ""
+"Whether to automatically scroll the preview to the current position in the "
+"editor."
+msgstr ""
+"Se far scorrere automaticamente l'anteprima alla posizione corrente "
+"dell'editor."
+
+#: data/net.trowell.typesetter.gschema.xml:67
+msgid "Show Built-in Templates"
+msgstr ""
+
+#: data/net.trowell.typesetter.gschema.xml:68
+#, fuzzy
+msgid "Whether to show bundled templates in the template picker."
+msgstr "Se abilitare il controllo ortografico nell'editor."
+
+#: data/net.trowell.typesetter.gschema.xml:72
+msgid "Show Preview"
+msgstr "Mostra anteprima"
+
+#: data/net.trowell.typesetter.gschema.xml:73
+msgid "Whether to show the preview pane by default when opening a new window."
+msgstr ""
+"Se mostrare il pannello dell'anteprima per impostazione predefinita "
+"all'apertura di una nuova finestra."
+
+#: data/net.trowell.typesetter.gschema.xml:81
+msgid "Editor style scheme"
+msgstr "Schema di stile dell'editor"
+
+#: data/net.trowell.typesetter.gschema.xml:82
+msgid "The style scheme to use in the editor."
+msgstr "Lo schema di stile da usare nell'editor."
+
+#: data/net.trowell.typesetter.gschema.xml:91
+msgid "Theme"
+msgstr "Tema"
+
+#: data/net.trowell.typesetter.gschema.xml:92
+msgid "The theme to use throughout the application."
+msgstr "Il tema da usare per tutta l'applicazione."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:10
+msgid "Minimalist Typst editor"
+msgstr "Editor Typst minimalista"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:12
+msgid ""
+"Typesetter is a lightweight desktop application for creating beautiful "
+"documents with Typst."
+msgstr ""
+"Typesetter è un'applicazione desktop minimalista per creare bei documenti "
+"con Typst."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:14
+msgid ""
+"Adaptive, user-friendly interface: Focus on writing. Great for papers, "
+"reports, slides, books, and any structured writing."
+msgstr ""
+"Interfaccia adattiva e intuitiva: concentrati sulla scrittura. Perfetta per "
+"articoli, relazioni, presentazioni, libri e qualsiasi testo strutturato."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:15
+msgid ""
+"Powered by Typst: A modern markup-based typesetting language, combining the "
+"simplicity of Markdown with the power of LaTeX."
+msgstr ""
+"Con tecnologia Typst: un moderno linguaggio di composizione tipografica "
+"basato su markup che unisce la semplicità di Markdown alla potenza di LaTeX."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:16
+msgid "Fully local: Your files stay on your machine. No cloud lock-in."
+msgstr ""
+"Completamente locale: i tuoi file stanno nel tuo dispositivo. Nessun vincolo "
+"con il cloud."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:17
+msgid ""
+"Package manager: Install or remove local Typst packages from within the app."
+msgstr ""
+
+#: data/net.trowell.typesetter.metainfo.xml.in:18
+msgid ""
+"On-demand package downloading: Fetches and caches remote Typst packages "
+"online when needed."
+msgstr ""
+
+#: data/net.trowell.typesetter.metainfo.xml.in:19
+msgid "Templates: Create new documents from built‑in or user templates."
+msgstr ""
+
+#: data/net.trowell.typesetter.metainfo.xml.in:20
+msgid "Automatic preview: See your rendered document update as you write."
+msgstr "Anteprima automatica: il documento si aggiorna mentre scrivi."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:21
+msgid ""
+"Click-to-jump: Click on a part of the preview to jump to the corresponding "
+"position in the source file."
+msgstr ""
+"Clicca per saltare: fai clic su una parte dell'anteprima per saltare alla "
+"posizione corrispondente del file sorgente."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:22
+msgid "Magnifier tool: Click and hold on the preview to inspect fine details."
+msgstr ""
+"Strumento lente: clicca e tieni premuto sull'anteprima per esaminare i "
+"dettagli."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:23
+msgid ""
+"Accessibility checking: Simulate different forms of color blindness to check "
+"how your document looks to all readers."
+msgstr ""
+"Controllo accessibilità: simula diversi tipi di daltonismo per verificare "
+"come il documento appare a tutti i lettori."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:24
+msgid "Centered scrolling: Keeps your writing visually anchored as you type."
+msgstr ""
+"Scorrimento centrato: mantiene il testo al centro durante la scrittura."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:25
+msgid "Syntax highlighting: Makes your documents easier to edit and read."
+msgstr ""
+"Evidenziazione della sintassi: rende il documento più facile da modificare e "
+"leggere."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:26
+msgid ""
+"Grammar suggestions: Automatically checks your writing for grammatical "
+"errors (currently English only)."
+msgstr ""
+
+#: data/net.trowell.typesetter.metainfo.xml.in:27
+msgid "Document statistics: Easily calculate page, word, and character counts."
+msgstr ""
+"Statistiche documento: calcola facilmente il numero di pagine, parole e "
+"caratteri."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:28
+msgid ""
+"Fast and native: Built in Rust and GTK following the GNOME human interface "
+"guidelines."
+msgstr ""
+"Veloce e nativo: sviluppato con Rust e Gtk, secondo le linee guida di GNOME "
+"per l'interfaccia utente."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:33
+msgid "Haydn Trowell"
+msgstr "Haydn Trowell"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:58
+msgid "Focus on your writing with a minimal interface and clear fonts"
+msgstr ""
+"Concentrati sulla scrittura grazie a un'interfaccia minimalista e a "
+"caratteri chiari e definiti"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:62
+msgid "Choose between light and dark modes"
+msgstr "Scegli tra la modalità chiara e scura"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:66
+msgid "Preview your compiled document without leaving the app"
+msgstr "Vedi in anteprima il documento compilato senza lasciare l'applicazione"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:70
+msgid "Easily check document statistics"
+msgstr "Controlla facilmente le statistiche del documento"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:74
+msgid "Click and hold on the preview to inspect fine details"
+msgstr "Clicca e tieni premuto sull'anteprima per esaminare i dettagli"
+
+#: src/application.rs:139
+msgid "translator-credits"
+msgstr "Federico Bruni"
+
+#: src/application.rs:141
+msgid "Donate"
+msgstr "Dona"
+
+#: src/editor/formatter.rs:205
+msgid "Unable to clean up formatting"
+msgstr "Impossibile riordinare la formattazione"
+
+#: src/file_io/dialog.rs:57 src/file_io/dialog.rs:76
+msgid "Export File"
+msgstr "Esporta file"
+
+#: src/file_io/dialog.rs:91
+msgid "Open File"
+msgstr "Apri file"
+
+#: src/file_io/dialog.rs:106
+msgid "Save File"
+msgstr "Salva file"
+
+#: src/file_io/dialog.rs:131 src/file_io/dialog.rs:135
+#: src/file_io/dialog.rs:139
+msgid "All Files"
+msgstr "Tutti i file"
+
+#: src/package_manager/import.rs:61 src/package_manager/import.rs:92
+msgid "Install"
+msgstr ""
+
+#: src/package_manager/import.rs:81
+msgid "Archives"
+msgstr ""
+
+#: src/package_manager/import.rs:90
+#, fuzzy
+msgid "Select Archive"
+msgstr "Seleziona"
+
+#: src/recents_menu/mod.rs:147 src/window.rs:641
+msgid "Unable to open file: "
+msgstr "Impossibile aprire il file: "
+
+#: src/window.rs:1563
+msgid "Select"
+msgstr "Seleziona"
+
+#: src/window.rs:1843 src/window.rs:1889
+msgid "Failed to save file."
+msgstr "Impossibile salvare il file."
+
+#: src/window.rs:1857
+msgid "Unsaved Changes"
+msgstr "Modifiche non salvate"
+
+#: src/window.rs:1859
+msgid ""
+"The document has been modified. Do you want to save your changes before "
+"closing?"
+msgstr ""
+"Il documento è stato modificato. Si desidera salvare le modifiche prima di "
+"chiudere?"
+
+#: src/window.rs:1863
+msgid "Cancel"
+msgstr "Annulla"
+
+#: src/window.rs:1864
+msgid "Discard"
+msgstr "Scarta"
+
+#~ msgid "_Tidy Formatting"
+#~ msgstr "Riordina _formattazione"
+
+#~ msgid "Package Cache"
+#~ msgstr "Cache del pacchetto"
+
+#~ msgid "—"
+#~ msgstr "—"
+
+#~ msgid "Clear"
+#~ msgstr "Pulisci"
+
+#~ msgid "Preview Compilation Failed"
+#~ msgstr "Compilazione dell'anteprima fallita"
+
+#~ msgid "Fix the errors below to recompile the document."
+#~ msgstr "Correggi gli errori qui sotto per ricompilare il documento."
+
+#~ msgid ""
+#~ "Package support: Works offline, but can fetch package imports online when "
+#~ "needed."
+#~ msgstr ""
+#~ "Supporto ai pacchetti: funziona senza connessione, ma può scaricare da "
+#~ "Internet i pacchetti importati se necessario."
+
+#~ msgid "Empty"
+#~ msgstr "Svuota"

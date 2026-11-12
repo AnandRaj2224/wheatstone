@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-FileCopyrightText: 2025 Haydn Trowell -->
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<component type="desktop-application">
+  <id>dev.whetstone.editor</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <name>Whetstone</name>
+  <summary>Typst editor for focused writing</summary>
+  <description>
+    <p>Whetstone is a minimalist editor for creating beautiful documents with the Typst markup language.</p>
+    <ul>
+      <li>Adaptive, user-friendly interface: Focus on writing. Great for papers, reports, slides, books, and any structured writing.</li>
+      <li>Powered by Typst: A modern markup-based typesetting language, combining the simplicity of Markdown with the power of LaTeX.</li>
+      <li>Fully local: Your files stay on your machine. No cloud lock-in.</li>
+      <li>Package management: Install, remove, and automatically fetch Typst packages from within the app.</li>
+      <li>Templates: Create new documents from built‑in or user templates.</li>
+      <li>Automatic preview: See your rendered document update as you write.</li>
+      <li>Click-to-jump: Click on a part of the preview to jump to the corresponding position in the source file.</li>
+      <li>Magnifier tool: Click and hold on the preview to inspect fine details.</li>
+      <li>Accessibility checking: Simulate different forms of color blindness to check how your document looks to all readers.</li>
+      <li>Centered scrolling: Keeps your writing visually anchored as you type.</li>
+      <li>Syntax highlighting: Makes your documents easier to edit and read.</li>
+      <li>Grammar suggestions: Automatically checks your writing for grammatical errors (currently English only).</li>
+      <li>Document statistics: Easily calculate page, word, and character counts.</li>
+      <li>Fast and native: Built in Rust and GTK.</li>
+    </ul>
+  </description>
+
+  <developer id="net.trowell">
+    <name>Haydn Trowell</name>
+  </developer>
+
+  <url type="homepage">https://codeberg.org/haydn/typesetter</url>
+  <url type="vcs-browser">https://codeberg.org/haydn/typesetter</url>
+  <url type="bugtracker">https://codeberg.org/haydn/typesetter/issues</url>
+  <!-- <url type="faq">https://example.org/faq</url> -->
+  <url type="translate">https://translate.codeberg.org/engage/typesetter/</url>
+  <!-- <url type="help">https://example.org/help</url> -->
+  <url type="donation">https://ko-fi.com/haydntrowell</url>
+  <!-- <url type="contact">https://example.org/contact</url> -->
+  <url type="contribute">https://codeberg.org/haydn/typesetter</url>
+
+  <translation type="gettext">whetstone</translation>
+  <launchable type="desktop-id">dev.whetstone.editor.desktop</launchable>
+  <content_rating type="oars-1.1" />
+
+  <branding>
+    <color type="primary" scheme_preference="light">#bca2e6</color>
+    <color type="primary" scheme_preference="dark">#5b3c88</color>
+  </branding>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://codeberg.org/haydn/typesetter/raw/branch/main/screenshots/light-editor.png</image>
+      <caption>Focus on your writing with a minimal interface and clear fonts</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://codeberg.org/haydn/typesetter/raw/branch/main/screenshots/dark-editor.png</image>
+      <caption>Choose between light and dark modes</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://codeberg.org/haydn/typesetter/raw/branch/main/screenshots/dark-preview.png</image>
+      <caption>Preview your compiled document without leaving the app</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://codeberg.org/haydn/typesetter/raw/branch/main/screenshots/light-preview.png</image>
+      <caption>Easily check document statistics</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://codeberg.org/haydn/typesetter/raw/branch/main/screenshots/light-magnifier.png</image>
+      <caption>Click and hold on the preview to inspect fine details</caption>
+    </screenshot>
+  </screenshots>
+
+  <supports>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </supports>
+  <requires>
+    <display_length compare="ge">500</display_length>
+  </requires>
+
+  <releases>
+    <release version="0.15" date="2026-07-17">
+      <description translate="no">
+        <ul>
+          <li>Manual zoom controls in the preview pane.</li>
+          <li>HTML and Markdown export.</li>
+          <li>Miscellaneous fixes and improvements.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.14" date="2026-07-02">
+      <description translate="no">
+        <ul>
+          <li>Update to Typst 0.15, which brings variable font support, among other improvements.</li>
+          <li>Adjustable font size in the editor window.</li>
+          <li>Miscellaneous fixes and improvements.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.13" date="2026-05-15">
+      <description translate="no">
+        <ul>
+          <li>Package manager for adding and removing local packages.</li>
+          <li>Popover for creating new documents via installed templates.</li>
+          <li>Small selection of built-in templates.</li>
+          <li>Document outline dialog for navigating headings.</li>
+          <li>Improved search toolbar.</li>
+          <li>Miscellaneous fixes and improvements.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.12" date="2026-03-24">
+      <description translate="no">
+        <ul>
+          <li>Built-in, automatic grammar checking (currently English only).</li>
+          <li>Tooltips for Typst errors and warnings in the editor.</li>
+          <li>Keyboard shortcuts for navigating spelling errors.</li>
+          <li>New translations: Czech (p-bo), Dutch (flipflop97), Finnish (Jiri Grönroos), Polish (michalfita), Swedish (haaninjo), and Vietnamese (namthien).</li>
+          <li>Miscellaneous fixes and improvements.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.11" date="2026-02-27">
+      <description translate="no">
+        <ul>
+          <li>New app icon.</li>
+          <li>Added an "Invert Lightness" option to the preview when in dark mode.</li>
+          <li>Added the ability to simulate common forms of color blindness in the preview.</li>
+          <li>Chinese (Simplified), French, Spanish, Turkish and German (partial) translations (thanks to Dawn Chan, Philippe Charlanes, XanderLeaDaren, Roger Weissenbrunner, Sabri Ünal, and Sebastian Kern).</li>
+          <li>Miscellaneous fixes and improvements.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.10" date="2026-02-12">
+      <description translate="no">
+        <ul>
+          <li>Refactored live preview, automating the preview size, removing the manual PPI setting, and bringing sharper quality.</li>
+          <li>Miscellaneous fixes and improvements.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.9" date="2026-01-13">
+      <description translate="no">
+        <ul>
+          <li>File directory in the header bar and recent files menu.</li>
+          <li>Ability to check package cache size from the preferences window and clear it.</li>
+          <li>Miscellaneous fixes and improvements.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.8" date="2025-12-12">
+      <description translate="no">
+        <ul>
+          <li>Click and hold magnifier inspection tool in the preview pane.</li>
+          <li>Hover tooltips in the editor.</li>
+          <li>Code formatter in the main menu.</li>
+          <li>Update to Typst 0.14.2.</li>
+          <li>Miscellaneous fixes and improvements.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.7" date="2025-12-04">
+      <description translate="no">
+        <ul>
+          <li>Document statistics dialog.</li>
+          <li>Miscellaneous fixes and improvements.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.6" date="2025-11-28">
+      <description translate="no">
+        <ul>
+          <li>Refactored live preview, improving performance when working on long documents.</li>
+          <li>Completion suggestions with Ctrl+Space.</li>
+          <li>Bugfixes and improvements for full-screen mode.</li>
+          <li>Animation when performing a preview-to-source jump.</li>
+          <li>Support for more PDF export standards.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.5" date="2025-11-07">
+      <description translate="no">
+        <p>Initial Flatpak release.</p>
+      </description>
+    </release>
+  </releases>
+
+</component>

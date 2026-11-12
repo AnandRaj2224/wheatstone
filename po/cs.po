@@ -1,0 +1,838 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-20 11:12+1000\n"
+"PO-Revision-Date: 2026-05-11 13:58+0000\n"
+"Last-Translator: p-bo <p-bo@noreply.codeberg.org>\n"
+"Language-Team: Czech <https://translate.codeberg.org/projects/typesetter/"
+"typesetter/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.17.1\n"
+
+#: data/gtk/outline.ui:8
+#, fuzzy
+msgid "Outline"
+msgstr "Statistiky dokumentu"
+
+#: data/gtk/outline.ui:18 data/gtk/outline.ui:31 data/gtk/recent-files.ui:22
+msgid "Search"
+msgstr "Hledat"
+
+#: data/gtk/outline.ui:71
+#, fuzzy
+msgid "No Headings"
+msgstr "Záhlaví"
+
+#: data/gtk/outline.ui:83 data/gtk/recent-files.ui:55
+msgid "No Results Found"
+msgstr "Nic nenalezeno"
+
+#: data/gtk/outline.ui:95
+#, fuzzy
+msgid "Outline Unavailable"
+msgstr "Statistiky nejsou k dispozici"
+
+#: data/gtk/outline.ui:96
+msgid "Fix the compilation errors in the document to view the outline."
+msgstr ""
+
+#: data/gtk/package-manager.ui:8 data/gtk/shortcuts-dialog.ui:77
+#: data/gtk/window.ui:245
+#, fuzzy
+msgid "Packages"
+msgstr "Stránky"
+
+#: data/gtk/package-manager.ui:24
+#, fuzzy
+msgid "Install Package"
+msgstr "Stránky"
+
+#: data/gtk/package-manager.ui:37
+msgid "Installed"
+msgstr ""
+
+#: data/gtk/package-manager.ui:40
+msgid "No installed packages"
+msgstr ""
+
+#: data/gtk/package-manager.ui:52
+msgid "Cached"
+msgstr ""
+
+#: data/gtk/package-manager.ui:55
+msgid "No cached packages"
+msgstr ""
+
+#: data/gtk/package-manager.ui:67
+msgid "Built-in"
+msgstr ""
+
+#: data/gtk/package-manager.ui:70
+msgid "No built-in packages"
+msgstr ""
+
+#: data/gtk/package-manager.ui:91
+msgid "Install From Archive"
+msgstr ""
+
+#: data/gtk/package-manager.ui:95
+msgid "Install From Folder"
+msgstr ""
+
+#: data/gtk/preferences.ui:14
+msgid "Save Automatically"
+msgstr "Ukládat automaticky"
+
+#: data/gtk/preferences.ui:19
+msgid "Center Current Line"
+msgstr "Vystředit stávající řádek"
+
+#: data/gtk/preferences.ui:24 data/net.trowell.typesetter.gschema.xml:28
+msgid "Highlight Current Line"
+msgstr "Zvýraznit stávající řádek"
+
+#: data/gtk/preferences.ui:29
+msgid "Auto-Scroll Preview"
+msgstr "Automaticky posouvat v náhledu"
+
+#: data/gtk/preferences.ui:38
+msgid "PDF Export Standard"
+msgstr "Standard pro export do PDF"
+
+#: data/gtk/preferences.ui:42
+msgid "PDF 1.4"
+msgstr "PDF 1.4"
+
+#: data/gtk/preferences.ui:43
+msgid "PDF 1.5"
+msgstr "PDF 1.5"
+
+#: data/gtk/preferences.ui:44
+msgid "PDF 1.6"
+msgstr "PDF 1.6"
+
+#: data/gtk/preferences.ui:45
+msgid "PDF 1.7"
+msgstr "PDF 1.7"
+
+#: data/gtk/preferences.ui:46
+msgid "PDF 2.0"
+msgstr "PDF 2.0"
+
+#: data/gtk/preferences.ui:47
+msgid "PDF/A-1b"
+msgstr "PDF/A-1b"
+
+#: data/gtk/preferences.ui:48
+msgid "PDF/A-1a"
+msgstr "PDF/A-1a"
+
+#: data/gtk/preferences.ui:49
+msgid "PDF/A-2b"
+msgstr "PDF/A-2b"
+
+#: data/gtk/preferences.ui:50
+msgid "PDF/A-2u"
+msgstr "PDF/A-2u"
+
+#: data/gtk/preferences.ui:51
+msgid "PDF/A-2a"
+msgstr "PDF/A-2a"
+
+#: data/gtk/preferences.ui:52
+msgid "PDF/A-3b"
+msgstr "PDF/A-3b"
+
+#: data/gtk/preferences.ui:53
+msgid "PDF/A-3a"
+msgstr "PDF/A-3a"
+
+#: data/gtk/preferences.ui:54
+msgid "PDF/A-3u"
+msgstr "PDF/A-3u"
+
+#: data/gtk/preferences.ui:55
+msgid "PDF/A-4"
+msgstr "PDF/A-4"
+
+#: data/gtk/preferences.ui:56
+msgid "PDF/A-4f"
+msgstr "PDF/A-4f"
+
+#: data/gtk/preferences.ui:57
+msgid "PDF/A-4e"
+msgstr "PDF/A-4e"
+
+#: data/gtk/preferences.ui:58
+msgid "PDF/UA-1"
+msgstr "PDF/UA-1"
+
+#: data/gtk/preferences.ui:75
+msgid "Reset"
+msgstr "Vrátit na výchozí"
+
+#: data/gtk/recent-file-row.ui:46
+msgid "Remove"
+msgstr "Odebrat"
+
+#: data/gtk/recent-files.ui:45
+msgid "No Recent Documents"
+msgstr "Žádné nedávné dokumenty"
+
+#: data/gtk/search-toolbar.ui:29 data/gtk/shortcuts-dialog.ui:233
+#: data/gtk/shortcuts-dialog.ui:236 data/gtk/window.ui:123
+msgid "Find"
+msgstr "Najít"
+
+#: data/gtk/search-toolbar.ui:44
+msgid "Previous Match"
+msgstr "Předchozí shoda"
+
+#: data/gtk/search-toolbar.ui:56
+msgid "Next Match"
+msgstr "Následující shoda"
+
+#: data/gtk/search-toolbar.ui:77 data/gtk/shortcuts-dialog.ui:248
+msgid "Case Sensitive"
+msgstr "Rozlišovat malá-VELKÁ písmena"
+
+#: data/gtk/search-toolbar.ui:86 data/gtk/shortcuts-dialog.ui:254
+msgid "Regular Expression"
+msgstr "Regulární výraz"
+
+#: data/gtk/search-toolbar.ui:95 data/gtk/shortcuts-dialog.ui:242
+msgid "Find and Replace"
+msgstr "Najít a nahradit"
+
+#: data/gtk/search-toolbar.ui:115 data/gtk/search-toolbar.ui:130
+msgid "Replace"
+msgstr "Nahradit"
+
+#: data/gtk/search-toolbar.ui:146
+msgid "Replace All"
+msgstr "Nahradit vše"
+
+#: data/gtk/shortcuts-dialog.ui:8
+msgid "General"
+msgstr "Obecné"
+
+#: data/gtk/shortcuts-dialog.ui:11 data/gtk/window.ui:27
+msgid "New"
+msgstr "Nové"
+
+#: data/gtk/shortcuts-dialog.ui:17 data/gtk/window.ui:35 src/window.rs:1906
+msgid "Open"
+msgstr "Otevřít"
+
+#: data/gtk/shortcuts-dialog.ui:23 data/gtk/window.ui:36
+msgid "Recent Files"
+msgstr "Nedávné soubory"
+
+#: data/gtk/shortcuts-dialog.ui:29 data/gtk/window.ui:43 src/window.rs:1865
+msgid "Save"
+msgstr "Uložit"
+
+#: data/gtk/shortcuts-dialog.ui:35
+msgid "Save As"
+msgstr "Uložit jako"
+
+#: data/gtk/shortcuts-dialog.ui:41
+msgid "Export PDF"
+msgstr "Exportovat do PDF"
+
+#: data/gtk/shortcuts-dialog.ui:47 data/gtk/window.ui:104
+msgid "Preview"
+msgstr "Náhled"
+
+#: data/gtk/shortcuts-dialog.ui:53 data/gtk/window.ui:93
+msgid "Main Menu"
+msgstr "Hlavní nabídka"
+
+#: data/gtk/shortcuts-dialog.ui:59
+msgid "Fullscreen"
+msgstr "Celá obrazovka"
+
+#: data/gtk/shortcuts-dialog.ui:65
+#, fuzzy
+msgid "Document Outline"
+msgstr "Statistiky dokumentu"
+
+#: data/gtk/shortcuts-dialog.ui:71
+msgid "Document Statistics"
+msgstr "Statistiky dokumentu"
+
+#: data/gtk/shortcuts-dialog.ui:83
+msgid "Preferences"
+msgstr "Předvolby"
+
+#: data/gtk/shortcuts-dialog.ui:89
+msgid "Keyboard Shortcuts"
+msgstr "Klávesové zkratky"
+
+#: data/gtk/shortcuts-dialog.ui:95
+msgid "Close File"
+msgstr "Zavřít soubor"
+
+#: data/gtk/shortcuts-dialog.ui:101
+msgid "Quit Application"
+msgstr "Ukončit aplikaci"
+
+#: data/gtk/shortcuts-dialog.ui:109
+msgid "Editing"
+msgstr "Upravování"
+
+#: data/gtk/shortcuts-dialog.ui:112
+msgid "Cut"
+msgstr "Vyjmout"
+
+#: data/gtk/shortcuts-dialog.ui:118
+msgid "Copy"
+msgstr "Zkopírovat"
+
+#: data/gtk/shortcuts-dialog.ui:124
+msgid "Paste"
+msgstr "Vložit"
+
+#: data/gtk/shortcuts-dialog.ui:130
+msgid "Undo"
+msgstr "Zpět"
+
+#: data/gtk/shortcuts-dialog.ui:136
+msgid "Redo"
+msgstr "Vpřed"
+
+#: data/gtk/shortcuts-dialog.ui:142
+msgid "Code Completions"
+msgstr "Dokončování kódu"
+
+#: data/gtk/shortcuts-dialog.ui:148
+#, fuzzy
+msgid "Comment Line"
+msgstr "Přesunout řádek"
+
+#: data/gtk/shortcuts-dialog.ui:154
+msgid "Previous Spelling Error"
+msgstr "Předchozí chyba pravopisu"
+
+#: data/gtk/shortcuts-dialog.ui:160
+msgid "Next Spelling Error"
+msgstr "Následující chyba pravopisu"
+
+#: data/gtk/shortcuts-dialog.ui:166
+msgid "Move Line"
+msgstr "Přesunout řádek"
+
+#: data/gtk/shortcuts-dialog.ui:172
+msgid "Move Word"
+msgstr "Přesunout slovo"
+
+#: data/gtk/shortcuts-dialog.ui:178
+msgid "Tidy Formatting"
+msgstr "Úhledné formátování"
+
+#: data/gtk/shortcuts-dialog.ui:186
+msgid "Formatting"
+msgstr "Formátování"
+
+#: data/gtk/shortcuts-dialog.ui:189
+msgid "Emphasis"
+msgstr "Zvýraznění"
+
+#: data/gtk/shortcuts-dialog.ui:195
+msgid "Strong Emphasis"
+msgstr "Veliký důraz"
+
+#: data/gtk/shortcuts-dialog.ui:201
+msgid "Raw Text"
+msgstr "Holý text"
+
+#: data/gtk/shortcuts-dialog.ui:207
+msgid "Math"
+msgstr "Matematika"
+
+#: data/gtk/shortcuts-dialog.ui:213
+msgid "Bullet List"
+msgstr "Seznam s odrážkami"
+
+#: data/gtk/shortcuts-dialog.ui:219
+msgid "Numbered List"
+msgstr "Číslovaný seznam"
+
+#: data/gtk/shortcuts-dialog.ui:225
+msgid "Heading"
+msgstr "Záhlaví"
+
+#: data/gtk/statistics.ui:9
+#, fuzzy
+msgid "Statistics"
+msgstr "Statistiky dokumentu"
+
+#: data/gtk/statistics.ui:41
+msgid "Words"
+msgstr "Slova"
+
+#: data/gtk/statistics.ui:58
+msgid "Characters"
+msgstr "Znaky"
+
+#: data/gtk/statistics.ui:65
+msgid "CJK Characters"
+msgstr "Znaky asijských abeced"
+
+#: data/gtk/statistics.ui:74
+msgid "Non-CJK Characters"
+msgstr "Znaky neasijských abeced"
+
+#: data/gtk/statistics.ui:93
+msgid "Pages"
+msgstr "Stránky"
+
+#: data/gtk/statistics.ui:102
+msgid "Headings"
+msgstr "Záhlaví"
+
+#: data/gtk/statistics.ui:111
+msgid "Paragraphs"
+msgstr "Odstavce"
+
+#: data/gtk/statistics.ui:120
+msgid "Mathematical Formulas"
+msgstr "Matematické vzorce"
+
+#: data/gtk/statistics.ui:139
+msgid "Statistics Unavailable"
+msgstr "Statistiky nejsou k dispozici"
+
+#: data/gtk/statistics.ui:140
+msgid "Fix the compilation errors in the document to calculate statistics."
+msgstr ""
+
+#: data/gtk/theme-selector.ui:26 data/gtk/theme-selector.ui:28
+msgid "Follow System Style"
+msgstr "Podle stylu systému"
+
+#: data/gtk/theme-selector.ui:43 data/gtk/theme-selector.ui:45
+msgid "Light Style"
+msgstr "Světlý styl"
+
+#: data/gtk/theme-selector.ui:60 data/gtk/theme-selector.ui:62
+msgid "Dark Style"
+msgstr "Tmavý styl"
+
+#: data/gtk/window.ui:7 data/net.trowell.typesetter.desktop.in:2
+#: data/net.trowell.typesetter.metainfo.xml.in:9
+msgid "Typesetter"
+msgstr "Typesetter"
+
+#: data/gtk/window.ui:28
+msgid "Templates"
+msgstr ""
+
+#: data/gtk/window.ui:44
+msgid "Save Options"
+msgstr "Uložit možnosti"
+
+#: data/gtk/window.ui:69 src/window.rs:726 src/window.rs:738
+msgid "New File"
+msgstr "Nový soubor"
+
+#: data/gtk/window.ui:136
+msgid "Select a project folder to access images and imports"
+msgstr "Vyberte složku projektu pro přístup k obrázkům a importům"
+
+#: data/gtk/window.ui:137 src/package_manager/import.rs:59 src/window.rs:1561
+msgid "Select Folder"
+msgstr "Vybrat složku"
+
+#: data/gtk/window.ui:183
+msgid "_Save As"
+msgstr "_Uložit jako"
+
+#: data/gtk/window.ui:189
+msgid "_Export PDF"
+msgstr "_Exportovat do PDF"
+
+#: data/gtk/window.ui:229
+msgid "_Fullscreen"
+msgstr "_Na celou obrazovku"
+
+#: data/gtk/window.ui:235
+msgid "_Outline"
+msgstr ""
+
+#: data/gtk/window.ui:239
+#, fuzzy
+msgid "_Statistics"
+msgstr "Statistiky _dokumentu"
+
+#: data/gtk/window.ui:249
+msgid "_Preferences"
+msgstr "_Předvolby"
+
+#: data/gtk/window.ui:253
+msgid "_Keyboard Shortcuts"
+msgstr "_Klávesové zkratky"
+
+#: data/gtk/window.ui:257
+msgid "_About Typesetter"
+msgstr "O _aplikaci Typesetter"
+
+#: data/net.trowell.typesetter.desktop.in:3
+msgid "Typst Editor"
+msgstr "Typst editor"
+
+#: data/net.trowell.typesetter.desktop.in:4
+msgid "Edit and compile Typst documents"
+msgstr "Upravujte a sestavujte dokumenty Typst"
+
+#: data/net.trowell.typesetter.desktop.in:10
+msgid "GTK;Typst;Text;Document;"
+msgstr "GTK;Typst;Text;Dokument;"
+
+#: data/net.trowell.typesetter.gschema.xml:8
+msgid "Autosave"
+msgstr "Automatické ukládání"
+
+#: data/net.trowell.typesetter.gschema.xml:9
+msgid "Whether to automatically save files with a known path."
+msgstr ""
+"Zda automaticky ukládat soubory, u kterých už byl zadán popis jejich "
+"umístění."
+
+#: data/net.trowell.typesetter.gschema.xml:13
+msgid "Centered Scrolling"
+msgstr "Vystředěné posouvání"
+
+#: data/net.trowell.typesetter.gschema.xml:14
+msgid ""
+"Whether to center the active line vertically on the screen as the user types."
+msgstr ""
+"Zda tak, jak uživatel píše, vystřeďovat právě aktivní řádek svisle na "
+"obrazovce."
+
+#: data/net.trowell.typesetter.gschema.xml:18
+msgid "Check Grammar"
+msgstr "Zkontrolovat gramatiku"
+
+#: data/net.trowell.typesetter.gschema.xml:19
+msgid "Whether to enable grammar checking in the editor."
+msgstr "Zda v editoru zapnout kontrolu gramatiky."
+
+#: data/net.trowell.typesetter.gschema.xml:23
+msgid "Check Spelling"
+msgstr "Zkontrolovat pravopis"
+
+#: data/net.trowell.typesetter.gschema.xml:24
+msgid "Whether to enable spellcheck in the editor."
+msgstr "Zda v editoru zapnout kontrolu pravopisu."
+
+#: data/net.trowell.typesetter.gschema.xml:29
+msgid "Whether to highlight the current line in the editor."
+msgstr "Zda v editoru zvýrazňovat řádek, na kterém se právě nachází kurzor."
+
+#: data/net.trowell.typesetter.gschema.xml:33
+msgid "Invert Lightness"
+msgstr "Převrátit světlost"
+
+#: data/net.trowell.typesetter.gschema.xml:34
+msgid ""
+"Whether to invert the lightness of pages in the preview when dark mode is "
+"enabled."
+msgstr ""
+"Zda převrátit světlost stránek v náhledu v případě, že je zapnutý tmavý "
+"režim."
+
+#: data/net.trowell.typesetter.gschema.xml:57
+msgid "PDF Standard"
+msgstr "PDF standard"
+
+#: data/net.trowell.typesetter.gschema.xml:58
+msgid "The PDF standard to use when exporting."
+msgstr "PDF standard který použít při exportování."
+
+#: data/net.trowell.typesetter.gschema.xml:62
+msgid "Scroll Preview on Type"
+msgstr "Při psaní posouvat náhledem"
+
+#: data/net.trowell.typesetter.gschema.xml:63
+msgid ""
+"Whether to automatically scroll the preview to the current position in the "
+"editor."
+msgstr "Zda automaticky posouvat náhled na stávající pozici v editoru."
+
+#: data/net.trowell.typesetter.gschema.xml:67
+msgid "Show Built-in Templates"
+msgstr ""
+
+#: data/net.trowell.typesetter.gschema.xml:68
+#, fuzzy
+msgid "Whether to show bundled templates in the template picker."
+msgstr "Zda v editoru zapnout kontrolu pravopisu."
+
+#: data/net.trowell.typesetter.gschema.xml:72
+msgid "Show Preview"
+msgstr "Zobrazit náhled"
+
+#: data/net.trowell.typesetter.gschema.xml:73
+msgid "Whether to show the preview pane by default when opening a new window."
+msgstr ""
+"Zda při otevírání nového okna už ve výchozím stavu zobrazovat podokno "
+"náhledu."
+
+#: data/net.trowell.typesetter.gschema.xml:81
+msgid "Editor style scheme"
+msgstr "Schéma stylu editoru"
+
+#: data/net.trowell.typesetter.gschema.xml:82
+msgid "The style scheme to use in the editor."
+msgstr "Schéma stylu který použít v editoru."
+
+#: data/net.trowell.typesetter.gschema.xml:91
+msgid "Theme"
+msgstr "Motiv vzhledu"
+
+#: data/net.trowell.typesetter.gschema.xml:92
+msgid "The theme to use throughout the application."
+msgstr "Motiv vzhledu který používat napříč aplikací."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:10
+msgid "Minimalist Typst editor"
+msgstr "Minimalistický editor Typst"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:12
+msgid ""
+"Typesetter is a lightweight desktop application for creating beautiful "
+"documents with Typst."
+msgstr ""
+"Typesetter je nepřeplácaná desktopová aplikace pro vytváření nádherně "
+"vypadajících dokumentů pomocí Typst."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:14
+msgid ""
+"Adaptive, user-friendly interface: Focus on writing. Great for papers, "
+"reports, slides, books, and any structured writing."
+msgstr ""
+"Uživatelsky přívětivé rozhraní, přizpůsobující se velikost obrazovky. "
+"Zaměřeno na psaní. Skvělé pro odborné publikace, prezentace, knihy a "
+"strukturované psaní vůbec."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:15
+msgid ""
+"Powered by Typst: A modern markup-based typesetting language, combining the "
+"simplicity of Markdown with the power of LaTeX."
+msgstr ""
+"Založeno na Typst: moderní jazyk pro sazbu textu, založený na značkách, "
+"kombinující jednoduchost Markdown se schopnostmi LaTeX."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:16
+msgid "Fully local: Your files stay on your machine. No cloud lock-in."
+msgstr ""
+"Zcela lokální: vaše soubory zůstávají na vašem stroji. Žádné uzamčení na "
+"cloud."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:17
+msgid ""
+"Package manager: Install or remove local Typst packages from within the app."
+msgstr ""
+
+#: data/net.trowell.typesetter.metainfo.xml.in:18
+msgid ""
+"On-demand package downloading: Fetches and caches remote Typst packages "
+"online when needed."
+msgstr ""
+
+#: data/net.trowell.typesetter.metainfo.xml.in:19
+msgid "Templates: Create new documents from built‑in or user templates."
+msgstr ""
+
+#: data/net.trowell.typesetter.metainfo.xml.in:20
+msgid "Automatic preview: See your rendered document update as you write."
+msgstr ""
+"Automatický náhled: zobrazte si vykreslené aktualizace dokumentu v průběhu "
+"psaní."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:21
+msgid ""
+"Click-to-jump: Click on a part of the preview to jump to the corresponding "
+"position in the source file."
+msgstr ""
+"Přeskakujte kliknutím: kliknutím na část náhledu přeskočte na odpovídající "
+"pozici ve zdrojovém souboru."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:22
+msgid "Magnifier tool: Click and hold on the preview to inspect fine details."
+msgstr ""
+"Nástroj lupa: kliknutím a podržením na náhledu si prohlédnete jemné detaily."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:23
+msgid ""
+"Accessibility checking: Simulate different forms of color blindness to check "
+"how your document looks to all readers."
+msgstr ""
+"Kontrola přístupnost: simulujte různé formy barvosleposti a zkontrolujte si "
+"tak, jak dokument vypadá pro všechny čtenáře."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:24
+msgid "Centered scrolling: Keeps your writing visually anchored as you type."
+msgstr "Vystředěné posouvání: zůstaňte vizuálně ukotvení při psaní."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:25
+msgid "Syntax highlighting: Makes your documents easier to edit and read."
+msgstr "Zvýrazňování syntaxe: usnadňuje upravování a čtení dokumentů."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:26
+#, fuzzy
+msgid ""
+"Grammar suggestions: Automatically checks your writing for grammatical "
+"errors (currently English only)."
+msgstr ""
+"Kontrola gramatiky: automaticky kontroluje vaše psaní na gramatické chyby (v "
+"tuto chvíli pouze pro angličtinu)."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:27
+msgid "Document statistics: Easily calculate page, word, and character counts."
+msgstr "Statistiky dokumentu: snadno spočítejte stránky, slova a znaky."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:28
+msgid ""
+"Fast and native: Built in Rust and GTK following the GNOME human interface "
+"guidelines."
+msgstr ""
+"Rychlé a dobře zapadající do prostředí: založeno na program. jazyce Rust a "
+"knihovnách GTK, řídí se pravidly GNOME human interface guidelines."
+
+#: data/net.trowell.typesetter.metainfo.xml.in:33
+msgid "Haydn Trowell"
+msgstr "Haydn Trowell"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:58
+msgid "Focus on your writing with a minimal interface and clear fonts"
+msgstr ""
+"Soustřeďte se na své psaní s minimalistickým rozhraním a dobře čitelnými "
+"písmy"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:62
+msgid "Choose between light and dark modes"
+msgstr "Zvolte mezi světlým a tmavým režimem"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:66
+msgid "Preview your compiled document without leaving the app"
+msgstr "Zobrazte si náhled sestavení vašeho dokumentu přímo v aplikaci"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:70
+msgid "Easily check document statistics"
+msgstr "Snadno zkontrolujte statistiky dokumentu"
+
+#: data/net.trowell.typesetter.metainfo.xml.in:74
+msgid "Click and hold on the preview to inspect fine details"
+msgstr "Prohlížejte si jemné detaily kliknutím a podržením na náhledu"
+
+#: src/application.rs:139
+msgid "translator-credits"
+msgstr ""
+
+#: src/application.rs:141
+msgid "Donate"
+msgstr "Podpořit vývoj darem"
+
+#: src/editor/formatter.rs:205
+msgid "Unable to clean up formatting"
+msgstr "Nebylo možné vyčistit formátování"
+
+#: src/file_io/dialog.rs:57 src/file_io/dialog.rs:76
+msgid "Export File"
+msgstr "Exportovat soubor"
+
+#: src/file_io/dialog.rs:91
+msgid "Open File"
+msgstr "Otevřít soubor"
+
+#: src/file_io/dialog.rs:106
+msgid "Save File"
+msgstr "Uložit soubor"
+
+#: src/file_io/dialog.rs:131 src/file_io/dialog.rs:135
+#: src/file_io/dialog.rs:139
+msgid "All Files"
+msgstr "Všechny soubory"
+
+#: src/package_manager/import.rs:61 src/package_manager/import.rs:92
+msgid "Install"
+msgstr ""
+
+#: src/package_manager/import.rs:81
+msgid "Archives"
+msgstr ""
+
+#: src/package_manager/import.rs:90
+#, fuzzy
+msgid "Select Archive"
+msgstr "Vybrat"
+
+#: src/recents_menu/mod.rs:147 src/window.rs:641
+msgid "Unable to open file: "
+msgstr "Nebylo možné otevřít soubor: "
+
+#: src/window.rs:1563
+msgid "Select"
+msgstr "Vybrat"
+
+#: src/window.rs:1843 src/window.rs:1889
+msgid "Failed to save file."
+msgstr "Nepodařilo se uložit do souboru."
+
+#: src/window.rs:1857
+msgid "Unsaved Changes"
+msgstr "Neuložené změny"
+
+#: src/window.rs:1859
+msgid ""
+"The document has been modified. Do you want to save your changes before "
+"closing?"
+msgstr "Dokument byl změněn. Chcete před jeho zavřením změny uložit?"
+
+#: src/window.rs:1863
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: src/window.rs:1864
+msgid "Discard"
+msgstr "Zahodit"
+
+#~ msgid "_Tidy Formatting"
+#~ msgstr "Úhledné _formátování"
+
+#~ msgid "Package Cache"
+#~ msgstr "Mezipaměť balíčků"
+
+#~ msgid "—"
+#~ msgstr "—"
+
+#~ msgid "Clear"
+#~ msgstr "Vyčistit"
+
+#~ msgid "Preview Compilation Failed"
+#~ msgstr "Sestavení náhledu se nezdařilo"
+
+#~ msgid "Fix the errors below to recompile the document."
+#~ msgstr "Aby bylo možné znovu sestavit dokument, opravte níže uvedené chyby."
+
+#~ msgid ""
+#~ "Package support: Works offline, but can fetch package imports online when "
+#~ "needed."
+#~ msgstr ""
+#~ "Podpora balíčků: funguje offline, ale v případě potřeby je možné získávat "
+#~ "importy balíčků online."
+
+#~ msgid "Empty"
+#~ msgstr "Prázdné"

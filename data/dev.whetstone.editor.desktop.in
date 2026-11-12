@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Whetstone
+GenericName=Typst Editor
+Comment=Edit and compile Typst documents
+Exec=whetstone %U
+Icon=dev.whetstone.editor
+Terminal=false
+Type=Application
+Categories=Office;Utility;TextEditor;Publishing;
+Keywords=GTK;Typst;Text;Document;
+MimeType=text/x-typst;
+StartupNotify=true
+DBusActivatable=true
