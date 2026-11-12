@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-01 23:14+0530\n"
+"POT-Creation-Date: 2026-11-12 13:10+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -684,7 +684,7 @@ msgstr ""
 
 #: data/dev.whetstone.editor.metainfo.xml.in:12
 msgid ""
-"Typesetter is a minimalist editor for creating beautiful documents with the "
+"Whetstone is a minimalist editor for creating beautiful documents with the "
 "Typst markup language."
 msgstr ""
 
