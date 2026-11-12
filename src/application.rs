@@ -129,9 +129,6 @@ impl TypesetterApplication {
         let about = adw::AboutDialog::builder()
             .application_name("Whetstone")
             .application_icon(APP_ID)
-            .artists(["Jakub Steiner https://jimmac.eu/"])
-            .copyright("© 2025–2026 Haydn Trowell")
-            .developer_name("Haydn Trowell")
             .developers(vec!["Haydn Trowell"])
             .license_type(gtk::License::Gpl30)
             .version(VERSION)
@@ -140,11 +137,6 @@ impl TypesetterApplication {
             .issue_url("https://codeberg.org/haydn/typesetter/issues")
             .translator_credits(gettext("translator-credits"))
             .build();
-        about.add_other_app(
-            "net.trowell.kotoba",
-            "Kotoba",
-            "Japanese–English dictionary",
-        );
         about.present(Some(&window));
     }
 

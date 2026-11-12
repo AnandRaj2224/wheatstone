@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="data/icons/hicolor/scalable/apps/dev.whetstone.editor.svg" alt="Whetstone Logo" width="128" height="128"/>
+  <img src="LOGO.png" alt="Whetstone Logo" width="128" height="128"/>
 
   # Whetstone
 
@@ -115,10 +115,11 @@ flatpak run dev.whetstone.editor
 
 ```text
 whetstone/
+├── LOGO.png                    # Application logo
 ├── data/                       # Desktop files, icons, GSettings schema, UI definitions
 │   ├── dev.whetstone.editor.gschema.xml
 │   ├── gtk/                    # GTK4 composite template UI XML files
-│   └── icons/                  # Scalable application & symbolic icons
+│   └── icons/                  # Action icons & desktop icon installation
 ├── po/                         # Translations / gettext catalogs
 ├── src/                        # Rust source code
 │   ├── application.rs          # AdwApplication lifecycle & actions

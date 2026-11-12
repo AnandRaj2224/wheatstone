@@ -20,7 +20,6 @@
     <file compressed="true" preprocess="xml-stripblanks">gtk/template-row.ui</file>
     <file compressed="true" preprocess="xml-stripblanks">gtk/theme-selector.ui</file>
     <file compressed="true" preprocess="xml-stripblanks">gtk/window.ui</file>
-    <file alias="icons/scalable/actions/net.trowell.kotoba.svg" compressed="true" preprocess="xml-stripblanks">icons/hicolor/scalable/apps/net.trowell.kotoba.svg</file>
     <file compressed="true" preprocess="xml-stripblanks">icons/scalable/actions/code-symbolic.svg</file>
     <file compressed="true" preprocess="xml-stripblanks">icons/scalable/actions/configure-symbolic.svg</file>
     <file compressed="true" preprocess="xml-stripblanks">icons/scalable/actions/headings-symbolic.svg</file>

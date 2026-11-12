@@ -5,6 +5,6 @@
   <mime-type type="text/x-typst">
     <comment>Typst Document</comment>
     <glob pattern="*.typ"/>
-    <generic-icon name="dev.whetstone.editor.mime"/>
+    <generic-icon name="text-x-generic"/>
   </mime-type>
 </mime-info>
